@@ -1,17 +1,36 @@
 @use 'variables' as *
+// Los dos distintivos de la portada. El pasteboard del XD deja la instruccion escrita
+// («Flotar verticalmente en diferentes tiempos»), asi que van FUERA de la ilustracion, como
+// imagenes decorativas con tiempos distintos.
+//
+// El kit los posiciona en absoluto contra la COLUMNA, que es mas ancha y mas alta que la
+// ilustracion; asi no hay forma de anclarlos a la imagen. Con una rejilla de una sola celda,
+// imagen y distintivos comparten caja y los margenes en % se resuelven contra el ancho de esa
+// celda, que es justo el de la ilustracion (506 px).
+//   distintivo 1: 80x80 en (879,555) -> 22 px desde la izquierda, 24 px sobre el borde inferior
+//   distintivo 2: 80x80 en (1283,380) -> pegado a la derecha, 199 px sobre el borde inferior
+.banner-principal__img
+  // La rejilla SOLO de lg para arriba: la columna lleva `.d-none.d-lg-block` y por debajo el
+  // diseno quita la ilustracion. Sin el @media, el !important pisaba el `d-none`.
+  @media (min-width: $bp-min-lg)
+    display: grid !important
+  > img, > div
+    grid-area: 1 / 1
+  > div
+    position: relative !important
+    align-self: end
+    width: 15.8%                     // 80 de 506
+
 .banner-principal-decorativo
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    justify-self: start
+    margin-left: 4.3%                // 22 de 506
+    margin-bottom: 4.7%              // 24 de 506
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    justify-self: end
+    margin-bottom: 39.3%             // 199 de 506
 
 
 @keyframes float1
@@ -21,16 +40,24 @@
   100%
     transform: translateY(0px)
 
+// Portada. Medido sobre el artboard `Portada` (hero 1328x559 en 136,100):
+//   columna de texto  x=242 (106 dentro del hero)  ancho de frame 490  -> 8% y 36.9% de 1328
+//   ilustracion       506x506 en (857,153)                             -> hueco derecho 101 px
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
-//.banner-principal__row .banner-principal__img 
-//    width: 33%;
-    
+  width: 46% !important
+  padding-left: 8% !important
+.banner-principal__img
+  padding-bottom: 0 !important
+  padding-right: 7.6% !important
+  flex: 0 0 auto !important
+  width: 45.93% !important            // contenido = 45.93-7.6 = 38.33% de 1328 = 506 px
+  img
+    width: 100%
+
+// El texto del banner va OSCURO: el degradado de la portada es amarillo y azul claro.
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+  color: $color-sistema-texto !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -104,3 +131,283 @@ figcaption
 
   
  
+// La paleta del curso como clases de fondo. Los valores salen de `_variables.sass`, que
+// lleva la carta de color de este artboard: no se remapea nada.
+.bg-1
+  background-color: $color-1-vc     // 1-VC  #FFF5E8
+.bg-1-v
+  background-color: $color-1-v      // 1-V   #FFFCF7
+.bg-1-p
+  background-color: $color-primario // 1     #FEDDB4
+.bg-2
+  background-color: $color-2-vc     // 2-VC  #F7E3E6
+.bg-2-v
+  background-color: $color-2-v      // 2-V   #FDF8F9
+.bg-2-s
+  background-color: $color-secundario // 2   #EBB9C1
+.bg-3
+  background-color: $color-3-vc     // 3-VC  #EFF2FF
+.bg-3-v
+  background-color: $color-3-v      // 3-V   #FAFBFF
+.bg-3-a
+  background-color: $color-acento-contenido // 3  #CBD5FF
+.bg-4
+  background-color: $color-4-vc     // 4-VC  #E5EBFC
+.bg-5
+  background-color: $color-5-t      // 5-T   #FFE9F8
+.bg-5-c
+  background-color: $color-5-tc     // 5-TC  #FFF4FB
+.bg-podcast
+  background-color: $color-primario !important   // la banda del podcast: rect #F0F49D 1020x156
+
+// Radios sueltos: el .xd los da por rect, esquina por esquina.
+.r-0
+  border-radius: 0 !important
+.r-5
+  border-radius: 5px !important
+.r-10
+  border-radius: 10px !important
+.r-20
+  border-radius: 20px !important
+
+// ============================================================================
+// TARJETA HOVER = `.tarjeta--boton` DEL KIT (catalogo, `CATALOGO/src/views/Tema10.vue`).
+// El XD dibuja la cuarta tarjeta de la fila con OTRO color: no es una tarjeta distinta,
+// es el estado :hover. Medido con el pixel del PDF, no con la ficha, que daba los
+// circulos alternos:
+//   reposo  tarjeta #EBE9FB (4-VC)  ·  circulo #422AD8 (4)     con el glifo en #FB82FF
+//   hover   tarjeta #CDE6F6 (2-VC)  ·  circulo #EBE9FB (4-VC)  con el glifo en #E5EBFC
+// Los dos juegos de iconos van apilados y se cruzan con `opacity` (no con `display`: asi
+// no hay salto ni una segunda peticion al pasar el raton).
+// ============================================================================
+.tarjeta--boton.color-1
+  background-color: $color-4-vc
+  border-radius: 20px
+  @media (min-width: $bp-min-lg)
+    min-height: 426px         // el XD fija el alto de la tarjeta; no se deja al contenido
+  &:active, &:focus, &:hover
+    background-color: $color-2-vc
+    *
+      color: $color-sistema-texto
+  figure
+    position: relative
+    img
+      transition: opacity .3s ease-in-out
+    .icono-hover
+      position: absolute
+      inset: 0
+      opacity: 0
+  &:hover, &:focus-within
+    figure
+      .icono
+        opacity: 0
+      .icono-hover
+        opacity: 1
+
+.tarjeta--container
+  // El XD NO reparte el ancho a partes iguales: las dos tarjetas exteriores son mas
+  // estrechas que las interiores (299/315/315/301 en las filas de cuatro, 405/419/405 en
+  // las de tres). Con `flex-grow: .95` en las de los extremos salen esos mismos numeros.
+  > .tarjeta:first-child, > .tarjeta:last-child
+    flex-grow: .95
+  > .tarjeta
+    border-radius: 0
+  > .tarjeta:first-child
+    border-radius: 20px 0 0 20px
+  > .tarjeta:last-child
+    border-radius: 0 20px 20px 0
+  @media (max-width: $bp-max-md)
+    > .tarjeta, > .tarjeta:first-child, > .tarjeta:last-child
+      border-radius: 20px
+      margin-bottom: 1rem
+    > .tarjeta:last-child
+      margin-bottom: 0
+
+.cita-destacada
+  display: flow-root                  // sin esto el margin negativo del figure COLAPSA
+  figure
+    margin: -65px auto 12px
+    width: 80px
+    img
+      display: block
+      width: 100%
+
+.lista-ul li, .lista-ol--cuadro li
+  padding-left: 2em
+  text-indent: -2em
+  > i:first-of-type, > .lista-ol--cuadro__vineta
+    text-indent: 0
+
+// La vineta de las listas es el `circle-dot` REGULAR en el acento de contenido: el pasteboard
+// del XD trae el nodo con ese nombre («circle-dot-regular-full», 84x84, #FB82FF).
+.lista-ul li > i:first-of-type
+  color: $color-acento-contenido
+
+// Banda decorativa del 1.1 (1328x443, el ancho completo de la tarjeta).
+.banda-1
+  background-image: url(../assets/curso/temas/t1/banda-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding: 1rem 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+.linea-tiempo-d.color-1
+  .linea-tiempo-d__item__number,
+  .linea-tiempo-d__item__content
+    background-color: $color-4-vc     // #E5EBFC en reposo
+    color: $color-sistema-texto
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__number
+      background-color: $color-acento-botones   // #003CE1
+      color: $white
+    .linea-tiempo-d__item__content
+      background-color: $color-2-vc   // #F7E3E6 el item abierto
+
+.tabla-a th
+  font-size: 16px
+.titulo-sexto
+  h5, span
+    font-size: 14px
+
+.tabla-a
+  tbody tr:nth-child(odd)
+    background-color: $color-sistema-h    // #F6F6F6
+  tbody tr:nth-child(even)
+    background-color: $white
+
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto !important
+  span
+    color: $color-sistema-texto !important
+    font-weight: $base-bold-font-weight
+
+// Banda decorativa del carrusel PESTEL (1328x254, el ancho completo de la tarjeta).
+.banda-2
+  background-image: url(../assets/curso/temas/t1/banda-2.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// Las flechas del SlyderF van en el azul de acento, como en el XD.
+.slyder--flechas
+  .slyder-f__btn i
+    color: $color-acento-botones
+
+// cuerpo lleva el `fill` exacto del rect, no el `lighten()` del modificador del kit.
+.cajon.color-1
+  background-color: $color-1-vc       // cuerpo #F9FBD8
+  &:before
+    height: 8px
+    background-color: $color-primario // pestana #F0F49D
+.cajon.color-2
+  background-color: $color-2-vc       // cuerpo #CDE6F6
+  &:before
+    height: 8px
+    background-color: $color-secundario // pestana #83C1E8
+
+// ============================================================================
+// EL ICONO MONTADO SOBRE EL BORDE SUPERIOR DE LA TARJETA
+// `.tarjeta` del kit solo trae el radio: el modificador NO existe y las tarjetas del Tema 3
+// se estaban quedando sin el circulo saliente. Las dos medidas se leen del XD:
+//   Tema 3  tarjeta 396x250 en y=3128, circulo 150 en y=3052  ->  asoma 76 px (la mitad)
+//   Tema 4  tarjeta 396x161 en y=8801, circulo 150 en y=8726  ->  asoma 75 px
+//   Tema 4  tarjeta 187x342 en y=3446, cuadrado 84 en y=3433  ->  asoma 13 px (variante --sm)
+// ============================================================================
+.tarjeta--icono-arriba
+  margin-top: 76px
+  padding: 0 1.5rem 1.5rem
+  > figure
+    width: 150px
+    margin: -76px auto 1rem
+    img
+      display: block
+      width: 100%
+  &.tarjeta--icono-arriba--sm
+    margin-top: 13px
+    padding: 0 1rem 1rem
+    > figure
+      width: 84px
+      margin: -13px auto 1rem
+
+// Banda decorativa del carrusel SMART (1328x559, el ancho completo de la tarjeta).
+.banda-3
+  background-image: url(../assets/curso/temas/t4/banda-3.png)
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  margin-inline: -3rem
+  padding: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding: 0
+    background-image: none
+
+// El marco de la foto del carrusel: rect 584x330 en (797,10602) partido en (1167,·) entre el
+// amarillo y el azul, con la foto de 560x309 encima dejando 12 px por lado.
+//   370 / 584 = 63.4 %
+.slyder-marco
+  padding: 11px 12px
+  background: linear-gradient(90deg, $color-primario 0 63.4%, $color-secundario 63.4% 100%)
+  img
+    display: block
+
+// Banda de color plana que ocupa el ancho COMPLETO de la tarjeta (1328), no el área de
+// contenido (1228): el XD la dibuja desde x=136, o sea 3 rem por fuera del padding.
+.banda-plana
+  margin-inline: -3rem
+  padding: 1.5rem 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+
+// Carrusel SMART: el XD pinta las flechas como círculos LLENOS #422AD8 con la punta blanca y
+// el bullet activo en #F0F49D sobre los demás en #422AD8. El kit los deja blancos con borde
+// gris, así que se reescriben aquí (la flecha del kit es un SVG oscuro: se sustituye por una
+// blanca, porque sobre el círculo lleno no se vería).
+.banda-3 .slyder-a
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 24"><path d="M3 9 L8 16 L13 9" fill="none" stroke="%23ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+  // El kit oculta la flecha de retroceso en la primera diapositiva con `.hide`; el `opacity: 1`
+  // de arriba se la comía, así que se vuelve a poner.
+  .slyder-a__btn--sigt.hide, .slyder-a__btn--atrs.hide
+    opacity: 0
+  .slyder-a__bullets__item
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+  .slyder-a__bullets__item--active
+    background-color: $color-primario
+    border-color: $color-primario
+
+// Banda decorativa del carrusel de prácticas éticas del Tema 3 (1328x254 en 136,6756). Es un
+// dibujo distinto al del Tema 1, así que no se puede reutilizar `.banda-2`.
+.banda-4
+  background-image: url(../assets/curso/temas/t3/banda-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// Las tarjetas con estado :hover no son botones: no llevan a ninguna parte, así que no deben
+// mostrar el cursor de mano. Es la misma regla del CATÁLOGO, que aquí faltaba.
+.no-pointer
+  .tarjeta--boton
+    cursor: initial !important
