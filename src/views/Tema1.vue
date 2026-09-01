@@ -24,7 +24,8 @@
     //- Caja #F9FBD8 de 916x142 (col-9) y la foto de 292x237 pegada al borde derecho (col-3).
     .row.mt-4
       .col-lg-9.mb-4.mb-lg-0
-        .bg-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+        //- La pestaña de 25x8 en (185,841) marca este bloque como `.cajon`.
+        .cajon.color-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
           p.mb-0 Desde la perspectiva del emprendimiento, el entorno no es un escenario pasivo: es un campo de oportunidades y amenazas en movimiento permanente que conviene aprender a leer y a anticipar. Un entorno con demanda insatisfecha, competencia moderada y políticas públicas de apoyo abre una ventana para quien sabe identificarla; uno con economía deprimida, escasez de insumos o marcos regulatorios exigentes reclama mayor creatividad y capacidad de adaptación.
       .col-lg-3
         figure.mb-0.h-100
@@ -396,7 +397,8 @@
 
     .row.mt-4
       .col-lg-9
-        .bg-1.r-10.p-4(data-aos="fade-right")
+        //- La pestaña de 25x8 en (185,8860) marca este bloque como `.cajon`.
+        .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 Mientras el macroentorno afecta a todas las empresas de la economía, el entorno inmediato incide de manera directa sobre quienes compiten en un mismo sector. El modelo de las cinco fuerzas competitivas, formulado por Michael Porter, continúa siendo el marco más sólido para analizar la estructura de un sector y evaluar su atractivo para nuevos emprendimientos (Porter, 2008).
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100

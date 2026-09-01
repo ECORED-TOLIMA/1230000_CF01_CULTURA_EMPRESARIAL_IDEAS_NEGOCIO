@@ -301,3 +301,15 @@ figcaption
 .slyder--flechas
   .slyder-f__btn i
     color: $color-acento-botones
+
+// cuerpo lleva el `fill` exacto del rect, no el `lighten()` del modificador del kit.
+.cajon.color-1
+  background-color: $color-1-vc       // cuerpo #F9FBD8
+  &:before
+    height: 8px
+    background-color: $color-primario // pestana #F0F49D
+.cajon.color-2
+  background-color: $color-2-vc       // cuerpo #CDE6F6
+  &:before
+    height: 8px
+    background-color: $color-secundario // pestana #83C1E8
