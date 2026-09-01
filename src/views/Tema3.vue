@@ -99,12 +99,15 @@
     p.mt-4(data-aos="fade-right") La cultura emprendedora reúne el conjunto de actitudes, valores, competencias cognitivas y hábitos de pensamiento que permiten identificar oportunidades, asumir riesgos calculados y transformar ideas en proyectos de valor. No se trata de una característica innata reservada a personalidades excepcionales, sino de una competencia que se desarrolla mediante la formación, la experiencia y la reflexión crítica sobre el entorno.
 
     //- Foto de 506x323 y la franja #F0F49D de 1020x323 con el icono de 80 dentro del texto.
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-up")
-      .bloque-texto-g__img(:style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/video-1.png')})` }")
-      .bloque-texto-g__texto.p-4
-        figure.mb-3
-          img(src="@/assets/curso/temas/t3/cita-1.svg" style="width: 80px")
-        p.mb-0 El término tiene dos caras que conviene distinguir. En el plano personal, la cultura emprendedora describe la manera en que alguien mira su entorno y responde ante lo que encuentra. En el plano colectivo, nombra el conjunto de creencias compartidas en una familia, un barrio o una región acerca de lo que significa crear algo propio, y esas creencias facilitan o frenan la decisión de intentarlo.
+    //- La franja mide 1020 en el XD (289..1309), no el ancho entero de la tarjeta.
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-up")
+          .bloque-texto-g__img(:style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/video-1.png')})` }")
+          .bloque-texto-g__texto.p-4
+            figure.mb-3
+              img(src="@/assets/curso/temas/t3/cita-1.svg" style="width: 80px")
+            p.mb-0 El término tiene dos caras que conviene distinguir. En el plano personal, la cultura emprendedora describe la manera en que alguien mira su entorno y responde ante lo que encuentra. En el plano colectivo, nombra el conjunto de creencias compartidas en una familia, un barrio o una región acerca de lo que significa crear algo propio, y esas creencias facilitan o frenan la decisión de intentarlo.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -168,13 +171,17 @@
         .cajon.color-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
           p.mb-0 Los cuatro hábitos se refuerzan entre sí. Quien experimenta necesita registrar lo aprendido, y quien participa en una red obtiene la información que hace posible la siguiente prueba. Sostenerlos en el tiempo es lo que transforma una disposición en competencia.
       .col-lg-3
-        figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t3/foto-3.png").w-100.h-100.object-fit-cover
+        figure.mb-0
+          img(src="@/assets/curso/temas/t3/ilus-2.png").w-100
 
     p.mt-4(data-aos="fade-right") Esos hábitos encuentran apoyo en el ecosistema emprendedor colombiano, que ofrece acompañamiento gratuito o de bajo costo en la mayoría de los departamentos. Saber qué presta cada actor evita empezar de cero y acorta el camino hacia la formalización:
 
+    //- Foto de 292x350 en (289,4725) a la izquierda y la línea de tiempo de 647 a la derecha.
     .row.justify-content-center.mt-4
-      .col-lg-10
+      .col-lg-3.mb-4.mb-lg-0
+        figure.mb-0.h-100
+          img(src="@/assets/curso/temas/t3/foto-3.png").w-100.h-100.object-fit-cover
+      .col-lg-7
         LineaTiempoD.color-1(data-aos="fade-right")
           .row(numero="A" titulo="Centros de formación del SENA")
             .col-12
@@ -189,7 +196,10 @@
             .col-12
               p.mb-0 Espacios donde el emprendedor muestra su producto, observa reacciones y encuentra aliados. Los mercados campesinos, las ferias artesanales y los encuentros gremiales funcionan como laboratorio de mercado a muy bajo costo.
 
-    p.mt-4(data-aos="fade-right") Ningún actor sustituye a los demás. El SENA aporta formación y capital semilla, las cámaras acompañan la formalización, la universidad valida el componente técnico y las ferias ponen a prueba el producto. Recorrer esa ruta completa sustenta la cultura emprendedora en evidencia y no en intuición.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .bg-3.p-4(data-aos="fade-up")
+          p.mb-0 Ningún actor sustituye a los demás. El SENA aporta formación y capital semilla, las cámaras acompañan la formalización, la universidad valida el componente técnico y las ferias ponen a prueba el producto. Recorrer esa ruta completa sustenta la cultura emprendedora en evidencia y no en intuición.
 
     p.mt-4(data-aos="fade-right") Con todo, la disposición a emprender no basta por sí sola. La manera de decidir pesa tanto como la decisión, porque un negocio construido sobre acuerdos incumplidos o información oculta pierde la confianza que necesita para sostenerse. Los valores y la ética empresarial definen ese modo de actuar y explican por qué la reputación termina siendo el activo más frágil de una organización.
 
@@ -232,44 +242,83 @@
       .col
         p.mb-0 Esos marcos aportan el lenguaje, pero la ética se juega en decisiones pequeñas y repetidas. En un negocio que apenas comienza, cinco prácticas concentran la mayor parte de esas decisiones y determinan la confianza que el entorno le otorga:
 
-    //- Tres tarjetas de 327x440 con el círculo dentro, sobre la banda decorativa.
-    .row.justify-content-center.mt-4(data-aos="fade-up")
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
+    //- Cinco prácticas de tres en tres: el XD dibuja las tres primeras y deja las dos últimas,
+    //- con sus círculos de 128, en el pasteboard. Detrás va la banda decorativa de 1328x254.
+    .banda-4.mt-4
+      SlyderF.slyder--flechas(columnas="col-md-6 col-lg-4")
         .tarjeta.bg-1-p.r-20.p-4.h-100
+          figure.mb-3
+            img(src="@/assets/curso/temas/t3/etica-1.svg" style="width: 128px").m-auto
           h4.text-center Cumplimiento de acuerdos
           p.text-center.mb-0 Pagar a los proveedores en los plazos convenidos y entregar en la fecha prometida. En las redes de pequeños comerciantes, la palabra cumplida define quién obtiene crédito de mercancía y quién debe pagar siempre de contado.
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
         .tarjeta.bg-1-p.r-20.p-4.h-100
+          figure.mb-3
+            img(src="@/assets/curso/temas/t3/etica-2.svg" style="width: 128px").m-auto
           h4.text-center Información veraz al cliente
           p.text-center.mb-0 Describir el producto sin exagerar sus beneficios, informar su composición y respetar lo anunciado en la publicidad. Un etiquetado claro y una garantía honrada evitan sanciones y sostienen la recompra en el mercado local.
-      .col-md-6.col-lg-4
         .tarjeta.bg-1-p.r-20.p-4.h-100
+          figure.mb-3
+            img(src="@/assets/curso/temas/t3/etica-3.svg" style="width: 128px").m-auto
           h4.text-center Trabajo digno
           p.text-center.mb-0 Vincular al personal con las condiciones que exige la ley, afiliarlo a seguridad social y pagar de manera puntual. La formalización laboral, además de una obligación, reduce la rotación y protege el conocimiento acumulado del negocio.
+        .tarjeta.bg-1-p.r-20.p-4.h-100
+          figure.mb-3
+            img(src="@/assets/curso/temas/t3/etica-4.svg" style="width: 128px").m-auto
+          h4.text-center Cuidado del entorno
+          p.text-center.mb-0 Manejar residuos, agua y energía con criterio, incluso cuando la escala del negocio no obliga a ello. Los municipios avanzan en separación en la fuente y los clientes preguntan cada vez más por el origen de los productos.
+        .tarjeta.bg-1-p.r-20.p-4.h-100
+          figure.mb-3
+            img(src="@/assets/curso/temas/t3/etica-5.svg" style="width: 128px").m-auto
+          h4.text-center Transparencia tributaria
+          p.text-center.mb-0 Facturar, declarar y llevar registros ordenados desde el primer mes. Un negocio con la contabilidad al día accede a crédito formal, participa en convocatorias públicas y evita sanciones que suelen costar más que haber cumplido.
 
     p.mt-4(data-aos="fade-right") Estas prácticas no dependen del tamaño de la empresa ni de su antigüedad. Una tienda de barrio y una compañía exportadora las enfrentan por igual, y en ambas el incumplimiento se paga con pérdida de clientes, de proveedores o de acceso a financiación.
 
     p(data-aos="fade-right") En la práctica, los valores rara vez se ponen a prueba en situaciones extremas. Aparecen en dilemas cotidianos, donde la opción rápida y la correcta no coinciden. Anticiparlos facilita la decisión cuando el caso se presenta:
 
+    //- Cinco bandas de 708x110 que alternan #CDE6F6 y #F9FBD8, con la foto de 292x550 al lado.
+    //- El radio de 10 solo lo llevan la primera por arriba y la última por abajo.
     .row.justify-content-center.mt-4
-      .col-lg-10
-        .bg-3.r-10.p-4(data-aos="fade-up")
-          ul.lista-ul.mb-0
-            li
-              i.far.fa-circle-dot
-              | #[b Vender sin factura para bajar el precio final:] deja al negocio sin soporte contable, sin historial para acceder a crédito y expuesto a sanciones que superan el margen ganado.
-            li
-              i.far.fa-circle-dot
-              | #[b Contratar por prestación de servicios a quien cumple horario y funciones de empleado:] traslada el riesgo a la persona y expone a la empresa a reclamaciones laborales posteriores.
-            li
-              i.far.fa-circle-dot
-              | #[b Reproducir el diseño de otro productor porque tiene demanda:] compromete la propiedad intelectual ajena y sustituye la construcción de una marca propia por una ventaja momentánea.
-            li
-              i.far.fa-circle-dot
-              | #[b Prometer un plazo de entrega que la capacidad instalada no permite cumplir:] asegura la venta de hoy y destruye la confianza que sostiene las ventas siguientes.
-            li.mb-0
-              i.far.fa-circle-dot
-              | #[b Omitir el origen de un insumo cuando el cliente pregunta:] convierte un dato verificable en un riesgo reputacional, porque la información termina por conocerse.
+      .col-lg-7.mb-4.mb-lg-0
+        .r-10.overflow-hidden(data-aos="fade-right")
+          .bg-2.p-3
+            .row.align-items-center
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.mb-0
+                  img(src="@/assets/curso/temas/t3/dil-1.svg" style="width: 70px")
+              .col
+                p.mb-0 #[b Vender sin factura para bajar el precio final:] deja al negocio sin soporte contable, sin historial para acceder a crédito y expuesto a sanciones que superan el margen ganado.
+          .bg-1.p-3
+            .row.align-items-center
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.mb-0
+                  img(src="@/assets/curso/temas/t3/dil-2.svg" style="width: 70px")
+              .col
+                p.mb-0 #[b Contratar por prestación de servicios a quien cumple horario y funciones de empleado:] traslada el riesgo a la persona y expone a la empresa a reclamaciones laborales posteriores.
+          .bg-2.p-3
+            .row.align-items-center
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.mb-0
+                  img(src="@/assets/curso/temas/t3/dil-3.svg" style="width: 70px")
+              .col
+                p.mb-0 #[b Reproducir el diseño de otro productor porque tiene demanda:] compromete la propiedad intelectual ajena y sustituye la construcción de una marca propia por una ventaja momentánea.
+          .bg-1.p-3
+            .row.align-items-center
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.mb-0
+                  img(src="@/assets/curso/temas/t3/dil-4.svg" style="width: 70px")
+              .col
+                p.mb-0 #[b Prometer un plazo de entrega que la capacidad instalada no permite cumplir:] asegura la venta de hoy y destruye la confianza que sostiene las ventas siguientes.
+          .bg-2.p-3
+            .row.align-items-center
+              .col-12.col-md-auto.mb-3.mb-md-0
+                figure.mb-0
+                  img(src="@/assets/curso/temas/t3/dil-5.svg" style="width: 70px")
+              .col
+                p.mb-0 #[b Omitir el origen de un insumo cuando el cliente pregunta:] convierte un dato verificable en un riesgo reputacional, porque la información termina por conocerse.
+      .col-lg-3
+        figure.mb-0.h-100
+          img(src="@/assets/curso/temas/t3/foto-7.png").w-100.h-100.object-fit-cover
 
     p.mt-4(data-aos="fade-right") Ninguno de estos dilemas se resuelve improvisando en el momento. Definir con anticipación qué se acepta y qué no, y dejarlo por escrito, convierte los valores en criterios de decisión y no en buenas intenciones.
 
@@ -287,21 +336,30 @@
     p.mt-4(data-aos="fade-right") Colombia figura de manera sostenida entre los países con mayor actividad emprendedora temprana de América Latina, según las mediciones del Global Entrepreneurship Monitor. Sin embargo, esa actividad se concentra en emprendimientos impulsados por la necesidad más que por la oportunidad, es decir, en personas que crean empresa porque no encuentran empleo formal antes que porque identificaron un espacio de mercado (Global Entrepreneurship Monitor [GEM], 2023).
 
     //- Foto de 506x317 y la franja #F0F49D con el icono de 80 dentro del texto.
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-up")
-      .bloque-texto-g__img(:style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/video-2.png')})` }")
-      .bloque-texto-g__texto.p-4
-        figure.mb-3
-          img(src="@/assets/curso/temas/t3/cita-2.svg" style="width: 80px")
-        p.mb-0 Conviene precisar qué se entiende aquí por perfil. No se trata del retrato de una persona en particular, sino de la caracterización del conjunto de quienes emprenden en un territorio, obtenida al observar varios negocios y comparar lo que se encuentra en cada uno. Ese carácter agregado convierte al perfil en un insumo del diagnóstico y no en un juicio sobre individuos.
+    //- La franja mide 1020 en el XD (289..1309), no el ancho entero de la tarjeta.
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-up")
+          .bloque-texto-g__img(:style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/video-2.png')})` }")
+          .bloque-texto-g__texto.p-4
+            figure.mb-3
+              img(src="@/assets/curso/temas/t3/cita-2.svg" style="width: 80px")
+            p.mb-0 Conviene precisar qué se entiende aquí por perfil. No se trata del retrato de una persona en particular, sino de la caracterización del conjunto de quienes emprenden en un territorio, obtenida al observar varios negocios y comparar lo que se encuentra en cada uno. Ese carácter agregado convierte al perfil en un insumo del diagnóstico y no en un juicio sobre individuos.
 
     p.mt-4(data-aos="fade-right") Ese conjunto presenta en el país rasgos reconocibles. La mayoría de los negocios opera con una sola persona al frente, que atiende al cliente, compra los insumos y lleva las cuentas al mismo tiempo. Muchos funcionan desde la vivienda o en espacios compartidos, y se concentran en el comercio y en los servicios de proximidad, donde la inversión inicial es menor y la entrada resulta más rápida. Ese patrón explica por qué la competencia se percibe intensa y por qué el margen depende en buena medida del precio al que se compra.
 
-    .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-12.col-md-auto.mb-3.mb-md-0
+    //- A la derecha de este párrafo va la ilustración #FED9FF de 292x260 en (1121,8665).
+    .row.mt-4
+      .col-lg-9.mb-4.mb-lg-0
+        .row.align-items-start(data-aos="fade-right")
+          .col-12.col-md-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t3/ic-9.svg" style="width: 84px")
+          .col
+            p.mb-0 Ese patrón de operación tiene consecuencias directas para el diagnóstico. Un tejido empresarial formado sobre todo por emprendimientos de subsistencia que presenta alta rotación y poca capacidad de sostener acuerdos de mediano plazo, condiciones que cualquier iniciativa nueva debe tener en cuenta al elegir sus proveedores y sus aliados. Antes de extraer conclusiones, conviene observar ese perfil con criterios definidos. Cinco rasgos permiten caracterizarlo en el campo:
+      .col-lg-3
         figure.mb-0
-          img(src="@/assets/curso/temas/t3/ic-9.svg" style="width: 84px")
-      .col
-        p.mb-0 Ese patrón de operación tiene consecuencias directas para el diagnóstico. Un tejido empresarial formado sobre todo por emprendimientos de subsistencia que presenta alta rotación y poca capacidad de sostener acuerdos de mediano plazo, condiciones que cualquier iniciativa nueva debe tener en cuenta al elegir sus proveedores y sus aliados. Antes de extraer conclusiones, conviene observar ese perfil con criterios definidos. Cinco rasgos permiten caracterizarlo en el campo:
+          img(src="@/assets/curso/temas/t3/ilus-4.png").w-100
 
     //- El XD rotula aquí los cinco rasgos con los títulos del 2.2 («Actividades económicas
     //- predominantes», «Necesidades insatisfechas»…), que son un arrastre de ese apartado.
@@ -348,9 +406,14 @@
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t3/foto-5.png").w-100.h-100.object-fit-cover
 
-    //- La pestaña de 25x8 en (185,10215) marca este bloque como `.cajon`.
-    .cajon.color-1.p-4.mt-4(data-aos="fade-right")
-      p.mb-0 Ese trabajo incluye además compromisos con quienes aportan la información. Antes de iniciar una entrevista o una encuesta conviene explicar el propósito del ejercicio, pedir autorización para utilizar las respuestas y aclarar que los datos se manejarán de manera agregada, sin identificar a quien los entregó. Las preguntas deben formularse sin sugerir la respuesta esperada, y lo observado se anota tal como ocurrió, aunque contradiga la idea inicial del proyecto.
+    //- Cajón de 916x142 en (185,10215) y la foto de 292x240 a su derecha.
+    .row.mt-4
+      .col-lg-9.mb-4.mb-lg-0
+        .cajon.color-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+          p.mb-0 Ese trabajo incluye además compromisos con quienes aportan la información. Antes de iniciar una entrevista o una encuesta conviene explicar el propósito del ejercicio, pedir autorización para utilizar las respuestas y aclarar que los datos se manejarán de manera agregada, sin identificar a quien los entregó. Las preguntas deben formularse sin sugerir la respuesta esperada, y lo observado se anota tal como ocurrió, aunque contradiga la idea inicial del proyecto.
+      .col-lg-3
+        figure.mb-0.h-100
+          img(src="@/assets/curso/temas/t3/foto-6.png").w-100.h-100.object-fit-cover
 
     p.mt-4(data-aos="fade-right") El producto de ese proceso ubica la idea de negocio dentro del mapa empresarial del entorno. Con él se establece con qué empresas competirá, a qué proveedores puede recurrir y qué vacíos del mercado está en condiciones de atender. Las técnicas más utilizadas para recoger y organizar esa información son las siguientes:
 
@@ -386,34 +449,41 @@
 
     p.mt-4(data-aos="fade-right") Cada técnica sigue un protocolo que garantiza la validez de la información recopilada. El protocolo general del diagnóstico empresarial comprende las siguientes etapas:
 
+    //- Caja #CDE6F6 de 1020x243 en (289,11487) con la ilustración de 292x201 dentro, a la
+    //- derecha. El XD numera la última etapa con un «5» repetido; aquí van del 1 al 6.
     .row.justify-content-center.mt-4
       .col-lg-10
-        .bg-1.r-10.p-4(data-aos="fade-up")
-          ol.lista-ol--cuadro.mb-0
-            li
-              .lista-ol--cuadro__vineta
-                span 1
-              | Definir el alcance: sector, territorio y período que abarcará el diagnóstico.
-            li
-              .lista-ol--cuadro__vineta
-                span 2
-              | Seleccionar las fuentes primarias y secundarias que se consultarán.
-            li
-              .lista-ol--cuadro__vineta
-                span 3
-              | Diseñar los instrumentos de recolección y validarlos antes de aplicarlos.
-            li
-              .lista-ol--cuadro__vineta
-                span 4
-              | Aplicar los instrumentos y consignar lo recogido en el formato previsto.
-            li
-              .lista-ol--cuadro__vineta
-                span 5
-              | Organizar, analizar e interpretar los datos recopilados.
-            li
-              .lista-ol--cuadro__vineta
-                span 6
-              | Elaborar el informe con conclusiones y recomendaciones sustentadas.
+        .bg-2.r-10.p-4(data-aos="fade-up")
+          .row.align-items-center
+            .col-lg-8.mb-4.mb-lg-0
+              ol.lista-ol--cuadro.mb-0
+                li
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Definir el alcance: sector, territorio y período que abarcará el diagnóstico.
+                li
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Seleccionar las fuentes primarias y secundarias que se consultarán.
+                li
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Diseñar los instrumentos de recolección y validarlos antes de aplicarlos.
+                li
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  | Aplicar los instrumentos y consignar lo recogido en el formato previsto.
+                li
+                  .lista-ol--cuadro__vineta
+                    span 5
+                  | Organizar, analizar e interpretar los datos recopilados.
+                li.mb-0
+                  .lista-ol--cuadro__vineta
+                    span 6
+                  | Elaborar el informe con conclusiones y recomendaciones sustentadas.
+            .col-lg-4
+              figure.mb-0
+                img(src="@/assets/curso/temas/t3/ilus-3.png").w-100
 
     p.mt-4(data-aos="fade-right") Este protocolo puede ajustarse en profundidad y en tiempo según el tamaño del proyecto, pero no en su secuencia. Omitir la definición del alcance produce diagnósticos dispersos, y omitir el registro de las fuentes impide que las conclusiones se verifiquen después.
 

@@ -61,9 +61,21 @@ los que quedan a la espera de un material que todavía no llegó.
    diez recortes cuadrados de la fotografía **de este mismo curso**, uno por cada pregunta que
    el kit muestra, tomados de los temas 1 a 5.
 
+9. **Temas 1 a 3 — lo que corrigió la revisión final.** El repaso de cierre (colores, distribución,
+   iconos, botones del carrusel y animaciones de la portada) encontró y corrigió en los tres
+   primeros temas: fotos e ilustraciones intercambiadas de hueco (la de los cuatro jóvenes, la
+   de los engranajes y las dos de la mujer con la forma magenta en el tema 2; la ilustración
+   amarilla y la foto de la línea de tiempo en el tema 3); cuatro bloques que no se habían
+   maquetado (la foto junto a la línea de tiempo del 2.4, la caja de «Ningún actor sustituye a
+   los demás», la foto junto al cajón del 3.4 y la ilustración del 3.3); dos iconos que faltaban
+   y uno cambiado en el tema 2; el carrusel de cinco prácticas éticas del 3.2, que estaba como
+   tres tarjetas fijas sin iconos ni banda; la lista de dilemas del 3.2, que era una caja única
+   en vez de cinco bandas alternas con su foto; y varias columnas que no repartían el ancho como
+   el XD (708+292 en vez de 8+4, y las cinco tarjetas del 2.2 dentro del `col-lg-10`).
+
 ## El `.xd` y el `.pdf` en desacuerdo
 
-9. **Tema 5, apartado 5.4.** Es el único bloque del curso donde las dos fuentes describen
+10. **Tema 5, apartado 5.4.** Es el único bloque del curso donde las dos fuentes describen
    maquetas distintas. El **PDF** pinta la caja azul a la izquierda con la foto a la derecha, y
    la lista de resultados a 1020 px sin nada al lado. El **`.xd`** pone la foto a la izquierda
    (máscara en 185,3545), la caja azul en (497,3545) y la lista a 915 px con una **ilustración
@@ -74,12 +86,12 @@ los que quedan a la espera de un material que todavía no llegó.
 
 ## Diferencias que se dejan como están, y por qué
 
-10. **`bloque-texto-g` de la apertura del Tema 4.** El XD dibuja la franja amarilla de 919 px y
+11. **`bloque-texto-g` de la apertura del Tema 4.** El XD dibuja la franja amarilla de 919 px y
    la caja blanca de 685; el componente del kit pinta la franja a todo el ancho del bloque
    (1228) con la foto encima de la mitad derecha, y la caja de texto al 60 % en vez del 55,7 %
    del diseño. Se respeta el componente del kit antes que forzar sus medidas internas, que son
    comunes a todos los cursos.
 
-11. **Flecha de retroceso del carrusel SMART (4.4).** El artboard dibuja las dos flechas en la
+12. **Flecha de retroceso del carrusel SMART (4.4).** El artboard dibuja las dos flechas en la
    primera diapositiva; `SlyderA` oculta la de retroceso mientras no haya diapositiva anterior.
    Es el comportamiento del kit y se deja.

@@ -52,14 +52,15 @@
             p Define las condiciones más cercanas al proyecto, esto es, las prioridades de inversión, los trámites, los usos del suelo y los programas de apoyo local.
             p.mb-0 #[b Caso práctico:] una alcaldía que abre un centro de emprendimiento y otorga descuentos temporales en el impuesto de industria y comercio atrae nuevos negocios a una zona concreta.
 
-    //- Caja #FED9FF de 708x170 (col-7) y la ilustración de 292x229 a la derecha (col-3).
-    .row.mt-4
-      .col-lg-8.mb-4.mb-lg-0
+    //- Caja #FED9FF de 708x170 en (289,1127) e ilustración de 292 a su derecha, en (1017,·): el
+    //- grupo mide 1020 y va centrado, así que son col-7 + col-3 dentro de una fila centrada.
+    .row.justify-content-center.mt-4
+      .col-lg-7.mb-4.mb-lg-0
         .bg-3.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
           p.mb-0 Los tres niveles se complementan y conviene revisarlos en conjunto. El nacional aporta los recursos, el departamental señala hacia dónde se orienta la apuesta productiva y el municipal define las condiciones del lugar exacto donde se instalará el negocio. Un proyecto gana viabilidad cuando encaja con los tres.
-      .col-lg-4
+      .col-lg-3
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/ilus-1.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t2/ilus-2.png").w-100.h-100.object-fit-cover
 
     p.mt-4(data-aos="fade-right") Los contenidos que siguen avanzan de lo general a lo particular. Comienzan por las políticas y los instrumentos que apoyan al emprendimiento en Colombia, continúan con la caracterización de una zona y los tipos de empresa que la conforman, examinan los proyectos de desarrollo regional que orientan la inversión y terminan con las fuentes públicas que permiten sustentar cada afirmación con datos verificables.
 
@@ -79,7 +80,7 @@
             p.mb-0 Alrededor de esa norma se ha construido un conjunto de instrumentos que ofrecen financiación, acompañamiento técnico y conexión con mercados. Para quien diagnostica su entorno, cada instrumento representa una oportunidad concreta siempre que su idea de negocio cumpla las condiciones de acceso. Los principales son los siguientes:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/foto-4.png").w-100
+          img(src="@/assets/curso/temas/t2/ilus-1.png").w-100
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -108,37 +109,40 @@
     p.mt-4(data-aos="fade-right") Ningún instrumento se otorga por la sola intención de emprender. Las convocatorias piden describir con datos el lugar donde operará el proyecto, y esa descripción se ordena mejor cuando se plantea como una serie de preguntas. Estas cinco reúnen lo que revisa un evaluador y lo que conviene averiguar antes de invertir:
 
     //- Cinco tarjetas #FED9FF de 188x290 con r=10 y su icono de 84.
-    .row.justify-content-center.mt-4(data-aos="fade-up")
-      .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-        .bg-3.r-10.p-3.h-100.text-center
-          figure.mb-3
-            img(src="@/assets/curso/temas/t2/fue-1.svg" style="width: 84px").m-auto
-          h5 1. Población
-          p.mb-0 ¿Cuánta población vive en la zona y cómo está compuesta por edades y por ubicación?
-      .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-        .bg-3.r-10.p-3.h-100.text-center
-          figure.mb-3
-            img(src="@/assets/curso/temas/t2/fue-2.svg" style="width: 84px").m-auto
-          h5 2. Ocupación
-          p.mb-0 ¿De qué trabaja esa población y qué nivel de ingresos percibe en promedio?
-      .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-        .bg-3.r-10.p-3.h-100.text-center
-          figure.mb-3
-            img(src="@/assets/curso/temas/t2/fue-3.svg" style="width: 84px").m-auto
-          h5 3. Actividades productivas
-          p.mb-0 ¿Qué actividades económicas predominan hoy en el territorio y cuáles están creciendo?
-      .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-        .bg-3.r-10.p-3.h-100.text-center
-          figure.mb-3
-            img(src="@/assets/curso/temas/t2/fue-4.svg" style="width: 84px").m-auto
-          h5 4. Servicios
-          p.mb-0 ¿Con qué vías, conectividad y servicios públicos cuenta la zona para operar un negocio?
-      .col-6.col-md-4.col-lg
-        .bg-3.r-10.p-3.h-100.text-center
-          figure.mb-3
-            img(src="@/assets/curso/temas/t2/fue-5.svg" style="width: 84px").m-auto
-          h5 5. Necesidades
-          p.mb-0 ¿Qué necesidades de la comunidad siguen sin resolverse y podrían originar una idea de negocio?
+    //- Las cinco caben en los 1020 del `col-lg-10`, no en el ancho completo de la tarjeta.
+    .row.justify-content-center.mt-4
+     .col-lg-10
+      .row.justify-content-center(data-aos="fade-up")
+        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
+          .bg-3.r-10.p-3.h-100.text-center
+            figure.mb-3
+              img(src="@/assets/curso/temas/t2/fue-1.svg" style="width: 84px").m-auto
+            h5 1. Población
+            p.mb-0 ¿Cuánta población vive en la zona y cómo está compuesta por edades y por ubicación?
+        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
+          .bg-3.r-10.p-3.h-100.text-center
+            figure.mb-3
+              img(src="@/assets/curso/temas/t2/fue-2.svg" style="width: 84px").m-auto
+            h5 2. Ocupación
+            p.mb-0 ¿De qué trabaja esa población y qué nivel de ingresos percibe en promedio?
+        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
+          .bg-3.r-10.p-3.h-100.text-center
+            figure.mb-3
+              img(src="@/assets/curso/temas/t2/fue-3.svg" style="width: 84px").m-auto
+            h5 3. Actividades productivas
+            p.mb-0 ¿Qué actividades económicas predominan hoy en el territorio y cuáles están creciendo?
+        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
+          .bg-3.r-10.p-3.h-100.text-center
+            figure.mb-3
+              img(src="@/assets/curso/temas/t2/fue-4.svg" style="width: 84px").m-auto
+            h5 4. Servicios
+            p.mb-0 ¿Con qué vías, conectividad y servicios públicos cuenta la zona para operar un negocio?
+        .col-6.col-md-4.col-lg
+          .bg-3.r-10.p-3.h-100.text-center
+            figure.mb-3
+              img(src="@/assets/curso/temas/t2/fue-5.svg" style="width: 84px").m-auto
+            h5 5. Necesidades
+            p.mb-0 ¿Qué necesidades de la comunidad siguen sin resolverse y podrían originar una idea de negocio?
 
     p.mt-4(data-aos="fade-right") Las cinco preguntas no se responden con impresiones, sino con cifras y observación directa. Juntas dibujan el perfil de un territorio: quién vive allí, de qué vive, qué produce, con qué cuenta y qué le hace falta. Ese perfil es el que sustenta cualquier postulación.
 
@@ -207,7 +211,7 @@
           p.mb-0 La legislación colombiana clasifica las empresas según su tamaño desde la Ley 590 de 2000, que empleaba como criterio el número de trabajadores y el valor de los activos (Congreso de la República de Colombia, 2000). El Decreto 957 de 2019 sustituyó ese criterio por el de los ingresos por actividades ordinarias anuales, expresados en unidades de valor tributario (UVT) y diferenciados por sector económico (Presidencia de la República de Colombia, 2019).
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/foto-6.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t2/foto-4.png").w-100.h-100.object-fit-cover
 
     p.mt-4(data-aos="fade-right") Esta clasificación no es un dato estadístico secundario: determina el acceso a líneas de crédito, a beneficios tributarios y a programas de apoyo, y ayuda a anticipar el papel que la nueva empresa podría desempeñar en el territorio, ya sea como proveedora de una mediana empresa consolidada, como competidora de microempresas similares o como articuladora de varias unidades productivas dispersas. La siguiente tabla presenta los rangos vigentes por sector:
 
@@ -260,7 +264,7 @@
           h5 Figura 1.
           span  Clasificación y características de las empresas según su tamaño
         figure.mb-0(data-aos="fade-up")
-          img(src="@/assets/curso/temas/t2/figura-1.svg" alt="Los cuatro tamaños de empresa ordenados por escala: microempresa, pequeña, mediana y gran empresa, con la operación, el acceso a financiación y el mercado que atiende cada una.").w-100
+          img(src="@/assets/curso/temas/t2/figura-1.svg" alt="Los cuatro tamaños de empresa ordenados por escala. Microempresa: unidad de menor escala, de operación familiar o individual, con capital reducido y ventas locales. Es la puerta de entrada de la mayoría de los emprendimientos. Pequeña empresa: cuenta con personal contratado y procesos definidos; accede a crédito formal y abastece mercados municipales. Mediana empresa: dispone de áreas funcionales separadas y mayor capacidad de inversión; necesita proveedores estables. Gran empresa: opera con estructura compleja, alcance nacional o internacional y volúmenes altos.").w-100
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -285,9 +289,11 @@
 
     p.mt-4(data-aos="fade-right") Bajo la denominación de proyectos de desarrollo regional caben iniciativas muy distintas entre sí, desde el mejoramiento de una vía terciaria hasta un programa de formación técnica. Reconocer sus tipos ayuda a identificar cuáles guardan relación directa con la idea de negocio que se está formulando:
 
-    .row.mt-4
-      .col-lg-8.mb-4.mb-lg-0
-        .bg-3.r-10.p-4.h-100(data-aos="fade-right")
+    //- Lista #FED9FF de 708x385 en (289,7769) y la ilustración de 292 a su derecha: el grupo
+    //- mide 1020 y va centrado, así que son col-7 + col-3 en una fila centrada.
+    .row.justify-content-center.mt-4
+      .col-lg-7.mb-4.mb-lg-0
+        .bg-3.r-10.p-4(data-aos="fade-right")
           ul.lista-ul.mb-0
             li
               i.far.fa-circle-dot
@@ -304,16 +310,25 @@
             li.mb-0
               i.far.fa-circle-dot
               | #[b Proyectos ambientales:] iniciativas de energías limpias, manejo de residuos o restauración que abren mercados para negocios sostenibles.
-      .col-lg-4
-        figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/ilus-2.png").w-100.h-100.object-fit-cover
+      .col-lg-3
+        figure.mb-0
+          img(src="@/assets/curso/temas/t2/ilus-3.png").w-100
 
-    p.mt-4(data-aos="fade-right") Los cinco tipos no avanzan por separado. Una vía nueva vuelve rentable un proyecto productivo, y un programa de formación provee el personal que ese proyecto necesita. Por esa razón conviene revisarlos en conjunto y no de manera aislada.
+    .row.align-items-start.mt-4(data-aos="fade-right")
+      .col-12.col-md-auto.mb-3.mb-md-0
+        figure.mb-0
+          img(src="@/assets/curso/temas/t2/ic-2.svg" style="width: 84px")
+      .col
+        p.mb-0 Los cinco tipos no avanzan por separado. Una vía nueva vuelve rentable un proyecto productivo, y un programa de formación provee el personal que ese proyecto necesita. Por esa razón conviene revisarlos en conjunto y no de manera aislada.
 
     p(data-aos="fade-right") Estos proyectos no se conocen por rumor ni por anuncio de prensa. Cada uno queda registrado en un documento público, con plazos, recursos asignados y responsables, y allí es donde el emprendedor debe buscarlos. Cuatro fuentes concentran esa información en Colombia y conviene saber qué ofrece cada una:
 
+    //- Foto de 292x355 en (289,8360) a la izquierda y la línea de tiempo de 708 a la derecha.
     .row.justify-content-center.mt-4
-      .col-lg-10
+      .col-lg-3.mb-4.mb-lg-0
+        figure.mb-0.h-100
+          img(src="@/assets/curso/temas/t2/foto-6.png").w-100.h-100.object-fit-cover
+      .col-lg-7
         LineaTiempoD.color-1(data-aos="fade-right")
           .row(numero="A" titulo="Plan de desarrollo municipal")
             .col-12
@@ -367,7 +382,7 @@
       .col-lg-10
         .bg-2-s.cita-destacada.r-10.p-4.text-center(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/temas/t2/ic-5.svg")
+            img(src="@/assets/curso/temas/t2/cita-1.svg")
           p.mb-0
             b Un proyecto de desarrollo regional con potencial emprendedor nace en la intersección entre una necesidad insatisfecha del territorio y la capacidad de construir una solución viable y sostenible. Esa intersección no aparece sola: se encuentra con método.
 
@@ -379,9 +394,13 @@
 
     p.mt-4(data-aos="fade-right") La lectura del contexto productivo regional exige información confiable y actualizada. La transformación digital ha puesto a disposición de cualquier emprendedor un conjunto de fuentes y herramientas gratuitas con las que se realizan diagnósticos con mayor rapidez y precisión de la que era posible hace una década.
 
+    //- Caja #CDE6F6 de 916x300 con r=10 en (185,9882) y el icono magenta de 84 en (215,9912),
+    //- encima del texto y dentro de la caja.
     .row.mt-4
       .col-lg-9
-        .bg-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+        .bg-2.r-10.p-4.h-100(data-aos="fade-right")
+          figure.mb-3
+            img(src="@/assets/curso/temas/t2/ic-6.svg" style="width: 84px")
           p.mb-0 Estas herramientas no sustituyen el trabajo de campo. La observación directa, las entrevistas y el contacto con la comunidad siguen siendo insustituibles para comprender por qué ocurre lo que los datos muestran. Lo que las fuentes digitales aportan es escala, comparabilidad y respaldo documental para las conclusiones del diagnóstico: la encuesta de micronegocios del Departamento Administrativo Nacional de Estadística (DANE, 2023) permite dimensionar el segmento informal de un territorio, y los informes de Confecámaras (2023) muestran cuántas empresas se crean y se cierran cada año en cada región. La tabla siguiente reúne las principales fuentes disponibles:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100
@@ -425,13 +444,21 @@
                 td Construcción conjunta de matrices DOFA, PESTEL y mapas de diagnóstico.
                 td Versión gratuita con funciones limitadas
 
-    p.mt-4(data-aos="fade-right") El uso combinado de estas fuentes da solidez al diagnóstico. Un dato de demanda observado en el trabajo de campo puede contrastarse con la tendencia de búsquedas en línea y con el número de competidores registrados en el municipio, de modo que ninguna conclusión dependa de una sola consulta.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .bg-1.r-10.p-4(data-aos="fade-up")
+          .row.align-items-center
+            .col-12.col-md-auto.mb-3.mb-md-0
+              figure.mb-0
+                img(src="@/assets/curso/temas/t2/ic-7.svg" style="width: 84px")
+            .col
+              p.mb-0 El uso combinado de estas fuentes da solidez al diagnóstico. Un dato de demanda observado en el trabajo de campo puede contrastarse con la tendencia de búsquedas en línea y con el número de competidores registrados en el municipio, de modo que ninguna conclusión dependa de una sola consulta.
 
     p(data-aos="fade-right") No todas las fuentes ofrecen la misma garantía. Antes de incorporar un dato al diagnóstico conviene revisar de dónde proviene, cuándo se produjo y a qué territorio corresponde, porque una cifra nacional del año anterior puede conducir a una conclusión equivocada sobre un municipio concreto. Cinco criterios ayudan a valorar cualquier fuente antes de usarla:
 
-    .row.mt-4
-      .col-lg-8.mb-4.mb-lg-0
-        .bg-3.r-10.p-4.h-100(data-aos="fade-right")
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .bg-3.r-10.p-4(data-aos="fade-up")
           ul.lista-ul.mb-0
             li
               i.far.fa-circle-dot
@@ -448,9 +475,6 @@
             li.mb-0
               i.far.fa-circle-dot
               | #[b Uniformidad de la medición:] el dato se obtiene con criterios estables, de modo que las cifras de distintos años resultan comparables.
-      .col-lg-4
-        figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/ilus-3.png").w-100.h-100.object-fit-cover
 
     p.mt-4(data-aos="fade-right") Una fuente que cumple los cinco criterios da respaldo para sostener una afirmación ante un evaluador, un banco o un aliado. Cuando alguno de ellos falla, el dato no se descarta, pero se usa señalando su limitación.
 

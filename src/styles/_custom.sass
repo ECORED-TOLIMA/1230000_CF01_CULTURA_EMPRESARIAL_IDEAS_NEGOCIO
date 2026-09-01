@@ -391,3 +391,17 @@ figcaption
   .slyder-a__bullets__item--active
     background-color: $color-primario
     border-color: $color-primario
+
+// Banda decorativa del carrusel de prácticas éticas del Tema 3 (1328x254 en 136,6756). Es un
+// dibujo distinto al del Tema 1, así que no se puede reutilizar `.banda-2`.
+.banda-4
+  background-image: url(../assets/curso/temas/t3/banda-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none

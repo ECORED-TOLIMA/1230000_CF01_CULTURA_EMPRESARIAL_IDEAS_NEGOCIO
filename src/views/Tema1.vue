@@ -406,32 +406,30 @@
 
     p.mt-4(data-aos="fade-right") El modelo parte de una idea sencilla y exigente: la rentabilidad de un sector no depende solo de la habilidad de cada empresa, sino de la estructura de fuerzas que lo configura. Comprender esa estructura antes de entrar ayuda a anticipar dónde se juega el margen y qué tan defendible resulta la posición que el proyecto aspira a ocupar. Las cinco fuerzas son las siguientes:
 
-    //- Ilustración de 288x368 (col-3) y la caja #FED9FF de 708x385 con r=10 (col-7),
-    //- las dos dentro del col-10 centrado.
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .row.align-items-center
-          .col-lg-4.mb-4.mb-lg-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t1/ilus-3.png").w-100
-          .col-lg-8
-            .bg-3.r-10.p-4(data-aos="fade-left")
-              ul.lista-ul.mb-0
-                li
-                  i.far.fa-circle-dot
-                  | #[b Rivalidad entre competidores:] intensidad de la disputa entre las empresas que ya operan en el sector, según su número y su grado de diferenciación.
-                li
-                  i.far.fa-circle-dot
-                  | #[b Amenaza de nuevos entrantes:] facilidad con que otras empresas pueden ingresar al mercado, determinada por las barreras de entrada y la inversión requerida.
-                li
-                  i.far.fa-circle-dot
-                  | #[b Poder de los proveedores:] capacidad de quienes suministran insumos para imponer precios o condiciones, mayor cuando el insumo es difícil de sustituir.
-                li
-                  i.far.fa-circle-dot
-                  | #[b Poder de los clientes:] capacidad de los compradores para presionar el precio a la baja, alta cuando disponen de alternativas equivalentes.
-                li.mb-0
-                  i.far.fa-circle-dot
-                  | #[b Amenaza de sustitutos:] existencia de bienes o servicios distintos que satisfacen la misma necesidad y pueden desplazar la demanda del sector.
+    //- Ilustración de 292 en (289,9129) y caja #FED9FF de 708x385 con r=10 en (601,9129): el
+    //- grupo mide 1020 y va centrado, así que son col-3 + col-7 en una fila centrada.
+    .row.justify-content-center.align-items-center.mt-4
+      .col-lg-3.mb-4.mb-lg-0
+        figure.mb-0
+          img(src="@/assets/curso/temas/t1/ilus-3.png").w-100
+      .col-lg-7
+        .bg-3.r-10.p-4(data-aos="fade-left")
+          ul.lista-ul.mb-0
+            li
+              i.far.fa-circle-dot
+              | #[b Rivalidad entre competidores:] intensidad de la disputa entre las empresas que ya operan en el sector, según su número y su grado de diferenciación.
+            li
+              i.far.fa-circle-dot
+              | #[b Amenaza de nuevos entrantes:] facilidad con que otras empresas pueden ingresar al mercado, determinada por las barreras de entrada y la inversión requerida.
+            li
+              i.far.fa-circle-dot
+              | #[b Poder de los proveedores:] capacidad de quienes suministran insumos para imponer precios o condiciones, mayor cuando el insumo es difícil de sustituir.
+            li
+              i.far.fa-circle-dot
+              | #[b Poder de los clientes:] capacidad de los compradores para presionar el precio a la baja, alta cuando disponen de alternativas equivalentes.
+            li.mb-0
+              i.far.fa-circle-dot
+              | #[b Amenaza de sustitutos:] existencia de bienes o servicios distintos que satisfacen la misma necesidad y pueden desplazar la demanda del sector.
 
     p.mt-4(data-aos="fade-right") Un sector con rivalidad alta, barreras de entrada bajas, proveedores fuertes y clientes sensibles al precio ofrece menor margen que otro con pocos competidores, oferta diferenciada y compradores que valoran la calidad. La conclusión práctica es directa: conviene entrar donde el proyecto pueda construir una posición defendible, no donde simplemente exista demanda.
 
