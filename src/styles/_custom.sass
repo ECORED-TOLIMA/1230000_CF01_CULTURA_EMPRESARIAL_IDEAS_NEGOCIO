@@ -158,7 +158,7 @@ figcaption
 .bg-5-c
   background-color: $color-5-tc     // 5-TC  #FFF4FB
 .bg-podcast
-  background-color: #FEDDB4 !important   // 5-TC  #FFF4FB
+  background-color: $color-primario !important   // la banda del podcast: rect #F0F49D 1020x156
 
 // Radios sueltos: el .xd los da por rect, esquina por esquina.
 .r-0
@@ -238,8 +238,10 @@ figcaption
   > i:first-of-type, > .lista-ol--cuadro__vineta
     text-indent: 0
 
+// La vineta de las listas es el `circle-dot` REGULAR en el acento de contenido: el pasteboard
+// del XD trae el nodo con ese nombre («circle-dot-regular-full», 84x84, #FB82FF).
 .lista-ul li > i:first-of-type
-  color: $color-3-vo
+  color: $color-acento-contenido
 
 // Banda decorativa del 1.1 (1328x443, el ancho completo de la tarjeta).
 .banda-1
@@ -313,3 +315,79 @@ figcaption
   &:before
     height: 8px
     background-color: $color-secundario // pestana #83C1E8
+
+// ============================================================================
+// EL ICONO MONTADO SOBRE EL BORDE SUPERIOR DE LA TARJETA
+// `.tarjeta` del kit solo trae el radio: el modificador NO existe y las tarjetas del Tema 3
+// se estaban quedando sin el circulo saliente. Las dos medidas se leen del XD:
+//   Tema 3  tarjeta 396x250 en y=3128, circulo 150 en y=3052  ->  asoma 76 px (la mitad)
+//   Tema 4  tarjeta 396x161 en y=8801, circulo 150 en y=8726  ->  asoma 75 px
+//   Tema 4  tarjeta 187x342 en y=3446, cuadrado 84 en y=3433  ->  asoma 13 px (variante --sm)
+// ============================================================================
+.tarjeta--icono-arriba
+  margin-top: 76px
+  padding: 0 1.5rem 1.5rem
+  > figure
+    width: 150px
+    margin: -76px auto 1rem
+    img
+      display: block
+      width: 100%
+  &.tarjeta--icono-arriba--sm
+    margin-top: 13px
+    padding: 0 1rem 1rem
+    > figure
+      width: 84px
+      margin: -13px auto 1rem
+
+// Banda decorativa del carrusel SMART (1328x559, el ancho completo de la tarjeta).
+.banda-3
+  background-image: url(../assets/curso/temas/t4/banda-3.png)
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  margin-inline: -3rem
+  padding: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding: 0
+    background-image: none
+
+// El marco de la foto del carrusel: rect 584x330 en (797,10602) partido en (1167,·) entre el
+// amarillo y el azul, con la foto de 560x309 encima dejando 12 px por lado.
+//   370 / 584 = 63.4 %
+.slyder-marco
+  padding: 11px 12px
+  background: linear-gradient(90deg, $color-primario 0 63.4%, $color-secundario 63.4% 100%)
+  img
+    display: block
+
+// Banda de color plana que ocupa el ancho COMPLETO de la tarjeta (1328), no el área de
+// contenido (1228): el XD la dibuja desde x=136, o sea 3 rem por fuera del padding.
+.banda-plana
+  margin-inline: -3rem
+  padding: 1.5rem 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+
+// Carrusel SMART: el XD pinta las flechas como círculos LLENOS #422AD8 con la punta blanca y
+// el bullet activo en #F0F49D sobre los demás en #422AD8. El kit los deja blancos con borde
+// gris, así que se reescriben aquí (la flecha del kit es un SVG oscuro: se sustituye por una
+// blanca, porque sobre el círculo lleno no se vería).
+.banda-3 .slyder-a
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+    background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 24"><path d="M3 9 L8 16 L13 9" fill="none" stroke="%23ffffff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+  // El kit oculta la flecha de retroceso en la primera diapositiva con `.hide`; el `opacity: 1`
+  // de arriba se la comía, así que se vuelve a poner.
+  .slyder-a__btn--sigt.hide, .slyder-a__btn--atrs.hide
+    opacity: 0
+  .slyder-a__bullets__item
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+  .slyder-a__bullets__item--active
+    background-color: $color-primario
+    border-color: $color-primario

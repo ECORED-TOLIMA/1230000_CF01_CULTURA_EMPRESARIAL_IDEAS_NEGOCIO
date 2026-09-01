@@ -125,22 +125,22 @@
         .bg-3.r-10.p-4(data-aos="fade-up")
           ul.lista-ul.mb-0
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Factores económicos:] condiciones de producción, empleo e ingreso que determinan la capacidad de compra del mercado y el costo de los recursos.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Factores sociales:] características de la población, hábitos de consumo y necesidades no atendidas que definen a quién se dirige la propuesta de valor.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Factores tecnológicos:] disponibilidad de infraestructura digital, maquinaria y conocimiento técnico que condiciona los procesos que la empresa puede adoptar.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Factores políticos:] decisiones de gobierno, planes de desarrollo e instrumentos de fomento que abren o cierran oportunidades para determinados sectores productivos.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Factores ambientales:] estado de los recursos naturales, condiciones climáticas y exigencias de sostenibilidad que inciden en la viabilidad técnica del proyecto.
             li.mb-0
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Factores culturales:] valores, tradiciones y prácticas de la comunidad que explican por qué un producto se acepta en un territorio y no en otro.
 
     p.mt-4(data-aos="fade-right") Los seis factores no actúan por separado. Una política pública de fomento (factor político) solo se traduce en oportunidad real cuando existe demanda que la sostenga (factor económico) y una comunidad dispuesta a adoptar la propuesta (factor cultural). Leer el entorno consiste, precisamente, en reconocer cómo se refuerzan o se neutralizan entre sí en un territorio determinado.
@@ -418,19 +418,19 @@
             .bg-3.r-10.p-4(data-aos="fade-left")
               ul.lista-ul.mb-0
                 li
-                  i.fas.fa-circle-right
+                  i.far.fa-circle-dot
                   | #[b Rivalidad entre competidores:] intensidad de la disputa entre las empresas que ya operan en el sector, según su número y su grado de diferenciación.
                 li
-                  i.fas.fa-circle-right
+                  i.far.fa-circle-dot
                   | #[b Amenaza de nuevos entrantes:] facilidad con que otras empresas pueden ingresar al mercado, determinada por las barreras de entrada y la inversión requerida.
                 li
-                  i.fas.fa-circle-right
+                  i.far.fa-circle-dot
                   | #[b Poder de los proveedores:] capacidad de quienes suministran insumos para imponer precios o condiciones, mayor cuando el insumo es difícil de sustituir.
                 li
-                  i.fas.fa-circle-right
+                  i.far.fa-circle-dot
                   | #[b Poder de los clientes:] capacidad de los compradores para presionar el precio a la baja, alta cuando disponen de alternativas equivalentes.
                 li.mb-0
-                  i.fas.fa-circle-right
+                  i.far.fa-circle-dot
                   | #[b Amenaza de sustitutos:] existencia de bienes o servicios distintos que satisfacen la misma necesidad y pueden desplazar la demanda del sector.
 
     p.mt-4(data-aos="fade-right") Un sector con rivalidad alta, barreras de entrada bajas, proveedores fuertes y clientes sensibles al precio ofrece menor margen que otro con pocos competidores, oferta diferenciada y compradores que valoran la calidad. La conclusión práctica es directa: conviene entrar donde el proyecto pueda construir una posición defendible, no donde simplemente exista demanda.

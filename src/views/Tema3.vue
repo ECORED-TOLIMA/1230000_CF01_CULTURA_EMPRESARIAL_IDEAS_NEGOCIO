@@ -30,19 +30,19 @@
         .bg-3.r-10.p-4(data-aos="fade-up")
           ul.lista-ul.mb-0
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Lectura del entorno:] capacidad de detectar cambios en el mercado antes que la competencia y de traducirlos en decisiones de producto, precio o canal.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Manejo del riesgo:] disposición a invertir con información incompleta, calculando las pérdidas posibles y fijando límites antes de comprometer recursos propios o ajenos.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Organización de recursos:] forma de combinar dinero, personal, tiempo y conocimiento técnico para sostener la operación sin depender de un único proveedor o cliente.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Relación con otros:] manera de vincularse con proveedores, clientes, competidores e instituciones, lo que determina el acceso a información, crédito y nuevos mercados.
             li.mb-0
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Persistencia:] constancia para sostener el proyecto cuando los resultados tardan, ajustando la operación en lugar de abandonar la idea ante la primera dificultad.
 
     .row.mt-4
@@ -256,19 +256,19 @@
         .bg-3.r-10.p-4(data-aos="fade-up")
           ul.lista-ul.mb-0
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Vender sin factura para bajar el precio final:] deja al negocio sin soporte contable, sin historial para acceder a crédito y expuesto a sanciones que superan el margen ganado.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Contratar por prestación de servicios a quien cumple horario y funciones de empleado:] traslada el riesgo a la persona y expone a la empresa a reclamaciones laborales posteriores.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Reproducir el diseño de otro productor porque tiene demanda:] compromete la propiedad intelectual ajena y sustituye la construcción de una marca propia por una ventaja momentánea.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Prometer un plazo de entrega que la capacidad instalada no permite cumplir:] asegura la venta de hoy y destruye la confianza que sostiene las ventas siguientes.
             li.mb-0
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Omitir el origen de un insumo cuando el cliente pregunta:] convierte un dato verificable en un riesgo reputacional, porque la información termina por conocerse.
 
     p.mt-4(data-aos="fade-right") Ninguno de estos dilemas se resuelve improvisando en el momento. Definir con anticipación qué se acepta y qué no, y dejarlo por escrito, convierte los valores en criterios de decisión y no en buenas intenciones.
@@ -359,19 +359,19 @@
         .bg-3.r-10.p-4(data-aos="fade-up")
           ul.lista-ul.mb-0
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Observación directa:] recorrido sistemático de mercados, ferias, zonas comerciales e industriales para registrar patrones de consumo, formatos de negocio y niveles de actividad. Por ejemplo, un aprendiz de Neiva puede registrar durante una semana el flujo de clientes en la plaza de mercado y las horas de mayor demanda.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Entrevista semiestructurada:] conversación guiada por un cuestionario flexible con empresarios, líderes comunitarios o funcionarios públicos, que permite explorar las razones detrás de las cifras y detectar problemas que los datos agregados no revelan.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Revisión documental:] consulta de informes sectoriales, bases de datos oficiales y reportes de las cámaras de comercio, que aportan al diagnóstico la escala y la comparación que el trabajo de campo no alcanza a ofrecer.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Encuesta estructurada:] aplicación de un cuestionario cerrado a una muestra de la población objetivo, que permite cuantificar preferencias, disposición a pagar y frecuencia de consumo, y comparar resultados entre segmentos.
             li.mb-0
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Análisis DOFA:] matriz que organiza los hallazgos del diagnóstico según su origen, interno o externo, y su carácter, favorable o desfavorable, con el fin de derivar estrategias que aprovechen las fortalezas frente a las oportunidades detectadas.
 
     p.mt-4(data-aos="fade-right") Ninguna técnica sustituye a las demás. La observación describe lo que ocurre, la entrevista explica por qué ocurre, la encuesta permite generalizar y la revisión documental contrasta lo hallado con registros independientes. Combinar al menos una técnica cualitativa con una cuantitativa es lo que otorga solidez al diagnóstico.

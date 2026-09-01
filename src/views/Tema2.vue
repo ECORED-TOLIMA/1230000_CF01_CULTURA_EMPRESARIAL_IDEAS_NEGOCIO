@@ -290,19 +290,19 @@
         .bg-3.r-10.p-4.h-100(data-aos="fade-right")
           ul.lista-ul.mb-0
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Proyectos de infraestructura:] obras de vías, energía, acueducto o conectividad que reducen costos y amplían el alcance de los negocios locales.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Proyectos productivos:] iniciativas que fortalecen una cadena priorizada mediante asistencia técnica, maquinaria compartida o mejoramiento de la calidad.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Proyectos de innovación:] apoyos para incorporar tecnología, desarrollar nuevos productos o digitalizar procesos en las empresas del territorio.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Proyectos sociales:] programas de formación, empleo o inclusión que amplían las capacidades de la población y su capacidad de compra.
             li.mb-0
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Proyectos ambientales:] iniciativas de energías limpias, manejo de residuos o restauración que abren mercados para negocios sostenibles.
       .col-lg-4
         figure.mb-0.h-100
@@ -434,19 +434,19 @@
         .bg-3.r-10.p-4.h-100(data-aos="fade-right")
           ul.lista-ul.mb-0
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Vigencia:] fecha de publicación y período que cubre el dato, ya que un indicador desactualizado distorsiona cualquier conclusión.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Cobertura territorial:] nivel geográfico al que corresponde la información, sea nacional, departamental, municipal o de barrio.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Respaldo institucional:] entidad que produce el dato y responde por su calidad, preferiblemente oficial, gremial o académica.
             li
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Transparencia metodológica:] descripción pública de cómo se recogió la información y qué muestra o universo se utilizó.
             li.mb-0
-              i.fas.fa-circle-right
+              i.far.fa-circle-dot
               | #[b Uniformidad de la medición:] el dato se obtiene con criterios estables, de modo que las cifras de distintos años resultan comparables.
       .col-lg-4
         figure.mb-0.h-100
