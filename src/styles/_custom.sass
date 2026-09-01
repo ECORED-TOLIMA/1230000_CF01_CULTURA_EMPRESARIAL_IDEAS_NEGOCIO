@@ -1,17 +1,36 @@
 @use 'variables' as *
+// Los dos distintivos de la portada. El pasteboard del XD deja la instruccion escrita
+// («Flotar verticalmente en diferentes tiempos»), asi que van FUERA de la ilustracion, como
+// imagenes decorativas con tiempos distintos.
+//
+// El kit los posiciona en absoluto contra la COLUMNA, que es mas ancha y mas alta que la
+// ilustracion; asi no hay forma de anclarlos a la imagen. Con una rejilla de una sola celda,
+// imagen y distintivos comparten caja y los margenes en % se resuelven contra el ancho de esa
+// celda, que es justo el de la ilustracion (506 px).
+//   distintivo 1: 80x80 en (879,555) -> 22 px desde la izquierda, 24 px sobre el borde inferior
+//   distintivo 2: 80x80 en (1283,380) -> pegado a la derecha, 199 px sobre el borde inferior
+.banner-principal__img
+  // La rejilla SOLO de lg para arriba: la columna lleva `.d-none.d-lg-block` y por debajo el
+  // diseno quita la ilustracion. Sin el @media, el !important pisaba el `d-none`.
+  @media (min-width: $bp-min-lg)
+    display: grid !important
+  > img, > div
+    grid-area: 1 / 1
+  > div
+    position: relative !important
+    align-self: end
+    width: 15.8%                     // 80 de 506
+
 .banner-principal-decorativo
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    justify-self: start
+    margin-left: 4.3%                // 22 de 506
+    margin-bottom: 4.7%              // 24 de 506
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    justify-self: end
+    margin-bottom: 39.3%             // 199 de 506
 
 
 @keyframes float1
@@ -21,16 +40,24 @@
   100%
     transform: translateY(0px)
 
+// Portada. Medido sobre el artboard `Portada` (hero 1328x559 en 136,100):
+//   columna de texto  x=242 (106 dentro del hero)  ancho de frame 490  -> 8% y 36.9% de 1328
+//   ilustracion       506x506 en (857,153)                             -> hueco derecho 101 px
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
-//.banner-principal__row .banner-principal__img 
-//    width: 33%;
-    
+  width: 46% !important
+  padding-left: 8% !important
+.banner-principal__img
+  padding-bottom: 0 !important
+  padding-right: 7.6% !important
+  flex: 0 0 auto !important
+  width: 45.93% !important            // contenido = 45.93-7.6 = 38.33% de 1328 = 506 px
+  img
+    width: 100%
+
+// El texto del banner va OSCURO: el degradado de la portada es amarillo y azul claro.
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+  color: $color-sistema-texto !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
