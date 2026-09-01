@@ -405,3 +405,9 @@ figcaption
     margin-inline: 0
     padding-inline: 0
     background-image: none
+
+// Las tarjetas con estado :hover no son botones: no llevan a ninguna parte, así que no deben
+// mostrar el cursor de mano. Es la misma regla del CATÁLOGO, que aquí faltaba.
+.no-pointer
+  .tarjeta--boton
+    cursor: initial !important
