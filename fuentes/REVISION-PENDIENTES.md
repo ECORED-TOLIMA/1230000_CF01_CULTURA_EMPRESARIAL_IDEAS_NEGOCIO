@@ -45,14 +45,25 @@ los que quedan a la espera de un material que todavía no llegó.
    kit). Se definió en `_custom.sass` con las dos medidas que usa el curso: 76 px de vuelo
    para el círculo de 150 y 13 px para el cuadrado de 84 de las cinco tarjetas del 4.1.
 
+## El `.xd` y el `.pdf` en desacuerdo
+
+7. **Tema 5, apartado 5.4.** Es el único bloque del curso donde las dos fuentes describen
+   maquetas distintas. El **PDF** pinta la caja azul a la izquierda con la foto a la derecha, y
+   la lista de resultados a 1020 px sin nada al lado. El **`.xd`** pone la foto a la izquierda
+   (máscara en 185,3545), la caja azul en (497,3545) y la lista a 915 px con una **ilustración
+   de 292x380 en (1121,4044)** que el PDF no muestra. Se maquetó siguiendo el `.xd`: es la
+   fuente editable y es la que trae un elemento de más; ninguno de esos nodos está marcado como
+   oculto. Si el PDF es la versión buena, basta con quitar la ilustración y devolver la lista y
+   el cajón a `col-lg-10`.
+
 ## Diferencias que se dejan como están, y por qué
 
-7. **`bloque-texto-g` de la apertura del Tema 4.** El XD dibuja la franja amarilla de 919 px y
+8. **`bloque-texto-g` de la apertura del Tema 4.** El XD dibuja la franja amarilla de 919 px y
    la caja blanca de 685; el componente del kit pinta la franja a todo el ancho del bloque
    (1228) con la foto encima de la mitad derecha, y la caja de texto al 60 % en vez del 55,7 %
    del diseño. Se respeta el componente del kit antes que forzar sus medidas internas, que son
    comunes a todos los cursos.
 
-8. **Flecha de retroceso del carrusel SMART (4.4).** El artboard dibuja las dos flechas en la
+9. **Flecha de retroceso del carrusel SMART (4.4).** El artboard dibuja las dos flechas en la
    primera diapositiva; `SlyderA` oculta la de retroceso mientras no haya diapositiva anterior.
    Es el comportamiento del kit y se deja.
