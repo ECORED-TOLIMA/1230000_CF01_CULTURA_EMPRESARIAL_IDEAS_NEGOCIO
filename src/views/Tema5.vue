@@ -10,7 +10,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t5/foto-1.png").w-100
+          img(src="@/assets/curso/temas/t5/foto-1.png").w-100.r-10
       .col-lg-9
         .row.align-items-start(data-aos="fade-left")
           .col-12.col-md-auto.mb-3.mb-md-0
@@ -46,7 +46,7 @@
           p.mb-0 El análisis del microentorno revela que en el municipio operan tres empresas que comercializan cacao procesado, pero ninguna se ha posicionado en el segmento artesanal de origen. El poder de negociación de los proveedores es bajo, porque la propia finca abastece la materia prima. El poder de los clientes resulta moderado, ya que el consumidor de chocolate artesanal valora la diferenciación por encima del precio. Del diagnóstico se desprenden los siguientes efectos previsibles:
       .col-lg-3
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t5/foto-3.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t5/foto-3.png").w-100.h-100.object-fit-cover.r-10
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -154,7 +154,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t5/foto-5.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t5/foto-5.png").w-100.h-100.object-fit-cover.r-10
       .col-lg-9
         .bg-2.r-10.p-4.h-100(data-aos="fade-left")
           figure.mb-3

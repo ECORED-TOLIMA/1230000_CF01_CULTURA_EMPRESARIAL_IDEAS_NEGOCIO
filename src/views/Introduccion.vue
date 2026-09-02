@@ -28,7 +28,9 @@
         .bg-1.r-10.p-4.mt-4(data-aos="fade-left")
           p.mb-0 El recorrido avanza de lo general a lo concreto: inicia con el concepto de entorno y las herramientas para leerlo, continúa con el territorio y las políticas de desarrollo, aborda el diagnóstico del comportamiento empresarial y valora el impacto social y productivo de una idea de negocio, para cerrar con casos colombianos. Al final, el aprendiz estará en capacidad de diagnosticar su entorno y de sustentar el impacto de su idea en el contexto social y productivo.
 
-    p.mt-4(data-aos="fade-right") Para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
+    .row.mt-4
+      .col-lg-8
+        p.mb-0(data-aos="fade-right") Para comprender la importancia del contenido y los temas abordados, se recomienda acceder al siguiente video:
 
     //- El XD deja este espacio como marcador («Espacio para video») y ni el .xd ni el DI traen
     //- la URL: se queda el iframe del scaffold hasta que llegue el enlace real.

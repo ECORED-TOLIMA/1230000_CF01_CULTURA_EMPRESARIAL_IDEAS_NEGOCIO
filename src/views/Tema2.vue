@@ -12,7 +12,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/foto-1.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t2/foto-1.png").w-100.h-100.object-fit-cover.r-10
       .col-lg-9
         .row.align-items-start
           .col-12.col-md-auto.mb-3.mb-md-0
@@ -30,24 +30,24 @@
       .tarjeta.p-4(titulo="Nivel nacional")
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t2/foto-2a.png").w-100
+            figure.marco-amarillo.mb-0
+              img(src="@/assets/curso/temas/t2/foto-2a.png")
           .col-lg-7
             p Fija las reglas generales del ecosistema emprendedor y crea los instrumentos de fomento que operan en todo el país, con requisitos iguales para cualquier región.
             p.mb-0 #[b Caso práctico:] un grupo de aprendices de Sincelejo presenta su plan de negocio al Fondo Emprender y accede a capital semilla en las mismas condiciones que un equipo de Cali.
       .tarjeta.p-4(titulo="Nivel departamental")
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t2/foto-2.png").w-100
+            figure.marco-amarillo.mb-0
+              img(src="@/assets/curso/temas/t2/foto-2.png")
           .col-lg-7
             p Traduce esas reglas en apuestas productivas concretas mediante los planes de desarrollo y las comisiones regionales de competitividad, que priorizan las cadenas con mayor potencial.
             p.mb-0 #[b Caso práctico:] un departamento que prioriza la cadena del cacao ofrece asistencia técnica y ruedas de negocio a quienes transforman ese producto en su territorio.
       .tarjeta.p-4(titulo="Nivel municipal")
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t2/foto-2c.png").w-100
+            figure.marco-amarillo.mb-0
+              img(src="@/assets/curso/temas/t2/foto-2c.png")
           .col-lg-7
             p Define las condiciones más cercanas al proyecto, esto es, las prioridades de inversión, los trámites, los usos del suelo y los programas de apoyo local.
             p.mb-0 #[b Caso práctico:] una alcaldía que abre un centro de emprendimiento y otorga descuentos temporales en el impuesto de industria y comercio atrae nuevos negocios a una zona concreta.
@@ -80,7 +80,7 @@
             p.mb-0 Alrededor de esa norma se ha construido un conjunto de instrumentos que ofrecen financiación, acompañamiento técnico y conexión con mercados. Para quien diagnostica su entorno, cada instrumento representa una oportunidad concreta siempre que su idea de negocio cumpla las condiciones de acceso. Los principales son los siguientes:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/ilus-1.png").w-100
+          img(src="@/assets/curso/temas/t2/ilus-1.png").w-100.r-10
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -114,35 +114,35 @@
      .col-lg-10
       .row.justify-content-center(data-aos="fade-up")
         .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .bg-3.r-10.p-3.h-100.text-center
-            figure.mb-3
-              img(src="@/assets/curso/temas/t2/fue-1.svg" style="width: 84px").m-auto
-            h5 1. Población
-            p.mb-0 ¿Cuánta población vive en la zona y cómo está compuesta por edades y por ubicación?
+          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
+            figure
+              img(src="@/assets/curso/temas/t2/fue-1.svg")
+            h5.text-center 1. Población
+            p.text-center.mb-0 ¿Cuánta población vive en la zona y cómo está compuesta por edades y por ubicación?
         .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .bg-3.r-10.p-3.h-100.text-center
-            figure.mb-3
-              img(src="@/assets/curso/temas/t2/fue-2.svg" style="width: 84px").m-auto
-            h5 2. Ocupación
-            p.mb-0 ¿De qué trabaja esa población y qué nivel de ingresos percibe en promedio?
+          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
+            figure
+              img(src="@/assets/curso/temas/t2/fue-2.svg")
+            h5.text-center 2. Ocupación
+            p.text-center.mb-0 ¿De qué trabaja esa población y qué nivel de ingresos percibe en promedio?
         .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .bg-3.r-10.p-3.h-100.text-center
-            figure.mb-3
-              img(src="@/assets/curso/temas/t2/fue-3.svg" style="width: 84px").m-auto
-            h5 3. Actividades productivas
-            p.mb-0 ¿Qué actividades económicas predominan hoy en el territorio y cuáles están creciendo?
+          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
+            figure
+              img(src="@/assets/curso/temas/t2/fue-3.svg")
+            h5.text-center 3. Actividades productivas
+            p.text-center.mb-0 ¿Qué actividades económicas predominan hoy en el territorio y cuáles están creciendo?
         .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .bg-3.r-10.p-3.h-100.text-center
-            figure.mb-3
-              img(src="@/assets/curso/temas/t2/fue-4.svg" style="width: 84px").m-auto
-            h5 4. Servicios
-            p.mb-0 ¿Con qué vías, conectividad y servicios públicos cuenta la zona para operar un negocio?
+          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
+            figure
+              img(src="@/assets/curso/temas/t2/fue-4.svg")
+            h5.text-center 4. Servicios
+            p.text-center.mb-0 ¿Con qué vías, conectividad y servicios públicos cuenta la zona para operar un negocio?
         .col-6.col-md-4.col-lg
-          .bg-3.r-10.p-3.h-100.text-center
-            figure.mb-3
-              img(src="@/assets/curso/temas/t2/fue-5.svg" style="width: 84px").m-auto
-            h5 5. Necesidades
-            p.mb-0 ¿Qué necesidades de la comunidad siguen sin resolverse y podrían originar una idea de negocio?
+          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
+            figure
+              img(src="@/assets/curso/temas/t2/fue-5.svg")
+            h5.text-center 5. Necesidades
+            p.text-center.mb-0 ¿Qué necesidades de la comunidad siguen sin resolverse y podrían originar una idea de negocio?
 
     p.mt-4(data-aos="fade-right") Las cinco preguntas no se responden con impresiones, sino con cifras y observación directa. Juntas dibujan el perfil de un territorio: quién vive allí, de qué vive, qué produce, con qué cuenta y qué le hace falta. Ese perfil es el que sustenta cualquier postulación.
 
@@ -156,7 +156,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/foto-3.png").w-100
+          img(src="@/assets/curso/temas/t2/foto-3.png").w-100.r-10
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           p.mb-0 La caracterización zonal es el proceso mediante el cual se identifican y describen las condiciones económicas, sociales, culturales y productivas de un territorio determinado: una zona, un municipio, una vereda o un barrio, con el fin de comprender el contexto en el que una empresa opera o podría operar. Constituye el insumo básico del diagnóstico empresarial y de la identificación de ideas con impacto real en la comunidad.
@@ -209,11 +209,10 @@
         //- La pestaña de 25x8 en (185,4985) marca este bloque como `.cajon`.
         .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 La legislación colombiana clasifica las empresas según su tamaño desde la Ley 590 de 2000, que empleaba como criterio el número de trabajadores y el valor de los activos (Congreso de la República de Colombia, 2000). El Decreto 957 de 2019 sustituyó ese criterio por el de los ingresos por actividades ordinarias anuales, expresados en unidades de valor tributario (UVT) y diferenciados por sector económico (Presidencia de la República de Colombia, 2019).
+        p.mt-4.mb-0(data-aos="fade-right") Esta clasificación no es un dato estadístico secundario: determina el acceso a líneas de crédito, a beneficios tributarios y a programas de apoyo, y ayuda a anticipar el papel que la nueva empresa podría desempeñar en el territorio, ya sea como proveedora de una mediana empresa consolidada, como competidora de microempresas similares o como articuladora de varias unidades productivas dispersas. La siguiente tabla presenta los rangos vigentes por sector:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t2/foto-4.png").w-100.h-100.object-fit-cover
-
-    p.mt-4(data-aos="fade-right") Esta clasificación no es un dato estadístico secundario: determina el acceso a líneas de crédito, a beneficios tributarios y a programas de apoyo, y ayuda a anticipar el papel que la nueva empresa podría desempeñar en el territorio, ya sea como proveedora de una mediana empresa consolidada, como competidora de microempresas similares o como articuladora de varias unidades productivas dispersas. La siguiente tabla presenta los rangos vigentes por sector:
 
     //- Esta tabla SÍ lleva nota: el XD dibuja la banda #E8E8E8 de 1020x55 bajo las filas.
     .row.justify-content-center.mt-4
@@ -252,7 +251,9 @@
                 td Más de 483.034
                 td Más de 2.160.692
 
-    p.mt-4(data-aos="fade-right") La tabla muestra que un mismo nivel de ingresos clasifica a una empresa de forma distinta según su sector: una firma de servicios con 40.000 UVT de ingresos anuales es pequeña empresa, mientras que un comercio con esos mismos ingresos sigue siendo microempresa. Por esa razón el diagnóstico debe identificar primero la actividad principal del proyecto.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        p.mb-0(data-aos="fade-right") La tabla muestra que un mismo nivel de ingresos clasifica a una empresa de forma distinta según su sector: una firma de servicios con 40.000 UVT de ingresos anuales es pequeña empresa, mientras que un comercio con esos mismos ingresos sigue siendo microempresa. Por esa razón el diagnóstico debe identificar primero la actividad principal del proyecto.
 
     p.mt-4(data-aos="fade-right") Más allá de esa frontera legal, detrás de cada categoría hay una forma distinta de operar, de financiarse y de vender. La figura siguiente reúne los cuatro tamaños y describe, para cada uno, la escala de la operación, el acceso a financiación y el mercado que alcanza a atender:
 
@@ -266,14 +267,21 @@
         figure.mb-0(data-aos="fade-up")
           img(src="@/assets/curso/temas/t2/figura-1.svg" alt="Los cuatro tamaños de empresa ordenados por escala. Microempresa: unidad de menor escala, de operación familiar o individual, con capital reducido y ventas locales. Es la puerta de entrada de la mayoría de los emprendimientos. Pequeña empresa: cuenta con personal contratado y procesos definidos; accede a crédito formal y abastece mercados municipales. Mediana empresa: dispone de áreas funcionales separadas y mayor capacidad de inversión; necesita proveedores estables. Gran empresa: opera con estructura compleja, alcance nacional o internacional y volúmenes altos.").w-100
 
-    .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-12.col-md-auto.mb-3.mb-md-0
+    //- Caja #CDE6F6 de 919x120 en (185,6717) SIN icono, el párrafo del icono magenta debajo, y
+    //- la ilustración de 292x265 a la derecha de los dos.
+    .row.mt-4
+      .col-lg-9.mb-4.mb-lg-0
+        .bg-2.p-4(data-aos="fade-right")
+          p.mb-0 Los cuatro tamaños conviven en un mismo territorio sin competir en el mismo terreno. Identificar dónde se ubica el proyecto y quiénes son sus vecinos, orienta la decisión de si conviene competir con ellos, proveerles insumos o buscar una alianza.
+        .row.align-items-start.mt-4(data-aos="fade-right")
+          .col-12.col-md-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t2/ic-4.svg" style="width: 84px")
+          .col
+            p.mb-0 Hasta aquí el diagnóstico sabe quién produce en el territorio y con qué escala. Queda por establecer qué está impulsando el propio territorio, y esa información se encuentra en los proyectos de desarrollo regional que los gobiernos departamentales y municipales definen en sus planes de desarrollo y en sus apuestas productivas. Esos proyectos señalan qué sectores contarán con respaldo público en los próximos años y, por lo tanto, dónde una idea de negocio encuentra terreno favorable.
+      .col-lg-3
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/ic-4.svg" style="width: 84px")
-      .col
-        p.mb-0 Los cuatro tamaños conviven en un mismo territorio sin competir en el mismo terreno. Identificar dónde se ubica el proyecto y quiénes son sus vecinos, orienta la decisión de si conviene competir con ellos, proveerles insumos o buscar una alianza.
-
-    p.mt-4(data-aos="fade-right") Hasta aquí el diagnóstico sabe quién produce en el territorio y con qué escala. Queda por establecer qué está impulsando el propio territorio, y esa información se encuentra en los proyectos de desarrollo regional que los gobiernos departamentales y municipales definen en sus planes de desarrollo y en sus apuestas productivas. Esos proyectos señalan qué sectores contarán con respaldo público en los próximos años y, por lo tanto, dónde una idea de negocio encuentra terreno favorable.
+          img(src="@/assets/curso/temas/t2/ilus-5.png").w-100
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
@@ -327,7 +335,7 @@
     .row.justify-content-center.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/foto-6.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t2/foto-6.png").w-100.h-100.object-fit-cover.r-10
       .col-lg-7
         LineaTiempoD.color-1(data-aos="fade-right")
           .row(numero="A" titulo="Plan de desarrollo municipal")
@@ -392,13 +400,12 @@
     #t_2_5.titulo-segundo.color-acento-contenido
       h2 2.5 Fuentes y herramientas de consulta
 
-    p.mt-4(data-aos="fade-right") La lectura del contexto productivo regional exige información confiable y actualizada. La transformación digital ha puesto a disposición de cualquier emprendedor un conjunto de fuentes y herramientas gratuitas con las que se realizan diagnósticos con mayor rapidez y precisión de la que era posible hace una década.
-
     //- Caja #CDE6F6 de 916x300 con r=10 en (185,9882) y el icono magenta de 84 en (215,9912),
     //- encima del texto y dentro de la caja.
     .row.mt-4
       .col-lg-9
-        .bg-2.r-10.p-4.h-100(data-aos="fade-right")
+        p(data-aos="fade-right") La lectura del contexto productivo regional exige información confiable y actualizada. La transformación digital ha puesto a disposición de cualquier emprendedor un conjunto de fuentes y herramientas gratuitas con las que se realizan diagnósticos con mayor rapidez y precisión de la que era posible hace una década.
+        .bg-2.r-10.p-4(data-aos="fade-right")
           figure.mb-3
             img(src="@/assets/curso/temas/t2/ic-6.svg" style="width: 84px")
           p.mb-0 Estas herramientas no sustituyen el trabajo de campo. La observación directa, las entrevistas y el contacto con la comunidad siguen siendo insustituibles para comprender por qué ocurre lo que los datos muestran. Lo que las fuentes digitales aportan es escala, comparabilidad y respaldo documental para las conclusiones del diagnóstico: la encuesta de micronegocios del Departamento Administrativo Nacional de Estadística (DANE, 2023) permite dimensionar el segmento informal de un territorio, y los informes de Confecámaras (2023) muestran cuántas empresas se crean y se cierran cada año en cada región. La tabla siguiente reúne las principales fuentes disponibles:
@@ -484,11 +491,10 @@
         //- La pestaña de 25x8 en (185,11402) marca este bloque como `.cajon`.
         .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 Consultar no basta si el hallazgo se pierde. Conviene registrar cada dato con su fuente, su fecha de consulta y el enlace donde se obtuvo, de modo que cualquier persona pueda verificarlo más adelante. Ese registro se convierte después en el respaldo documental del proyecto y evita repetir búsquedas ya realizadas cuando llegue el momento de postularse a una convocatoria.
+        p.mt-4.mb-0(data-aos="fade-right") Con las fuentes identificadas y los datos verificados, el territorio queda descrito. Falta comprender a quienes actúan en él. Las empresas de una misma zona no responden de igual manera ante las mismas condiciones, y esa diferencia de conducta se estudia mediante el diagnóstico del comportamiento empresarial, que examina las disposiciones de quien emprende y las técnicas para documentarlas con rigor.
       .col-lg-3
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t2/foto-7.png").w-100.h-100.object-fit-cover
-
-    p.mt-4.mb-0(data-aos="fade-right") Con las fuentes identificadas y los datos verificados, el territorio queda descrito. Falta comprender a quienes actúan en él. Las empresas de una misma zona no responden de igual manera ante las mismas condiciones, y esa diferencia de conducta se estudia mediante el diagnóstico del comportamiento empresarial, que examina las disposiciones de quien emprende y las técnicas para documentarlas con rigor.
+          img(src="@/assets/curso/temas/t2/foto-7.png").w-100.h-100.object-fit-cover.r-10
 
 </template>
 

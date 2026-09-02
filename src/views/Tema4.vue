@@ -30,14 +30,15 @@
           p.mb-0 Este cuarto eje desarrolla el saber de proceso relativo a la identificación del proyecto empresarial o idea de negocio según el diagnóstico efectuado. Antes de examinar las dimensiones de ese impacto, los protocolos que respaldan su medición y los indicadores con que se comunica, conviene precisar de dónde provienen las ideas con mayor probabilidad de éxito.
       .col-lg-3
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t4/foto-2.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t4/foto-2.png").w-100.h-100.object-fit-cover.r-10
 
-    //- El icono de (185,926) es el destello blanco de 84, no el cuadrado magenta.
+    //- El icono de (185,926) es el destello blanco de 84, no el cuadrado magenta; y el texto
+    //- rompe a 812 desde x=289, no a lo ancho de la tarjeta.
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t4/ic-6.svg" style="width: 84px")
-      .col
+      .col-lg-8
         p.mb-0 Las ideas de negocio no aparecen por inspiración súbita. Surgen de la observación sistemática del entorno, es decir, del mismo ejercicio de diagnóstico que los ejes anteriores han descrito. Quien recorre su territorio con las herramientas de análisis en mano detecta espacios de mercado que permanecen invisibles para quien espera que la oportunidad se manifieste sola.
 
     p.mt-4(data-aos="fade-right") La literatura especializada identifica cinco fuentes recurrentes de las que provienen las ideas de negocio con mayor probabilidad de éxito. Reconocerlas ayuda a orientar la búsqueda y a evaluar la solidez de una propuesta antes de invertir en ella:
@@ -70,7 +71,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/foto-3.png").w-100
+          img(src="@/assets/curso/temas/t4/foto-3.png").w-100.r-10
       .col-lg-8
         p El factor común de las cinco fuentes es la observación metódica del entorno. Las ideas más sólidas no son las más originales ni las más sofisticadas: son las que provienen de un diagnóstico riguroso y responden a algo que el territorio efectivamente necesita.
         .bg-1.r-10.p-4(data-aos="fade-left")
@@ -351,7 +352,7 @@
           p.mb-0 Con las reglas aplicadas y los datos verificados, la estimación de impacto queda en condiciones de defenderse. Falta, sin embargo, mantenerla viva en el tiempo. Una cifra que se calcula una sola vez y se archiva no dice si el proyecto avanza, y una que solo entiende quien la elaboró difícilmente convence a otros. Los indicadores de impacto convierten esas estimaciones en un seguimiento sostenido, y su conexión con la agenda de desarrollo sostenible les da un lenguaje que cualquier aliado reconoce.
       .col-lg-3
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/foto-6.png").w-100
+          img(src="@/assets/curso/temas/t4/foto-6.png").w-100.r-10
 
     separador
     #t_4_4.titulo-segundo.color-acento-contenido
@@ -425,7 +426,7 @@
                   | Acordar qué se hace cuando el indicador se aleja de la meta.
             .col-lg-5
               figure.mb-0.h-100
-                img(src="@/assets/curso/temas/t4/foto-8.png").w-100.h-100.object-fit-cover
+                img(src="@/assets/curso/temas/t4/foto-8.png").w-100.h-100.object-fit-cover.r-10
 
     p.mt-4(data-aos="fade-right") Estas cinco decisiones convierten una lista de indicadores en una rutina de trabajo. Sin ellas, la medición se aplaza hasta el momento en que alguien la exige, y para entonces los datos de los primeros meses ya no pueden reconstruirse.
 
@@ -487,7 +488,7 @@
               p.mb-0 Ejemplo 2: cantidad de tenderos del barrio capacitados en manejo de inventario.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-1.png" alt="Una persona de pie sobre una roca observa un valle con una montaña al fondo.").w-100
+                img(src="@/assets/curso/temas/t4/sl-1.png" alt="Una persona de pie sobre una roca observa un valle con una montaña al fondo.").w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Medible:] se expresa en una unidad cuantificable y verificable, de modo que el dato pueda tomarse siempre de la misma manera y por personas distintas. Sin unidad definida no existe comparación posible.
@@ -495,7 +496,7 @@
               p.mb-0 Ejemplo 2: porcentaje de pedidos entregados dentro del plazo acordado.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-2.png" alt="Una mujer recibe un paquete en la puerta de su casa.").w-100
+                img(src="@/assets/curso/temas/t4/sl-2.png" alt="Una mujer recibe un paquete en la puerta de su casa.").w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Alcanzable:] resulta realista con los recursos, el tiempo y la capacidad instalada del proyecto. Una meta desproporcionada desmotiva al equipo y resta credibilidad ante quien evalúa la propuesta.
@@ -503,7 +504,7 @@
               p.mb-0 Ejemplo 2: atender tres veredas con el único vehículo disponible, en lugar de todo el municipio.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-3.png" alt="Un agricultor sonríe en medio de su cultivo.").w-100
+                img(src="@/assets/curso/temas/t4/sl-3.png" alt="Un agricultor sonríe en medio de su cultivo.").w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Relevante:] se conecta de manera directa con la propuesta de valor y con el cambio que el proyecto promete. Medir lo que no aporta a esa promesa consume tiempo sin orientar ninguna decisión.
@@ -511,7 +512,7 @@
               p.mb-0 Ejemplo 2: en un servicio digital, número de micronegocios que mantienen su uso al tercer mes.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-4.png" alt="Un comerciante registra sus ventas en el teléfono dentro de su puesto de mercado.").w-100
+                img(src="@/assets/curso/temas/t4/sl-4.png" alt="Un comerciante registra sus ventas en el teléfono dentro de su puesto de mercado.").w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Acotado en el tiempo:] define la fecha o el período en que se toma la medición, lo que hace visible la diferencia entre un avance sostenido de una coincidencia puntual.
@@ -519,7 +520,7 @@
               p.mb-0 Ejemplo 2: variación de las ventas entre el primer y el segundo semestre del año.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-5.png" alt="Una emprendedora sostiene una tableta en su local comercial.").w-100
+                img(src="@/assets/curso/temas/t4/sl-5.png" alt="Una emprendedora sostiene una tableta en su local comercial.").w-100.r-10
 
     p.mt-5(data-aos="fade-right") Un indicador que incumple alguna de estas condiciones no permite tomar decisiones: si no es medible no puede compararse, y si no está acotado en el tiempo no revela si el proyecto avanza o se ha estancado. Este es el estándar que aplican el Fondo Emprender y la mayoría de los fondos de inversión social para evaluar la calidad del seguimiento de un proyecto.
 

@@ -25,13 +25,12 @@
     .row.mt-4
       .col-lg-9.mb-4.mb-lg-0
         //- La pestaña de 25x8 en (185,841) marca este bloque como `.cajon`.
-        .cajon.color-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+        .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 Desde la perspectiva del emprendimiento, el entorno no es un escenario pasivo: es un campo de oportunidades y amenazas en movimiento permanente que conviene aprender a leer y a anticipar. Un entorno con demanda insatisfecha, competencia moderada y políticas públicas de apoyo abre una ventana para quien sabe identificarla; uno con economía deprimida, escasez de insumos o marcos regulatorios exigentes reclama mayor creatividad y capacidad de adaptación.
+        p.mt-4.mb-0(data-aos="fade-right") Este primer tema construye el punto de partida de todo diagnóstico. Primero delimita qué es el entorno empresarial y qué parte de él puede controlar una organización; después presenta dos herramientas que traducen esa mirada en hallazgos verificables, una para el contexto general y otra para el sector en el que se compite. El recorrido se organiza en cuatro apartados:
       .col-lg-3
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t1/foto-2.png").w-100.h-100.object-fit-cover
-
-    p.mt-4(data-aos="fade-right") Este primer tema construye el punto de partida de todo diagnóstico. Primero delimita qué es el entorno empresarial y qué parte de él puede controlar una organización; después presenta dos herramientas que traducen esa mirada en hallazgos verificables, una para el contexto general y otra para el sector en el que se compite. El recorrido se organiza en cuatro apartados:
+          img(src="@/assets/curso/temas/t1/foto-2.png").w-100.h-100.object-fit-cover.r-10
 
     //- La cuarta tarjeta está pintada en el XD con el color y el icono del estado :hover
     //- (tarjeta #CDE6F6, círculo #EBE9FB). Muestreado en el PDF, no en la ficha.
@@ -163,7 +162,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-3.png").w-100
+          img(src="@/assets/curso/temas/t1/foto-3.png").w-100.r-10
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           p.mb-0 Toda organización enfrenta a diario dos clases de asuntos. Unos dependen de sus propias decisiones, como el precio que fija, la formación de su equipo o el orden con que ejecuta sus tareas. Otros ocurren sin su intervención, como una reforma tributaria, la llegada de un competidor o un cambio en los hábitos de consumo. Separar los primeros de los segundos es el punto de partida del pensamiento estratégico, porque el esfuerzo rinde donde existe capacidad real de acción.
@@ -198,10 +197,9 @@
               p.mb-0 La manera en que se distribuyen las funciones, las responsabilidades y las líneas de decisión. Una estructura definida agiliza la respuesta, mientras que una difusa duplica tareas y retrasa acuerdos.
               p.mb-0 #[b Ejemplo:] una cooperativa de Popayán que asigna un responsable por área resuelve las solicitudes de sus asociados en la mitad del tiempo.
 
-    p.mt-4(data-aos="fade-right") El examen conjunto de estos seis recursos arroja dos resultados. Por un lado, las fortalezas, aquello en lo que la organización supera a sus competidores; por otro, las debilidades, los aspectos que debe corregir para sostenerse en el mercado. Ambas dependen de decisiones propias y, por esa razón, pueden modificarse.
-
     .row.mt-4
       .col-lg-9
+        p(data-aos="fade-right") El examen conjunto de estos seis recursos arroja dos resultados. Por un lado, las fortalezas, aquello en lo que la organización supera a sus competidores; por otro, las debilidades, los aspectos que debe corregir para sostenerse en el mercado. Ambas dependen de decisiones propias y, por esa razón, pueden modificarse.
         .bg-1.r-10.p-4(data-aos="fade-right")
           .row.align-items-center
             .col-12.col-md-auto.mb-3.mb-md-0
@@ -209,11 +207,10 @@
                 img(src="@/assets/curso/temas/t1/ic-4.svg" style="width: 84px")
             .col
               p.mb-0 El entorno externo reúne las fuerzas que operan fuera de la empresa e influyen en sus decisiones y resultados. Se organiza en dos capas: el macroentorno, con las fuerzas generales que afectan a todas las organizaciones del sistema económico, y el microentorno o entorno inmediato, con las fuerzas específicas del sector o mercado en el que la empresa participa. De su análisis surgen las oportunidades y las amenazas.
+        p.mt-4.mb-0(data-aos="fade-right") La siguiente tabla organiza los tres tipos de entorno, indica los componentes que integran cada uno y señala la herramienta de análisis que corresponde aplicar en cada caso:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t1/foto-4.png").w-100.h-100.object-fit-cover
-
-    p.mt-4(data-aos="fade-right") La siguiente tabla organiza los tres tipos de entorno, indica los componentes que integran cada uno y señala la herramienta de análisis que corresponde aplicar en cada caso:
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -313,32 +310,32 @@
     //- pasteboard. Detrás va la banda decorativa de 1328x254.
     .banda-2.mt-4
       SlyderF.slyder--flechas(columnas="col-md-6 col-lg-4")
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t1/herr-1.svg" style="width: 128px").m-auto
           h4.text-center Político
           p.text-center.mb-0 Condiciones de gobernabilidad, estabilidad institucional y políticas de fomento al emprendimiento. En Colombia, instrumentos como el Fondo Emprender, los Centros de Desarrollo Empresarial y los programas de iNNpulsa abren oportunidades concretas para las ideas de negocio viables.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t1/herr-2.svg" style="width: 128px").m-auto
           h4.text-center Económico
           p.text-center.mb-0 Crecimiento del producto interno bruto, inflación, desempleo, nivel de ingreso de la población y acceso al crédito. Estos indicadores determinan la capacidad de compra del mercado objetivo y el costo de los recursos que el proyecto necesita para iniciar su operación.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t1/herr-3.svg" style="width: 128px").m-auto
           h4.text-center Social
           p.text-center.mb-0 Tendencias demográficas, cambios en los estilos de vida, valores culturales, nivel educativo y necesidades insatisfechas. Es el factor donde el emprendimiento social encuentra su justificación, al detectar demandas que ni el mercado ni el Estado atienden de manera suficiente.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t1/herr-4.svg" style="width: 128px").m-auto
           h4.text-center Tecnológico
           p.text-center.mb-0 Grado de adopción tecnológica del territorio, disponibilidad de infraestructura digital y velocidad del cambio técnico en el sector. Una zona con buena conectividad habilita modelos de venta en línea que resultarían inviables donde la señal es intermitente.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t1/herr-5.svg" style="width: 128px").m-auto
           h4.text-center Ambiental
           p.text-center.mb-0 Condiciones climáticas, disponibilidad de recursos naturales y exigencias de sostenibilidad. Las oportunidades ligadas a energías renovables, gestión de residuos, agroecología y economía circular constituyen hoy una de las fronteras más dinámicas del emprendimiento colombiano.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t1/herr-6.svg" style="width: 128px").m-auto
           h4.text-center Legal
@@ -346,50 +343,59 @@
 
     p.mt-4(data-aos="fade-right") Recorrer los seis factores produce un mapa del terreno, no una decisión. El valor del PESTEL aparece cuando cada hallazgo se contrasta con la idea de negocio concreta y se clasifica como oportunidad aprovechable o como amenaza que exige mitigación, con la evidencia que lo respalda.
 
-    //- La caja mide 1020 (col-10) y la ilustración de 292x170 va DENTRO, a su derecha.
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .bg-2.r-10.p-4(data-aos="fade-up")
-          .row.align-items-center
-            .col
-              p.mb-0 Conocer los seis factores no basta para producir un diagnóstico. La herramienta rinde cuando se aplica con método, es decir, cuando el análisis avanza en un orden previsible y cada paso entrega el resultado que el siguiente necesita. Ese orden comienza por acotar el campo de estudio, continúa con la búsqueda de información y termina con la interpretación de los hallazgos frente a la idea de negocio. Los cinco pasos siguientes describen esa secuencia y pueden aplicarse a cualquier proyecto, sin importar el sector al que pertenezca:
-            .col-12.col-md-auto.mt-3.mt-md-0
-              figure.mb-0
-                img(src="@/assets/curso/temas/t1/ilus-4.png" style="width: 292px").w-100
-
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .bg-1.r-10.p-4(data-aos="fade-up")
-          ol.lista-ol--cuadro.mb-0
-            li
-              .lista-ol--cuadro__vineta
-                span 1
-              | Delimitar el territorio y el sector sobre los que se aplicará el análisis.
-            li
-              .lista-ol--cuadro__vineta
-                span 2
-              | Recopilar datos verificables para cada uno de los seis factores.
-            li
-              .lista-ol--cuadro__vineta
-                span 3
-              | Clasificar cada hallazgo como oportunidad o como amenaza para el proyecto.
-            li
-              .lista-ol--cuadro__vineta
-                span 4
-              | Priorizar los hallazgos según su probabilidad de ocurrencia y su impacto.
-            li
-              .lista-ol--cuadro__vineta
-                span 5
-              | Documentar las fuentes consultadas para sustentar el diagnóstico.
-
-    p.mt-4(data-aos="fade-right") Seguir estos cinco pasos convierte la información dispersa en criterio. El territorio acota el estudio, los datos lo sustentan, la clasificación los interpreta, la priorización los jerarquiza y las fuentes los respaldan. Ese recorrido separa una opinión sobre el mercado de un diagnóstico defendible.
-
+    //- El párrafo va SUELTO y a ancho completo (frame 1124 en el XD) con el destello blanco;
+    //- la caja azul de 1020x214 con la lista y la ilustración de 292x170 viene DESPUÉS.
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t1/ic-6.svg" style="width: 84px")
       .col
-        p.mb-0 El PESTEL describe el terreno general, pero no dice quién compite en él. Esa pregunta se resuelve en la capa más cercana al negocio, donde actúan clientes, proveedores y rivales directos. El modelo de las cinco fuerzas del sector hace posible examinar esa capa y estimar cuánto margen deja el mercado al que se pretende entrar.
+        p.mb-0 Conocer los seis factores no basta para producir un diagnóstico. La herramienta rinde cuando se aplica con método, es decir, cuando el análisis avanza en un orden previsible y cada paso entrega el resultado que el siguiente necesita. Ese orden comienza por acotar el campo de estudio, continúa con la búsqueda de información y termina con la interpretación de los hallazgos frente a la idea de negocio. Los cinco pasos siguientes describen esa secuencia y pueden aplicarse a cualquier proyecto, sin importar el sector al que pertenezca:
+
+    //- Caja #CDE6F6 de 1020x214 en (289,8127) con la ilustración de 292x170 dentro, a la derecha.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .bg-2.r-10.p-4(data-aos="fade-up")
+          .row.align-items-center
+            .col-lg-8.mb-4.mb-lg-0
+              ol.lista-ol--cuadro.mb-0
+                li
+                  .lista-ol--cuadro__vineta
+                    span 1
+                  | Delimitar el territorio y el sector sobre los que se aplicará el análisis.
+                li
+                  .lista-ol--cuadro__vineta
+                    span 2
+                  | Recopilar datos verificables para cada uno de los seis factores.
+                li
+                  .lista-ol--cuadro__vineta
+                    span 3
+                  | Clasificar cada hallazgo como oportunidad o como amenaza para el proyecto.
+                li
+                  .lista-ol--cuadro__vineta
+                    span 4
+                  | Priorizar los hallazgos según su probabilidad de ocurrencia y su impacto.
+                li.mb-0
+                  .lista-ol--cuadro__vineta
+                    span 5
+                  | Documentar las fuentes consultadas para sustentar el diagnóstico.
+            .col-lg-4
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/ilus-4.png").w-100
+
+    p.mt-4(data-aos="fade-right") Seguir estos cinco pasos convierte la información dispersa en criterio. El territorio acota el estudio, los datos lo sustentan, la clasificación los interpreta, la priorización los jerarquiza y las fuentes los respaldan. Ese recorrido separa una opinión sobre el mercado de un diagnóstico defendible.
+
+    //- Caja #F9FBD8 de 1020x140 con r=10 en (289,8478) y el icono MAGENTA de 84 en (319,8506):
+    //- ni el párrafo va suelto ni el icono es el destello blanco.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .bg-1.r-10.p-4(data-aos="fade-up")
+          .row.align-items-center
+            .col-12.col-md-auto.mb-3.mb-md-0
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/ic-7.svg" style="width: 84px")
+            .col
+              p.mb-0 El PESTEL describe el terreno general, pero no dice quién compite en él. Esa pregunta se resuelve en la capa más cercana al negocio, donde actúan clientes, proveedores y rivales directos. El modelo de las cinco fuerzas del sector hace posible examinar esa capa y estimar cuánto margen deja el mercado al que se pretende entrar.
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
@@ -400,11 +406,10 @@
         //- La pestaña de 25x8 en (185,8860) marca este bloque como `.cajon`.
         .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 Mientras el macroentorno afecta a todas las empresas de la economía, el entorno inmediato incide de manera directa sobre quienes compiten en un mismo sector. El modelo de las cinco fuerzas competitivas, formulado por Michael Porter, continúa siendo el marco más sólido para analizar la estructura de un sector y evaluar su atractivo para nuevos emprendimientos (Porter, 2008).
+        p.mt-4.mb-0(data-aos="fade-right") El modelo parte de una idea sencilla y exigente: la rentabilidad de un sector no depende solo de la habilidad de cada empresa, sino de la estructura de fuerzas que lo configura. Comprender esa estructura antes de entrar ayuda a anticipar dónde se juega el margen y qué tan defendible resulta la posición que el proyecto aspira a ocupar. Las cinco fuerzas son las siguientes:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t1/foto-5.png").w-100.h-100.object-fit-cover
-
-    p.mt-4(data-aos="fade-right") El modelo parte de una idea sencilla y exigente: la rentabilidad de un sector no depende solo de la habilidad de cada empresa, sino de la estructura de fuerzas que lo configura. Comprender esa estructura antes de entrar ayuda a anticipar dónde se juega el margen y qué tan defendible resulta la posición que el proyecto aspira a ocupar. Las cinco fuerzas son las siguientes:
+          img(src="@/assets/curso/temas/t1/foto-5.png").w-100.h-100.object-fit-cover.r-10
 
     //- Ilustración de 292 en (289,9129) y caja #FED9FF de 708x385 con r=10 en (601,9129): el
     //- grupo mide 1020 y va centrado, así que son col-3 + col-7 en una fila centrada.

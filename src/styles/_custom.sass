@@ -66,8 +66,11 @@
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
+// ⛔ El numeral del título NO se fuerza a blanco: se lee del XD. Aquí el `#FB82FF` del cuadro
+// lleva el dígito en el oscuro del sistema (`#12263F`, comprobado en las cinco páginas del PDF:
+// cero píxeles blancos dentro del cuadro).
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $color-sistema-texto !important
 figcaption 
     font-weight: normal !important
 
@@ -223,8 +226,12 @@ figcaption
     > .tarjeta:last-child
       margin-bottom: 0
 
+// La caja de la cita mide 1020 y el texto rompe a 847: son 86 px de aire a cada lado, no los
+// 24 de un `p-4`. El dato sale del `text.frame.width` del propio nodo del XD.
 .cita-destacada
   display: flow-root                  // sin esto el margin negativo del figure COLAPSA
+  @media (min-width: $bp-min-lg)
+    padding-inline: 86px !important
   figure
     margin: -65px auto 12px
     width: 80px
@@ -411,3 +418,57 @@ figcaption
 .no-pointer
   .tarjeta--boton
     cursor: initial !important
+
+// El fondo de las tarjetas del carrusel NO es un color plano: el XD las dibuja con un patrón
+// decorativo encima del `#F0F49D` (rayos de sol arriba a la izquierda, una curva a la derecha y
+// dos tramas de líneas). Es una máscara de 327x460 en el artboard, y va como imagen de fondo
+// sobre el color, no como `<img>`, para que el texto siga encima.
+.tarjeta--patron
+  background-color: $color-primario
+  background-image: url(../assets/curso/tarjeta-patron.png)
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  border-radius: 20px
+
+// ============================================================================
+// TabsB DEL 2.1 — el XD lo pinta al revés que el kit
+//   pestaña en reposo  #EBE9FB 409x65      · el kit la pone gris `$color-sistema-h`
+//   pestaña activa     blanca, sin borde   · el kit le pone un borde de 5 px ARRIBA
+//   barra bajo TODAS   #E8E8E8 1228x5      · y el tramo activo en #422AD8, DEBAJO
+//   y un triángulo de 14 en #422AD8 centrado bajo la pestaña activa
+// ============================================================================
+.tabs-b
+  border-bottom: none
+  &__tab
+    background-color: $color-4-vc          // #EBE9FB
+    border-right: none
+    border-bottom: 5px solid $color-sistema-e
+    &:active, &:focus, &:hover
+      background-color: $color-4-vc
+    &--active
+      position: relative
+      background-color: $white
+      border-top: none !important
+      border-bottom: 5px solid $color-acento-botones
+      &:active, &:focus, &:hover
+        background-color: $white
+      // el triángulo que el XD pone bajo la pestaña abierta
+      &:after
+        content: ''
+        position: absolute
+        left: 50%
+        bottom: -12px
+        transform: translateX(-50%)
+        border: 7px solid transparent
+        border-top-color: $color-acento-botones
+
+// La foto dentro de la pestaña va en un marco amarillo: rect #F0F49D de 500x284 con la foto de
+// 483x269 y r=10 encima, o sea unos 9 px de aire por lado.
+.marco-amarillo
+  background-color: $color-primario
+  border-radius: 12px
+  padding: 9px
+  img
+    display: block
+    width: 100%
+    border-radius: 10px

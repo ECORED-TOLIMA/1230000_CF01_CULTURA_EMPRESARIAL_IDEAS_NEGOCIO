@@ -19,11 +19,10 @@
         //- La pestaña de 25x8 en (185,439) marca este bloque como `.cajon`.
         .cajon.color-1.p-4.mt-4(data-aos="fade-right")
           p.mb-0 Ese conjunto de decisiones y maneras de actuar constituye el comportamiento empresarial. No es un rasgo fijo de las personas ni un misterio del carácter, sino una forma de percibir oportunidades, asumir riesgos y administrar recursos que deja rastro en prácticas concretas y, por esa razón, puede describirse, compararse y aprenderse.
+        p.mt-4.mb-0(data-aos="fade-right") Observar ese comportamiento exige saber en qué fijarse. Cinco rasgos concentran la atención de cualquier diagnóstico, porque en ellos se refleja la manera de decidir de una organización:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t3/foto-1.png").w-100.h-100.object-fit-cover
-
-    p.mt-4(data-aos="fade-right") Observar ese comportamiento exige saber en qué fijarse. Cinco rasgos concentran la atención de cualquier diagnóstico, porque en ellos se refleja la manera de decidir de una organización:
+          img(src="@/assets/curso/temas/t3/foto-1.png").w-100.h-100.object-fit-cover.r-10
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -85,12 +84,11 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t3/foto-2.png").w-100
+          img(src="@/assets/curso/temas/t3/foto-2.png").w-100.r-10
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           p.mb-0 El recorrido avanza de la comprensión a la comprobación. Primero se identifican las disposiciones que explican la conducta emprendedora y después se aplican los instrumentos que la registran, de modo que cada afirmación del diagnóstico quede respaldada por evidencia y no por percepciones.
-
-    p.mt-4(data-aos="fade-right") El punto de partida es la disposición que hace posible todo lo demás. Antes de hablar de valores, de perfiles o de instrumentos conviene precisar qué es la cultura emprendedora y por qué se considera una competencia que se aprende, y no un rasgo con el que se nace.
+        p.mt-4.mb-0(data-aos="fade-left") El punto de partida es la disposición que hace posible todo lo demás. Antes de hablar de valores, de perfiles o de instrumentos conviene precisar qué es la cultura emprendedora y por qué se considera una competencia que se aprende, y no un rasgo con el que se nace.
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido
@@ -168,19 +166,18 @@
     //- La pestaña de 25x8 en (185,4476) marca este bloque como `.cajon`.
     .row.mt-4
       .col-lg-9.mb-4.mb-lg-0
-        .cajon.color-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+        .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 Los cuatro hábitos se refuerzan entre sí. Quien experimenta necesita registrar lo aprendido, y quien participa en una red obtiene la información que hace posible la siguiente prueba. Sostenerlos en el tiempo es lo que transforma una disposición en competencia.
+        p.mt-4.mb-0(data-aos="fade-right") Esos hábitos encuentran apoyo en el ecosistema emprendedor colombiano, que ofrece acompañamiento gratuito o de bajo costo en la mayoría de los departamentos. Saber qué presta cada actor evita empezar de cero y acorta el camino hacia la formalización:
       .col-lg-3
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ilus-2.png").w-100
-
-    p.mt-4(data-aos="fade-right") Esos hábitos encuentran apoyo en el ecosistema emprendedor colombiano, que ofrece acompañamiento gratuito o de bajo costo en la mayoría de los departamentos. Saber qué presta cada actor evita empezar de cero y acorta el camino hacia la formalización:
 
     //- Foto de 292x350 en (289,4725) a la izquierda y la línea de tiempo de 647 a la derecha.
     .row.justify-content-center.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t3/foto-3.png").w-100.h-100.object-fit-cover
+          img(src="@/assets/curso/temas/t3/foto-3.png").w-100.h-100.object-fit-cover.r-10
       .col-lg-7
         LineaTiempoD.color-1(data-aos="fade-right")
           .row(numero="A" titulo="Centros de formación del SENA")
@@ -210,7 +207,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t3/foto-4.png").w-100
+          img(src="@/assets/curso/temas/t3/foto-4.png").w-100.r-10
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           p.mb-0 El emprendimiento éticamente responsable crea valor no solo para quien lo impulsa, sino también para la comunidad en la que opera. Los valores empresariales, entre ellos la honestidad, la transparencia, la responsabilidad social, el respeto por el medio ambiente y el compromiso con los colaboradores, no son declaraciones de intención. Constituyen el fundamento de la reputación, que suele ser el activo más valioso y, a la vez, el más frágil de cualquier organización.
@@ -246,27 +243,27 @@
     //- con sus círculos de 128, en el pasteboard. Detrás va la banda decorativa de 1328x254.
     .banda-4.mt-4
       SlyderF.slyder--flechas(columnas="col-md-6 col-lg-4")
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etica-1.svg" style="width: 128px").m-auto
           h4.text-center Cumplimiento de acuerdos
           p.text-center.mb-0 Pagar a los proveedores en los plazos convenidos y entregar en la fecha prometida. En las redes de pequeños comerciantes, la palabra cumplida define quién obtiene crédito de mercancía y quién debe pagar siempre de contado.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etica-2.svg" style="width: 128px").m-auto
           h4.text-center Información veraz al cliente
           p.text-center.mb-0 Describir el producto sin exagerar sus beneficios, informar su composición y respetar lo anunciado en la publicidad. Un etiquetado claro y una garantía honrada evitan sanciones y sostienen la recompra en el mercado local.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etica-3.svg" style="width: 128px").m-auto
           h4.text-center Trabajo digno
           p.text-center.mb-0 Vincular al personal con las condiciones que exige la ley, afiliarlo a seguridad social y pagar de manera puntual. La formalización laboral, además de una obligación, reduce la rotación y protege el conocimiento acumulado del negocio.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etica-4.svg" style="width: 128px").m-auto
           h4.text-center Cuidado del entorno
           p.text-center.mb-0 Manejar residuos, agua y energía con criterio, incluso cuando la escala del negocio no obliga a ello. Los municipios avanzan en separación en la fuente y los clientes preguntan cada vez más por el origen de los productos.
-        .tarjeta.bg-1-p.r-20.p-4.h-100
+        .tarjeta.tarjeta--patron.p-4.h-100
           figure.mb-3
             img(src="@/assets/curso/temas/t3/etica-5.svg" style="width: 128px").m-auto
           h4.text-center Transparencia tributaria
@@ -346,11 +343,11 @@
               img(src="@/assets/curso/temas/t3/cita-2.svg" style="width: 80px")
             p.mb-0 Conviene precisar qué se entiende aquí por perfil. No se trata del retrato de una persona en particular, sino de la caracterización del conjunto de quienes emprenden en un territorio, obtenida al observar varios negocios y comparar lo que se encuentra en cada uno. Ese carácter agregado convierte al perfil en un insumo del diagnóstico y no en un juicio sobre individuos.
 
-    p.mt-4(data-aos="fade-right") Ese conjunto presenta en el país rasgos reconocibles. La mayoría de los negocios opera con una sola persona al frente, que atiende al cliente, compra los insumos y lleva las cuentas al mismo tiempo. Muchos funcionan desde la vivienda o en espacios compartidos, y se concentran en el comercio y en los servicios de proximidad, donde la inversión inicial es menor y la entrada resulta más rápida. Ese patrón explica por qué la competencia se percibe intensa y por qué el margen depende en buena medida del precio al que se compra.
-
-    //- A la derecha de este párrafo va la ilustración #FED9FF de 292x260 en (1121,8665).
+    //- Los dos párrafos van en la columna de 916 y la ilustración #FED9FF de 292x260 en
+    //- (1121,8665) a su derecha.
     .row.mt-4
       .col-lg-9.mb-4.mb-lg-0
+        p(data-aos="fade-right") Ese conjunto presenta en el país rasgos reconocibles. La mayoría de los negocios opera con una sola persona al frente, que atiende al cliente, compra los insumos y lleva las cuentas al mismo tiempo. Muchos funcionan desde la vivienda o en espacios compartidos, y se concentran en el comercio y en los servicios de proximidad, donde la inversión inicial es menor y la entrada resulta más rápida. Ese patrón explica por qué la competencia se percibe intensa y por qué el margen depende en buena medida del precio al que se compra.
         .row.align-items-start(data-aos="fade-right")
           .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
@@ -398,24 +395,22 @@
 
     p.mt-4(data-aos="fade-right") Recoger información sobre las empresas de un territorio no equivale a diagnosticar. El diagnóstico es un proceso sistemático que recopila, organiza e interpreta esos datos con el fin de comprender las tendencias del sector, identificar los factores que explican los casos exitosos y detectar las debilidades que se repiten con mayor frecuencia.
 
-    .row.mt-4
-      .col-lg-8.mb-4.mb-lg-0
-        .bg-1.r-10.p-4.h-100(data-aos="fade-right")
-          p.mb-0 La información que alimenta ese proceso proviene de dos orígenes. La primaria se obtiene directamente del terreno, mediante observación, conversación o aplicación de cuestionarios, y ofrece detalle sobre lo que ocurre en un lugar concreto. La secundaria procede de registros elaborados por otros, como informes sectoriales o bases de datos oficiales, y aporta escala y capacidad de comparación. Un diagnóstico sólido combina ambos orígenes, porque cada uno compensa las limitaciones del otro.
-      .col-lg-4
-        figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t3/foto-5.png").w-100.h-100.object-fit-cover
+    //- Foto de 614x289 en (186,9896) y franja #F0F49D de 919x289 con la caja blanca de 685x197:
+    //- es un `bloque-texto-g`, no una caja con la foto al lado.
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-up")
+      .bloque-texto-g__img(:style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/foto-5.png')})` }")
+      .bloque-texto-g__texto.p-4
+        p.mb-0 La información que alimenta ese proceso proviene de dos orígenes. La primaria se obtiene directamente del terreno, mediante observación, conversación o aplicación de cuestionarios, y ofrece detalle sobre lo que ocurre en un lugar concreto. La secundaria procede de registros elaborados por otros, como informes sectoriales o bases de datos oficiales, y aporta escala y capacidad de comparación. Un diagnóstico sólido combina ambos orígenes, porque cada uno compensa las limitaciones del otro.
 
     //- Cajón de 916x142 en (185,10215) y la foto de 292x240 a su derecha.
     .row.mt-4
       .col-lg-9.mb-4.mb-lg-0
-        .cajon.color-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+        .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 Ese trabajo incluye además compromisos con quienes aportan la información. Antes de iniciar una entrevista o una encuesta conviene explicar el propósito del ejercicio, pedir autorización para utilizar las respuestas y aclarar que los datos se manejarán de manera agregada, sin identificar a quien los entregó. Las preguntas deben formularse sin sugerir la respuesta esperada, y lo observado se anota tal como ocurrió, aunque contradiga la idea inicial del proyecto.
+        p.mt-4.mb-0(data-aos="fade-right") El producto de ese proceso ubica la idea de negocio dentro del mapa empresarial del entorno. Con él se establece con qué empresas competirá, a qué proveedores puede recurrir y qué vacíos del mercado está en condiciones de atender. Las técnicas más utilizadas para recoger y organizar esa información son las siguientes:
       .col-lg-3
         figure.mb-0.h-100
-          img(src="@/assets/curso/temas/t3/foto-6.png").w-100.h-100.object-fit-cover
-
-    p.mt-4(data-aos="fade-right") El producto de ese proceso ubica la idea de negocio dentro del mapa empresarial del entorno. Con él se establece con qué empresas competirá, a qué proveedores puede recurrir y qué vacíos del mercado está en condiciones de atender. Las técnicas más utilizadas para recoger y organizar esa información son las siguientes:
+          img(src="@/assets/curso/temas/t3/foto-6.png").w-100.h-100.object-fit-cover.r-10
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -437,7 +432,9 @@
               i.far.fa-circle-dot
               | #[b Análisis DOFA:] matriz que organiza los hallazgos del diagnóstico según su origen, interno o externo, y su carácter, favorable o desfavorable, con el fin de derivar estrategias que aprovechen las fortalezas frente a las oportunidades detectadas.
 
-    p.mt-4(data-aos="fade-right") Ninguna técnica sustituye a las demás. La observación describe lo que ocurre, la entrevista explica por qué ocurre, la encuesta permite generalizar y la revisión documental contrasta lo hallado con registros independientes. Combinar al menos una técnica cualitativa con una cuantitativa es lo que otorga solidez al diagnóstico.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        p.mb-0(data-aos="fade-right") Ninguna técnica sustituye a las demás. La observación describe lo que ocurre, la entrevista explica por qué ocurre, la encuesta permite generalizar y la revisión documental contrasta lo hallado con registros independientes. Combinar al menos una técnica cualitativa con una cuantitativa es lo que otorga solidez al diagnóstico.
 
     .row.justify-content-center.mt-5
       .col-lg-10
@@ -485,7 +482,10 @@
               figure.mb-0
                 img(src="@/assets/curso/temas/t3/ilus-3.png").w-100
 
-    p.mt-4(data-aos="fade-right") Este protocolo puede ajustarse en profundidad y en tiempo según el tamaño del proyecto, pero no en su secuencia. Omitir la definición del alcance produce diagnósticos dispersos, y omitir el registro de las fuentes impide que las conclusiones se verifiquen después.
+    //- Frame de 1124 desde x=289: llega al borde derecho, así que es col-11 con un col de aire.
+    .row.justify-content-end.mt-4
+      .col-lg-11
+        p.mb-0(data-aos="fade-right") Este protocolo puede ajustarse en profundidad y en tiempo según el tamaño del proyecto, pero no en su secuencia. Omitir la definición del alcance produce diagnósticos dispersos, y omitir el registro de las fuentes impide que las conclusiones se verifiquen después.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
