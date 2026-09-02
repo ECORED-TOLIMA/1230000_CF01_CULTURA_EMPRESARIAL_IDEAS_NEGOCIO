@@ -31,7 +31,7 @@
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
             figure.marco-amarillo.mb-0
-              img(src="@/assets/curso/temas/t2/foto-2a.png")
+              img(src="@/assets/curso/temas/t2/foto-2a.png").r-10
           .col-lg-7
             p Fija las reglas generales del ecosistema emprendedor y crea los instrumentos de fomento que operan en todo el país, con requisitos iguales para cualquier región.
             p.mb-0 #[b Caso práctico:] un grupo de aprendices de Sincelejo presenta su plan de negocio al Fondo Emprender y accede a capital semilla en las mismas condiciones que un equipo de Cali.
@@ -39,7 +39,7 @@
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
             figure.marco-amarillo.mb-0
-              img(src="@/assets/curso/temas/t2/foto-2.png")
+              img(src="@/assets/curso/temas/t2/foto-2.png").r-10
           .col-lg-7
             p Traduce esas reglas en apuestas productivas concretas mediante los planes de desarrollo y las comisiones regionales de competitividad, que priorizan las cadenas con mayor potencial.
             p.mb-0 #[b Caso práctico:] un departamento que prioriza la cadena del cacao ofrece asistencia técnica y ruedas de negocio a quienes transforman ese producto en su territorio.
@@ -47,7 +47,7 @@
         .row.align-items-center
           .col-lg-5.mb-4.mb-lg-0
             figure.marco-amarillo.mb-0
-              img(src="@/assets/curso/temas/t2/foto-2c.png")
+              img(src="@/assets/curso/temas/t2/foto-2c.png").r-10
           .col-lg-7
             p Define las condiciones más cercanas al proyecto, esto es, las prioridades de inversión, los trámites, los usos del suelo y los programas de apoyo local.
             p.mb-0 #[b Caso práctico:] una alcaldía que abre un centro de emprendimiento y otorga descuentos temporales en el impuesto de industria y comercio atrae nuevos negocios a una zona concreta.
