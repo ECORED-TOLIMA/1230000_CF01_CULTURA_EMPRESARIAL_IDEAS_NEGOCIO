@@ -110,40 +110,65 @@
 
     //- Cinco tarjetas #FED9FF de 188x290 con r=10 y su icono de 84.
     //- Las cinco caben en los 1020 del `col-lg-10`, no en el ancho completo de la tarjeta.
-    .row.justify-content-center.mt-4
-     .col-lg-10
-      .row.justify-content-center(data-aos="fade-up")
-        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-            figure
-              img(src="@/assets/curso/temas/t2/fue-1.svg")
-            h5.text-center 1. Población
-            p.text-center.mb-0 ¿Cuánta población vive en la zona y cómo está compuesta por edades y por ubicación?
-        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-            figure
-              img(src="@/assets/curso/temas/t2/fue-2.svg")
-            h5.text-center 2. Ocupación
-            p.text-center.mb-0 ¿De qué trabaja esa población y qué nivel de ingresos percibe en promedio?
-        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-            figure
-              img(src="@/assets/curso/temas/t2/fue-3.svg")
-            h5.text-center 3. Actividades productivas
-            p.text-center.mb-0 ¿Qué actividades económicas predominan hoy en el territorio y cuáles están creciendo?
-        .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-            figure
-              img(src="@/assets/curso/temas/t2/fue-4.svg")
-            h5.text-center 4. Servicios
-            p.text-center.mb-0 ¿Con qué vías, conectividad y servicios públicos cuenta la zona para operar un negocio?
-        .col-6.col-md-4.col-lg
-          .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-            figure
-              img(src="@/assets/curso/temas/t2/fue-5.svg")
-            h5.text-center 5. Necesidades
-            p.text-center.mb-0 ¿Qué necesidades de la comunidad siguen sin resolverse y podrían originar una idea de negocio?
 
+    .row.justify-content-center
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/fue-1.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                    p.text-center
+                      b 1. Población
+                    p.text-center.mb-0 ¿Cuánta población vive en la zona y cómo está compuesta por edades y por ubicación?
+    
+    
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/fue-2.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b 2. Ocupación
+                  p.text-center.mb-0 ¿De qué trabaja esa población y qué nivel de ingresos percibe en promedio?
+    
+    
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/fue-3.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b 3. Actividades productivas
+                  p.text-center.mb-0 ¿Qué actividades económicas predominan hoy en el territorio y cuáles están creciendo?
+
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/fue-4.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b 4. Servicios
+                  p.text-center.mb-0 ¿Con qué vías, conectividad y servicios públicos cuenta la zona para operar un negocio?
+
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t2/fue-5.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b 5. Necesidades
+                  p.text-center.mb-0 ¿Qué necesidades de la comunidad siguen sin resolverse y podrían originar una idea de negocio?
+    
     p.mt-4(data-aos="fade-right") Las cinco preguntas no se responden con impresiones, sino con cifras y observación directa. Juntas dibujan el perfil de un territorio: quién vive allí, de qué vive, qué produce, con qué cuenta y qué le hace falta. Ese perfil es el que sustenta cualquier postulación.
 
     p(data-aos="fade-right") Ese ejercicio tiene nombre propio: se denomina caracterización zonal y consiste en reunir información económica, social y productiva de una zona delimitada. Conocer su método hace posible reemplazar las afirmaciones generales sobre el mercado por datos comprobables del lugar donde se instalará la idea de negocio.
@@ -253,7 +278,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        p.mb-0(data-aos="fade-right") La tabla muestra que un mismo nivel de ingresos clasifica a una empresa de forma distinta según su sector: una firma de servicios con 40.000 UVT de ingresos anuales es pequeña empresa, mientras que un comercio con esos mismos ingresos sigue siendo microempresa. Por esa razón el diagnóstico debe identificar primero la actividad principal del proyecto.
+        p.bg-6.p-4.mb-0(data-aos="fade-right") La tabla muestra que un mismo nivel de ingresos clasifica a una empresa de forma distinta según su sector: una firma de servicios con 40.000 UVT de ingresos anuales es pequeña empresa, mientras que un comercio con esos mismos ingresos sigue siendo microempresa. Por esa razón el diagnóstico debe identificar primero la actividad principal del proyecto.
 
     p.mt-4(data-aos="fade-right") Más allá de esa frontera legal, detrás de cada categoría hay una forma distinta de operar, de financiarse y de vender. La figura siguiente reúne los cuatro tamaños y describe, para cada uno, la escala de la operación, el acceso a financiación y el mercado que alcanza a atender:
 
@@ -264,8 +289,11 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
           span  Clasificación y características de las empresas según su tamaño
-        figure.mb-0(data-aos="fade-up")
-          img(src="@/assets/curso/temas/t2/figura-1.svg" alt="Los cuatro tamaños de empresa ordenados por escala. Microempresa: unidad de menor escala, de operación familiar o individual, con capital reducido y ventas locales. Es la puerta de entrada de la mayoría de los emprendimientos. Pequeña empresa: cuenta con personal contratado y procesos definidos; accede a crédito formal y abastece mercados municipales. Mediana empresa: dispone de áreas funcionales separadas y mayor capacidad de inversión; necesita proveedores estables. Gran empresa: opera con estructura compleja, alcance nacional o internacional y volúmenes altos.").w-100
+        figure.mb-0.d-none.d-md-block(data-aos="fade-up")
+          img(src="@/assets/curso/temas/t2/figura-1.svg" alt="Infografía que compara microempresas, pequeñas, medianas y grandes empresas según estructura, capital, mercados, proveedores, capacidad de inversión, compras y alcance dentro del sector empresarial colombiano. ").w-100
+        figure.mb-0.d-md-none
+          img(src="@/assets/curso/temas/t2/figura-1-m.svg" alt="Infografía que compara microempresas, pequeñas, medianas y grandes empresas según estructura, capital, mercados, proveedores, capacidad de inversión, compras y alcance dentro del sector empresarial colombiano. ").w-100
+
 
     //- Caja #CDE6F6 de 919x120 en (185,6717) SIN icono, el párrafo del icono magenta debajo, y
     //- la ilustración de 292x265 a la derecha de los dos.
@@ -297,10 +325,13 @@
 
     p.mt-4(data-aos="fade-right") Bajo la denominación de proyectos de desarrollo regional caben iniciativas muy distintas entre sí, desde el mejoramiento de una vía terciaria hasta un programa de formación técnica. Reconocer sus tipos ayuda a identificar cuáles guardan relación directa con la idea de negocio que se está formulando:
 
-    //- Lista #FED9FF de 708x385 en (289,7769) y la ilustración de 292 a su derecha: el grupo
-    //- mide 1020 y va centrado, así que son col-7 + col-3 en una fila centrada.
-    .row.justify-content-center.mt-4
-      .col-lg-7.mb-4.mb-lg-0
+    
+
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .col-lg-3.d-none.d-lg-block.order-2
+        figure
+          img(src='@/assets/curso/temas/t2/ilus-3.png', alt='', style="width: 290px").m-auto
+      .col-lg-7
         .bg-3.r-10.p-4(data-aos="fade-right")
           ul.lista-ul.mb-0
             li
@@ -318,9 +349,6 @@
             li.mb-0
               i.far.fa-circle-dot
               | #[b Proyectos ambientales:] iniciativas de energías limpias, manejo de residuos o restauración que abren mercados para negocios sostenibles.
-      .col-lg-3
-        figure.mb-0
-          img(src="@/assets/curso/temas/t2/ilus-3.png").w-100
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -329,7 +357,7 @@
       .col
         p.mb-0 Los cinco tipos no avanzan por separado. Una vía nueva vuelve rentable un proyecto productivo, y un programa de formación provee el personal que ese proyecto necesita. Por esa razón conviene revisarlos en conjunto y no de manera aislada.
 
-    p(data-aos="fade-right") Estos proyectos no se conocen por rumor ni por anuncio de prensa. Cada uno queda registrado en un documento público, con plazos, recursos asignados y responsables, y allí es donde el emprendedor debe buscarlos. Cuatro fuentes concentran esa información en Colombia y conviene saber qué ofrece cada una:
+    p.mt-4(data-aos="fade-right") Estos proyectos no se conocen por rumor ni por anuncio de prensa. Cada uno queda registrado en un documento público, con plazos, recursos asignados y responsables, y allí es donde el emprendedor debe buscarlos. Cuatro fuentes concentran esa información en Colombia y conviene saber qué ofrece cada una:
 
     //- Foto de 292x355 en (289,8360) a la izquierda y la línea de tiempo de 708 a la derecha.
     .row.justify-content-center.mt-4
@@ -359,30 +387,35 @@
 
     p(data-aos="fade-right") Leer un plan de desarrollo con mirada empresarial no consiste en recorrerlo de principio a fin, sino en buscar en él una información precisa. Conviene rastrear los siguientes elementos:
 
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .bg-1.r-10.p-4(data-aos="fade-up")
-          ol.lista-ol--cuadro.mb-0
-            li
-              .lista-ol--cuadro__vineta
-                span 1
-              | Las cadenas productivas priorizadas por el departamento o el municipio.
-            li
-              .lista-ol--cuadro__vineta
-                span 2
-              | Los programas de fomento empresarial con recursos asignados en el plan.
-            li
-              .lista-ol--cuadro__vineta
-                span 3
-              | Las obras de infraestructura proyectadas y su efecto sobre los costos logísticos.
-            li
-              .lista-ol--cuadro__vineta
-                span 4
-              | Las alianzas público-privadas previstas para el sector de interés.
-            li
-              .lista-ol--cuadro__vineta
-                span 5
-              | Los indicadores de meta que el territorio se ha comprometido a alcanzar.
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .row.justify-content-center
+        .col-lg-10
+          .row.align-items-center.bg-7.r-10.p-4
+            .col-lg-4.d-none.d-lg-block.order-2
+              figure
+                img(src='@/assets/curso/temas/t2/1.svg', alt='', style="width: 290px").m-auto
+            .col-lg-8
+                ol.lista-ol--cuadro.mb-0
+                  li
+                    .lista-ol--cuadro__vineta
+                      span 1
+                    | Las cadenas productivas priorizadas por el departamento o el municipio.
+                  li
+                    .lista-ol--cuadro__vineta
+                      span 2
+                    | Los programas de fomento empresarial con recursos asignados en el plan.
+                  li
+                    .lista-ol--cuadro__vineta
+                      span 3
+                    | Las obras de infraestructura proyectadas y su efecto sobre los costos logísticos.
+                  li
+                    .lista-ol--cuadro__vineta
+                      span 4
+                    | Las alianzas público-privadas previstas para el sector de interés.
+                  li
+                    .lista-ol--cuadro__vineta
+                      span 5
+                    | Los indicadores de meta que el territorio se ha comprometido a alcanzar.
 
     p.mt-4(data-aos="fade-right") Los cinco elementos, leídos en conjunto, permiten responder una pregunta concreta. El territorio invierte en la dirección de la idea de negocio o lo hace en otra distinta, y de esa respuesta depende que el proyecto encuentre respaldo o deba abrirse camino por su cuenta.
 

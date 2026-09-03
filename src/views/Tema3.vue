@@ -96,16 +96,20 @@
 
     p.mt-4(data-aos="fade-right") La cultura emprendedora reúne el conjunto de actitudes, valores, competencias cognitivas y hábitos de pensamiento que permiten identificar oportunidades, asumir riesgos calculados y transformar ideas en proyectos de valor. No se trata de una característica innata reservada a personalidades excepcionales, sino de una competencia que se desarrolla mediante la formación, la experiencia y la reflexión crítica sobre el entorno.
 
-    //- Foto de 506x323 y la franja #F0F49D de 1020x323 con el icono de 80 dentro del texto.
-    //- La franja mide 1020 en el XD (289..1309), no el ancho entero de la tarjeta.
-    .row.justify-content-center
+
+    .row.align-items-center.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-up")
-          .bloque-texto-g__img(:style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/video-1.png')})` }")
-          .bloque-texto-g__texto.p-4
-            figure.mb-3
-              img(src="@/assets/curso/temas/t3/cita-1.svg" style="width: 80px")
-            p.mb-0 El término tiene dos caras que conviene distinguir. En el plano personal, la cultura emprendedora describe la manera en que alguien mira su entorno y responde ante lo que encuentra. En el plano colectivo, nombra el conjunto de creencias compartidas en una familia, un barrio o una región acerca de lo que significa crear algo propio, y esas creencias facilitan o frenan la decisión de intentarlo.
+        .row.justify-content-center.mt-4
+          .col-lg-12(data-aos="fade-down")
+            .row.d-flex.align-items-center.bg-podcast(data-aos="fade-right")
+              .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                figure.m-0.p-0.w-100.h-100.d-flex
+                  img(src='@/assets/curso/temas/t3/video-1.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+              .col-lg
+                figure.mb-3
+                  img(src="@/assets/curso/temas/t3/cita-1.svg" style="width: 80px")
+                p.mt-2 El término tiene dos caras que conviene distinguir. En el plano personal, la cultura emprendedora describe la manera en que alguien mira su entorno y responde ante lo que encuentra. En el plano colectivo, nombra el conjunto de creencias compartidas en una familia, un barrio o una región acerca de lo que significa crear algo propio, y esas creencias facilitan o frenan la decisión de intentarlo.
+
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -116,26 +120,39 @@
 
     p.mt-4(data-aos="fade-right") Esa precisión tiene una consecuencia práctica para el diagnóstico. Si la disposición emprendedora se aprende, también puede observarse, describirse y fortalecerse en un territorio. Se manifiesta en tres dimensiones:
 
-    //- Tres tarjetas de 396x250 con el círculo de 150 montado sobre el borde superior.
-    .row.mt-5
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta.bg-1-p.tarjeta--icono-arriba
-          figure
-            img(src="@/assets/curso/temas/t3/hab-1.svg")
-          h4.text-center Dimensión cognitiva
-          p.text-center.mb-0 Capacidad de percibir el entorno con curiosidad, buscar información pertinente y anticipar los cambios antes que los demás actores del sector.
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta.bg-1-p.tarjeta--icono-arriba
-          figure
-            img(src="@/assets/curso/temas/t3/hab-2.svg")
-          h4.text-center Dimensión emocional
-          p.text-center.mb-0 Tolerancia a la incertidumbre, resiliencia ante los resultados adversos y confianza sostenida en las propias capacidades a lo largo del proyecto.
-      .col-md-6.col-lg-4
-        .tarjeta.bg-1-p.tarjeta--icono-arriba
-          figure
-            img(src="@/assets/curso/temas/t3/hab-3.svg")
-          h4.text-center Dimensión conductual
-          p.text-center.mb-0 Disposición a actuar, a probar ideas en pequeña escala y a ajustar el rumbo con la retroalimentación de clientes reales.
+    .row.justify-content-center
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t3/hab-1.svg' alt='AvatarTop').m-auto
+          .tarjeta.color-primario.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  h4.text-center Dimensión cognitiva
+                  p.text-center.mb-0 Capacidad de percibir el entorno con curiosidad, buscar información pertinente y anticipar los cambios antes que los demás actores del sector.
+    
+    
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t3/hab-2.svg' alt='AvatarTop').m-auto
+          .tarjeta.color-primario.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  h4.text-center Dimensión emocional
+                  p.text-center.mb-0 Tolerancia a la incertidumbre, resiliencia ante los resultados adversos y confianza sostenida en las propias capacidades a lo largo del proyecto.
+    
+    
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t3/hab-3.svg' alt='AvatarTop').m-auto
+          .tarjeta.color-primario.shadow
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  h4.text-center Dimensión conductual
+                  p.text-center.mb-0 Disposición a actuar, a probar ideas en pequeña escala y a ajustar el rumbo con la retroalimentación de clientes reales.
+    
 
     p.mt-4(data-aos="fade-right") Las tres dimensiones se sostienen mutuamente: sin lectura del entorno la acción se vuelve improvisación, sin tolerancia a la incertidumbre la lectura no llega a convertirse en decisión y sin disposición a actuar el análisis se queda en diagnóstico. El equilibrio entre ellas es lo que distingue una cultura emprendedora consolidada.
 
@@ -145,7 +162,7 @@
       .col-lg-10
         .bg-2-s.cita-destacada.r-10.p-4.text-center(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/temas/t3/ic-7.svg")
+            img(src="@/assets/curso/temas/t3/cita-11.svg")
           p.mb-0
             b Si la disposición emprendedora fuera un rasgo innato, la formación no tendría sentido. La evidencia indica lo contrario, pues se trata de una competencia que se adquiere, y esa es la premisa sobre la que se construye toda formación en emprendimiento.
 
@@ -220,14 +237,20 @@
             p.mb-0 En un mercado donde la información circula con rapidez y los consumidores evalúan el impacto de sus decisiones de compra, una empresa con prácticas éticas sólidas obtiene una ventaja competitiva verificable. Esa exigencia tiene además un plano normativo, porque la responsabilidad social pasó de ser una práctica voluntaria para convertirse en un requisito frecuente de clientes, proveedores y entidades reguladoras. Los marcos de referencia más utilizados son los siguientes:
 
     .tarjeta--container.row.mt-4(data-aos="fade-up")
-      .col-md.tarjeta.bg-1.p-4
-        h4.text-center Norma ISO 26000
+      .col-md.tarjeta.bg-podcast.p-4
+        figure.mb-0
+              img(src="@/assets/curso/temas/t3/1.svg" style="width: 150px").m-auto
+        h4.text-center.mt-2 Norma ISO 26000
         p.mb-0 Guía internacional sobre responsabilidad social que orienta a las organizaciones en materia de derechos humanos, prácticas laborales, medio ambiente y participación en el desarrollo de la comunidad. No es certificable, pues opera como marco de conducta y de autoevaluación (Organización Internacional de Normalización, 2010).
-      .col-md.tarjeta.bg-2.p-4
-        h4.text-center Global Reporting Initiative
+      .col-md.tarjeta.bg-8.p-4
+        figure.mb-0
+              img(src="@/assets/curso/temas/t3/2.svg" style="width: 150px").m-auto
+        h4.text-center.mt-2  <em>Global Reporting Initiative</em>
         p.mb-0 Estándar que establece cómo informar los impactos económicos, ambientales y sociales de una organización. Su valor está en la posibilidad de comparación, ya que permite contrastar el desempeño de una empresa con el de otras del sector y con sus propios resultados anteriores (Global Reporting Initiative, 2021).
-      .col-md.tarjeta.bg-3.p-4
-        h4.text-center Objetivos de Desarrollo Sostenible
+      .col-md.tarjeta.bg-6.p-4
+        figure.mb-0
+              img(src="@/assets/curso/temas/t3/3.svg" style="width: 150px").m-auto
+        h4.text-center.mt-2 Objetivos de Desarrollo Sostenible
         p.mb-0 Agenda adoptada por las Naciones Unidas en 2015, con diecisiete objetivos y metas concretas al año 2030. Alinear la propuesta de valor del proyecto con uno o varios de ellos facilita el acceso a financiadores de impacto (Naciones Unidas, 2015).
 
     p.mt-4(data-aos="fade-right") Los tres marcos operan en niveles distintos y complementarios. El primero orienta la conducta, el segundo estandariza la manera de informarla y el tercero conecta el proyecto con una agenda compartida. Incorporarlos desde el diseño inicial resulta menos costoso que ajustarlos después, cuando la empresa ya opera.
@@ -332,16 +355,20 @@
 
     p.mt-4(data-aos="fade-right") Colombia figura de manera sostenida entre los países con mayor actividad emprendedora temprana de América Latina, según las mediciones del Global Entrepreneurship Monitor. Sin embargo, esa actividad se concentra en emprendimientos impulsados por la necesidad más que por la oportunidad, es decir, en personas que crean empresa porque no encuentran empleo formal antes que porque identificaron un espacio de mercado (Global Entrepreneurship Monitor [GEM], 2023).
 
-    //- Foto de 506x317 y la franja #F0F49D con el icono de 80 dentro del texto.
-    //- La franja mide 1020 en el XD (289..1309), no el ancho entero de la tarjeta.
-    .row.justify-content-center
+
+    .row.align-items-center.justify-content-center
       .col-lg-10
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mt-4(data-aos="fade-up")
-          .bloque-texto-g__img(:style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/video-2.png')})` }")
-          .bloque-texto-g__texto.p-4
-            figure.mb-3
-              img(src="@/assets/curso/temas/t3/cita-2.svg" style="width: 80px")
-            p.mb-0 Conviene precisar qué se entiende aquí por perfil. No se trata del retrato de una persona en particular, sino de la caracterización del conjunto de quienes emprenden en un territorio, obtenida al observar varios negocios y comparar lo que se encuentra en cada uno. Ese carácter agregado convierte al perfil en un insumo del diagnóstico y no en un juicio sobre individuos.
+        .row.justify-content-center.mt-4
+          .col-lg-12(data-aos="fade-down")
+            .row.d-flex.align-items-center.bg-podcast(data-aos="fade-right")
+              .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                figure.m-0.p-0.w-100.h-100.d-flex
+                  img(src='@/assets/curso/temas/t3/video-2.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+              .col-lg
+                figure.mb-3
+                  img(src="@/assets/curso/temas/t3/cita-2.svg" style="width: 80px")
+                p.mt-2 Conviene precisar qué se entiende aquí por perfil. No se trata del retrato de una persona en particular, sino de la caracterización del conjunto de quienes emprenden en un territorio, obtenida al observar varios negocios y comparar lo que se encuentra en cada uno. Ese carácter agregado convierte al perfil en un insumo del diagnóstico y no en un juicio sobre individuos.
+
 
     //- Los dos párrafos van en la columna de 916 y la ilustración #FED9FF de 292x260 en
     //- (1121,8665) a su derecha.
@@ -414,33 +441,29 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .bg-3.r-10.p-4(data-aos="fade-up")
-          ul.lista-ul.mb-0
-            li
-              i.far.fa-circle-dot
-              | #[b Observación directa:] recorrido sistemático de mercados, ferias, zonas comerciales e industriales para registrar patrones de consumo, formatos de negocio y niveles de actividad. Por ejemplo, un aprendiz de Neiva puede registrar durante una semana el flujo de clientes en la plaza de mercado y las horas de mayor demanda.
-            li
-              i.far.fa-circle-dot
-              | #[b Entrevista semiestructurada:] conversación guiada por un cuestionario flexible con empresarios, líderes comunitarios o funcionarios públicos, que permite explorar las razones detrás de las cifras y detectar problemas que los datos agregados no revelan.
-            li
-              i.far.fa-circle-dot
-              | #[b Revisión documental:] consulta de informes sectoriales, bases de datos oficiales y reportes de las cámaras de comercio, que aportan al diagnóstico la escala y la comparación que el trabajo de campo no alcanza a ofrecer.
-            li
-              i.far.fa-circle-dot
-              | #[b Encuesta estructurada:] aplicación de un cuestionario cerrado a una muestra de la población objetivo, que permite cuantificar preferencias, disposición a pagar y frecuencia de consumo, y comparar resultados entre segmentos.
-            li.mb-0
-              i.far.fa-circle-dot
-              | #[b Análisis DOFA:] matriz que organiza los hallazgos del diagnóstico según su origen, interno o externo, y su carácter, favorable o desfavorable, con el fin de derivar estrategias que aprovechen las fortalezas frente a las oportunidades detectadas.
+        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-4 r-20")
+          div(titulo="Observación directa")
+            p.mb-0 Recorrido sistemático de mercados, ferias, zonas comerciales e industriales para registrar patrones de consumo, formatos de negocio y niveles de actividad. Por ejemplo, un aprendiz de Neiva puede registrar durante una semana el flujo de clientes en la plaza de mercado y las horas de mayor demanda.
+          div(titulo="Entrevista semiestructurada")
+            p.mb-0 Conversación guiada por un cuestionario flexible con empresarios, líderes comunitarios o funcionarios públicos, que permite explorar las razones detrás de las cifras y detectar problemas que los datos agregados no revelan.
+          div(titulo="Revisión documental")
+            p.mb-0 Consulta de informes sectoriales, bases de datos oficiales y reportes de las cámaras de comercio, que aportan al diagnóstico la escala y la comparación que el trabajo de campo no alcanza a ofrecer.
+          div(titulo="Encuesta estructurada")
+            p.mb-0 Aplicación de un cuestionario cerrado a una muestra de la población objetivo, que permite cuantificar preferencias, disposición a pagar y frecuencia de consumo, y comparar resultados entre segmentos.
+
+          div(titulo="Análisis DOFA")
+            p.mb-0 Matriz que organiza los hallazgos del diagnóstico según su origen, interno o externo, y su carácter, favorable o desfavorable, con el fin de derivar estrategias que aprovechen las fortalezas frente a las oportunidades detectadas.
+
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        p.mb-0(data-aos="fade-right") Ninguna técnica sustituye a las demás. La observación describe lo que ocurre, la entrevista explica por qué ocurre, la encuesta permite generalizar y la revisión documental contrasta lo hallado con registros independientes. Combinar al menos una técnica cualitativa con una cuantitativa es lo que otorga solidez al diagnóstico.
+        p.mb-0.p-4.bg-7(data-aos="fade-right") Ninguna técnica sustituye a las demás. La observación describe lo que ocurre, la entrevista explica por qué ocurre, la encuesta permite generalizar y la revisión documental contrasta lo hallado con registros independientes. Combinar al menos una técnica cualitativa con una cuantitativa es lo que otorga solidez al diagnóstico.
 
     .row.justify-content-center.mt-5
       .col-lg-10
         .bg-2-s.cita-destacada.r-10.p-4.text-center(data-aos="fade-up")
           figure
-            img(src="@/assets/curso/temas/t3/ic-7.svg")
+            img(src="@/assets/curso/temas/t3/cita-11.svg")
           p.mb-0
             b Una encuesta indica qué piensa la mayoría, pero no explica el motivo; una entrevista profundiza en el motivo, pero no permite generalizar. El diagnóstico gana consistencia cuando combina ambas miradas y contrasta sus resultados.
 
@@ -482,16 +505,14 @@
               figure.mb-0
                 img(src="@/assets/curso/temas/t3/ilus-3.png").w-100
 
-    //- Frame de 1124 desde x=289: llega al borde derecho, así que es col-11 con un col de aire.
-    .row.justify-content-end.mt-4
-      .col-lg-11
-        p.mb-0(data-aos="fade-right") Este protocolo puede ajustarse en profundidad y en tiempo según el tamaño del proyecto, pero no en su secuencia. Omitir la definición del alcance produce diagnósticos dispersos, y omitir el registro de las fuentes impide que las conclusiones se verifiquen después.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ic-8.svg" style="width: 84px")
       .col
+        p(data-aos="fade-right") Este protocolo puede ajustarse en profundidad y en tiempo según el tamaño del proyecto, pero no en su secuencia. Omitir la definición del alcance produce diagnósticos dispersos, y omitir el registro de las fuentes impide que las conclusiones se verifiquen después.
+
         p.mb-0 Con el comportamiento empresarial del entorno ya caracterizado, se cuenta con la base para formular la idea de negocio y estimar los efectos que produciría en la comunidad y en la economía local. Ese es el contenido que continúa el recorrido.
 
 </template>

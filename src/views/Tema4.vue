@@ -26,20 +26,22 @@
     //- La pestaña de 25x8 en (185,756) marca este bloque como `.cajon`.
     .row.mt-4
       .col-lg-9.mb-4.mb-lg-0
-        .cajon.color-1.p-4.h-100.d-flex.align-items-center(data-aos="fade-right")
+        .cajon.color-1.p-4.d-flex.align-items-center(data-aos="fade-right")
           p.mb-0 Este cuarto eje desarrolla el saber de proceso relativo a la identificación del proyecto empresarial o idea de negocio según el diagnóstico efectuado. Antes de examinar las dimensiones de ese impacto, los protocolos que respaldan su medición y los indicadores con que se comunica, conviene precisar de dónde provienen las ideas con mayor probabilidad de éxito.
+
+        .row.align-items-start.mt-4(data-aos="fade-right")
+          .col-12.col-md-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t4/ic-6.svg" style="width: 84px")
+          .col-lg-10
+            p.mb-0 Las ideas de negocio no aparecen por inspiración súbita. Surgen de la observación sistemática del entorno, es decir, del mismo ejercicio de diagnóstico que los ejes anteriores han descrito. Quien recorre su territorio con las herramientas de análisis en mano detecta espacios de mercado que permanecen invisibles para quien espera que la oportunidad se manifieste sola.
       .col-lg-3
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t4/foto-2.png").w-100.h-100.object-fit-cover.r-10
 
     //- El icono de (185,926) es el destello blanco de 84, no el cuadrado magenta; y el texto
     //- rompe a 812 desde x=289, no a lo ancho de la tarjeta.
-    .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-12.col-md-auto.mb-3.mb-md-0
-        figure.mb-0
-          img(src="@/assets/curso/temas/t4/ic-6.svg" style="width: 84px")
-      .col-lg-8
-        p.mb-0 Las ideas de negocio no aparecen por inspiración súbita. Surgen de la observación sistemática del entorno, es decir, del mismo ejercicio de diagnóstico que los ejes anteriores han descrito. Quien recorre su territorio con las herramientas de análisis en mano detecta espacios de mercado que permanecen invisibles para quien espera que la oportunidad se manifieste sola.
+    
 
     p.mt-4(data-aos="fade-right") La literatura especializada identifica cinco fuentes recurrentes de las que provienen las ideas de negocio con mayor probabilidad de éxito. Reconocerlas ayuda a orientar la búsqueda y a evaluar la solidez de una propuesta antes de invertir en ella:
 
@@ -96,60 +98,91 @@
 
     p.mt-4(data-aos="fade-right") Ese aporte se concreta en cuatro formas, que pueden presentarse de manera simultánea o sucesiva según la naturaleza del negocio:
 
-    //- El XD deja aquí un «Recursos DI» pidiendo una infografía interactiva de cuatro pasos con
-    //- modal: sin arte que exportar, el equivalente del kit es `PasosB`, que numera los pasos y
-    //- despliega la definición de cada uno.
     .row.justify-content-center.mt-4
       .col-lg-10
-        .bg-1.r-10.p-4(data-aos="fade-up")
-          PasosB.color-acento-contenido
-            .row(titulo="Creación de empleo formal")
-              .col-12
-                p.mb-0 Vinculación de personas con contrato, seguridad social y pago puntual, lo que estabiliza el ingreso familiar y reduce la dependencia del rebusque diario.
-            .row(titulo="Aumento de los ingresos locales")
-              .col-12
-                p.mb-0 Compra de insumos y servicios a productores del territorio, de modo que el dinero permanece circulando dentro de la misma economía.
-            .row(titulo="Acceso a bienes y servicios")
-              .col-12
-                p.mb-0 Oferta de productos antes ausentes o disponibles solo a precios elevados, lo que mejora las condiciones cotidianas de quienes viven en la zona.
-            .row(titulo="Fortalecimiento del tejido comunitario")
-              .col-12
-                p.mb-0 Apoyo a asociaciones y grupos productivos del territorio, que ganan capacidad de negociación, de gestión colectiva y de acceso a mercados.
+        ImagenInfografica.color-acento-botones.d-none.d-md-block
+          template(v-slot:imagen)
+            figure
+              img(src="@/assets/curso/temas/t4/1.svg" alt="").w-100
+          .tarjeta.color-primario.p-3(x="30%" y="65%" numero="+")
+            p.mb-0 Compra de insumos y servicios a productores del territorio, de modo que el dinero permanece circulando dentro de la misma economía.
+          .tarjeta.color-primario.p-3(x="42%" y="40%" numero="+")
+            p.mb-0 Oferta de productos antes ausentes o disponibles solo a precios elevados, lo que mejora las condiciones cotidianas de quienes viven en la zona.
+          .tarjeta.color-primario.p-3(x="60.5%" y="42%" numero="+")
+            p.mb-0 Vinculación de personas con contrato, seguridad social y pago puntual, lo que estabiliza el ingreso familiar y reduce la dependencia del rebusque diario.         
+          .tarjeta.color-primario.p-3(x="70%" y="65%" numero="+")
+            p.mb-0 Apoyo a asociaciones y grupos productivos del territorio, que ganan capacidad de negociación, de gestión colectiva y de acceso a mercados.
+        figure.d-md-none
+          img(src="@/assets/curso/temas/t4/1m.svg" alt="").w-100
+
+
+            
+
+
 
     p.mt-4(data-aos="fade-right") Las cuatro formas comparten un rasgo. Ninguna se produce por el solo hecho de existir la empresa, pues todas dependen de decisiones deliberadas sobre a quién se contrata, a quién se compra y cómo se opera. El impacto social se diseña y no aparece por añadidura.
 
     p(data-aos="fade-right") Medir ese impacto no responde únicamente a una obligación ética. Constituye también una herramienta de diferenciación competitiva y de construcción de legitimidad ante la comunidad, los financiadores y las autoridades locales. Los indicadores más utilizados para estimarlo son los siguientes:
 
-    //- Cinco tarjetas #FED9FF de 187x342 con el cuadrado de 84 asomando 13 px sobre el borde;
-    //- las cinco caben en los 1020 del `col-lg-10`, no en el ancho completo de la tarjeta.
-    .row.justify-content-center.mt-4
-     .col-lg-10
-      .row.justify-content-center(data-aos="fade-up")
-       .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-         .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-           figure
-             img(src="@/assets/curso/temas/t4/fue-1.svg")
-           p.mb-0.text-center #[b Empleos generados:] número de puestos de trabajo directos e indirectos creados, diferenciando los formales de los ocasionales.
-       .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-         .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-           figure
-             img(src="@/assets/curso/temas/t4/fue-2.svg")
-           p.mb-0.text-center #[b Proveedores locales vinculados:] porcentaje de insumos adquiridos dentro del territorio, indicador de cuánto dinero permanece circulando en la economía local.
-       .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-         .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-           figure
-             img(src="@/assets/curso/temas/t4/fue-3.svg")
-           p.mb-0.text-center #[b Mejora en los ingresos:] variación del ingreso de los colaboradores o asociados frente a su situación anterior o al salario mínimo.
-       .col-6.col-md-4.col-lg.mb-4.mb-lg-0
-         .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-           figure
-             img(src="@/assets/curso/temas/t4/fue-4.svg")
-           p.mb-0.text-center #[b Personas beneficiadas:] número de habitantes que acceden al producto o servicio, en especial cuando atiende una necesidad antes desatendida.
-       .col-6.col-md-4.col-lg
-         .tarjeta.bg-3.r-10.tarjeta--icono-arriba.tarjeta--icono-arriba--sm.h-100
-           figure
-             img(src="@/assets/curso/temas/t4/fue-5.svg")
-           p.mb-0.text-center #[b Reducción de impactos ambientales:] disminución de residuos, consumo de agua o emisiones por unidad producida, expresada en unidades comparables.
+    .row.justify-content-center
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t4/fue-1.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                    p.text-center
+                      b Empleos generados
+                    p.text-center.mb-0 Número de puestos de trabajo directos e indirectos creados, diferenciando los formales de los ocasionales.
+    
+    
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t4/fue-2.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b Proveedores locales vinculados
+                  p.text-center.mb-0 Porcentaje de insumos adquiridos dentro del territorio, indicador de cuánto dinero permanece circulando en la economía local.
+    
+    
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t4/fue-3.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b Mejora en los ingresos
+                  p.mb-0.text-center Variación del ingreso de los colaboradores o asociados frente a su situación anterior o al salario mínimo.
+
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t4/fue-4.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b Personas beneficiadas
+                  p.text-center.mb-0 Número de habitantes que acceden al producto o servicio, en especial cuando atiende una necesidad antes desatendida.
+
+      .col-10.col-md-6.col-lg-2.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t4/fue-5.svg').m-auto.img-avatar
+          .tarjeta.bg-3.shadow
+            .p-2
+              .row.justify-content-center.mb-3.mt-2
+                .col-auto
+                  p.text-center
+                    b Reducción de impactos ambientales
+                  p.text-center.mb-0 Disminución de residuos, consumo de agua o emisiones por unidad producida, expresada en unidades comparables.
+
+
 
     p.mt-4(data-aos="fade-right") Estos indicadores comparten una exigencia: deben poder verificarse con un registro. Un proyecto que declara generar empleo sin precisar cuántos puestos, de qué tipo y en qué plazo no está midiendo su impacto, está expresando una intención.
 
@@ -367,26 +400,41 @@
 
     p.mt-4(data-aos="fade-right") Esa diferencia explica por qué dos proyectos con actividades parecidas pueden reportar resultados muy distintos. Para cumplir su función, todo indicador responde a tres preguntas:
 
-    //- Tres tarjetas #F0F49D de 396x161 con el círculo #83C1E8 de 150 montado sobre el borde.
-    .row.mt-5
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta.bg-1-p.tarjeta--icono-arriba.h-100
-          figure
-            img(src="@/assets/curso/temas/t4/preg-1.svg")
-          p.text-center.mb-0
-            b ¿Qué cambia?
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
-        .tarjeta.bg-1-p.tarjeta--icono-arriba.h-100
-          figure
-            img(src="@/assets/curso/temas/t4/preg-2.svg")
-          p.text-center.mb-0
-            b ¿En quién se produce ese cambio?
-      .col-md-6.col-lg-4
-        .tarjeta.bg-1-p.tarjeta--icono-arriba.h-100
-          figure
-            img(src="@/assets/curso/temas/t4/preg-3.svg")
-          p.text-center.mb-0
-            b ¿En qué magnitud?
+    .row.justify-content-center
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar.w-100
+          img(src='@/assets/curso/temas/t4/preg-1.svg').m-auto
+          .tarjeta.color-primario.shadow.w-100
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 #[b ¿Qué cambia? ]
+    
+    
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t4/preg-2.svg').m-auto
+          .tarjeta.color-primario.shadow.w-100
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 #[b ¿En quién se produce ese cambio? ]
+    
+    
+      .col-10.col-md-6.col-lg-4.mb-4.mb-md-0(data-aos="fade-right")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/t4/preg-3.svg').m-auto
+          .tarjeta.color-primario.shadow.w-100
+            .p-4
+              .row.justify-content-center.mb-3
+                .col-auto
+                  .py-2.px-3
+                    p.mb-0 #[b ¿En qué magnitud?]
+    
+
+
 
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
