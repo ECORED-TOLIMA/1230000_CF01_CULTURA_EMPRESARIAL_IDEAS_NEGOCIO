@@ -536,7 +536,7 @@
               p.mb-0 Ejemplo 2: cantidad de tenderos del barrio capacitados en manejo de inventario.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-1.png" alt="Una persona de pie sobre una roca observa un valle con una montaña al fondo.").w-100.r-10
+                img(src="@/assets/curso/temas/t4/sl-1.png" ).w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Medible:] se expresa en una unidad cuantificable y verificable, de modo que el dato pueda tomarse siempre de la misma manera y por personas distintas. Sin unidad definida no existe comparación posible.
@@ -544,7 +544,7 @@
               p.mb-0 Ejemplo 2: porcentaje de pedidos entregados dentro del plazo acordado.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-2.png" alt="Una mujer recibe un paquete en la puerta de su casa.").w-100.r-10
+                img(src="@/assets/curso/temas/t4/sl-2.png" ).w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Alcanzable:] resulta realista con los recursos, el tiempo y la capacidad instalada del proyecto. Una meta desproporcionada desmotiva al equipo y resta credibilidad ante quien evalúa la propuesta.
@@ -552,7 +552,7 @@
               p.mb-0 Ejemplo 2: atender tres veredas con el único vehículo disponible, en lugar de todo el municipio.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-3.png" alt="Un agricultor sonríe en medio de su cultivo.").w-100.r-10
+                img(src="@/assets/curso/temas/t4/sl-3.png").w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Relevante:] se conecta de manera directa con la propuesta de valor y con el cambio que el proyecto promete. Medir lo que no aporta a esa promesa consume tiempo sin orientar ninguna decisión.
@@ -560,7 +560,7 @@
               p.mb-0 Ejemplo 2: en un servicio digital, número de micronegocios que mantienen su uso al tercer mes.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-4.png" alt="Un comerciante registra sus ventas en el teléfono dentro de su puesto de mercado.").w-100.r-10
+                img(src="@/assets/curso/temas/t4/sl-4.png").w-100.r-10
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-4.mb-lg-0
               p #[b Acotado en el tiempo:] define la fecha o el período en que se toma la medición, lo que hace visible la diferencia entre un avance sostenido de una coincidencia puntual.
@@ -568,7 +568,7 @@
               p.mb-0 Ejemplo 2: variación de las ventas entre el primer y el segundo semestre del año.
             .col-lg-6
               figure.slyder-marco.mb-0
-                img(src="@/assets/curso/temas/t4/sl-5.png" alt="Una emprendedora sostiene una tableta en su local comercial.").w-100.r-10
+                img(src="@/assets/curso/temas/t4/sl-5.png").w-100.r-10
 
     p.mt-5(data-aos="fade-right") Un indicador que incumple alguna de estas condiciones no permite tomar decisiones: si no es medible no puede compararse, y si no está acotado en el tiempo no revela si el proyecto avanza o se ha estancado. Este es el estándar que aplican el Fondo Emprender y la mayoría de los fondos de inversión social para evaluar la calidad del seguimiento de un proyecto.
 
