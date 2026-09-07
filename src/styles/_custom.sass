@@ -484,3 +484,25 @@ figcaption
     margin-top: 60px !important
     width: 84px !important
 
+.acordion--principios
+  max-width: 100%
+  overflow-x: hidden
+  // Compatibilidad con las vistas que NO pasan la prop (los temas 1-3, que están cerrados y no se
+  // tocan): ahí `cardClass()` sigue poniendo `tarjeta tarjeta--blanca` y hace falta el override.
+  // Las vistas nuevas pasan `clase-tarjeta` y no entran por aquí.
+  .tarjeta--blanca
+    background-color: #EBE9FB!important
+    border-radius: 20px
+  .acordion__activo
+    background-color: #CDE6F6 !important
+  .acordion__accion__btn--a, .acordion__accion__btn--b
+    background-color: #422AD8
+    color: $white
+    width: 36px
+    height: 36px
+    border-radius: 50%
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 1.25rem
+

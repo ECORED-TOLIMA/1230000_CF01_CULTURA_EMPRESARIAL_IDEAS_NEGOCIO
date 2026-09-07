@@ -84,7 +84,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-4 r-20")
+        AcordionA.acordion--principios(tipo="b")
           div(titulo="Ley 1014 de 2006")
             p.mb-0 Norma marco que impulsa la cultura del emprendimiento en el sistema educativo y articula a las entidades del ecosistema. Fija el deber de formar ciudadanos con competencias de gestión empresarial y actitud proactiva hacia la creación de valor.
           div(titulo="Fondo Emprender")

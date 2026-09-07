@@ -170,7 +170,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-4 r-20")
+        AcordionA.acordion--principios(tipo="b")
           div(titulo="Formación continua")
             p.mb-0 Actualizar de manera permanente los conocimientos técnicos y de gestión. En Colombia, la oferta gratuita del SENA y de las cámaras de comercio facilita avanzar en costos, mercadeo o normatividad tributaria sin frenar la operación diaria del negocio.
           div(titulo="Experimentación a pequeña escala")
@@ -441,7 +441,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        AcordionA(tipo="b" clase-tarjeta="tarjeta bg-4 r-20")
+        AcordionA.acordion--principios(tipo="b")
           div(titulo="Observación directa")
             p.mb-0 Recorrido sistemático de mercados, ferias, zonas comerciales e industriales para registrar patrones de consumo, formatos de negocio y niveles de actividad. Por ejemplo, un aprendiz de Neiva puede registrar durante una semana el flujo de clientes en la plaza de mercado y las horas de mayor demanda.
           div(titulo="Entrevista semiestructurada")
