@@ -278,7 +278,7 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        p.bg-6.p-4.mb-0(data-aos="fade-right") La tabla muestra que un mismo nivel de ingresos clasifica a una empresa de forma distinta según su sector: una firma de servicios con 40.000 UVT de ingresos anuales es pequeña empresa, mientras que un comercio con esos mismos ingresos sigue siendo microempresa. Por esa razón el diagnóstico debe identificar primero la actividad principal del proyecto.
+        p.bg-6.p-4.mb-0(data-aos="fade-right") La tabla indica que un mismo nivel de ingresos clasifica a una empresa de forma distinta según su sector: una firma de servicios con 40.000 UVT de ingresos anuales es pequeña empresa, mientras que un comercio con esos mismos ingresos sigue siendo microempresa. Por esa razón el diagnóstico debe identificar primero la actividad principal del proyecto.
 
     p.mt-4(data-aos="fade-right") Más allá de esa frontera legal, detrás de cada categoría hay una forma distinta de operar, de financiarse y de vender. La figura siguiente reúne los cuatro tamaños y describe, para cada uno, la escala de la operación, el acceso a financiación y el mercado que alcanza a atender:
 
@@ -290,9 +290,9 @@
           h5 Figura 1.
           span  Clasificación y características de las empresas según su tamaño
         figure.mb-0.d-none.d-md-block(data-aos="fade-up")
-          img(src="@/assets/curso/temas/t2/figura-1.svg" alt="Infografía que compara microempresas, pequeñas, medianas y grandes empresas según estructura, capital, mercados, proveedores, capacidad de inversión, compras y alcance dentro del sector empresarial colombiano. ").w-100
+          img(src="@/assets/curso/temas/t2/figura-1.svg" alt="La figura 1 representa una infografía que compara microempresas, pequeñas, medianas y grandes empresas según estructura, capital, mercados, proveedores, capacidad de inversión, compras y alcance dentro del sector empresarial colombiano.").w-100
         figure.mb-0.d-md-none
-          img(src="@/assets/curso/temas/t2/figura-1-m.svg" alt="Infografía que compara microempresas, pequeñas, medianas y grandes empresas según estructura, capital, mercados, proveedores, capacidad de inversión, compras y alcance dentro del sector empresarial colombiano. ").w-100
+          img(src="@/assets/curso/temas/t2/figura-1-m.svg" alt="La figura 1 representa una infografía que compara microempresas, pequeñas, medianas y grandes empresas según estructura, capital, mercados, proveedores, capacidad de inversión, compras y alcance dentro del sector empresarial colombiano.").w-100
 
 
     //- Caja #CDE6F6 de 919x120 en (185,6717) SIN icono, el párrafo del icono magenta debajo, y
@@ -385,7 +385,7 @@
 
     p.mt-4(data-aos="fade-right") Las cuatro fuentes son públicas y gratuitas, y se consultan en los portales de la alcaldía, la gobernación y las entidades nacionales. Revisarlas antes de formular la idea evita proponer un negocio que compita con lo que el territorio ya decidió impulsar.
 
-    p(data-aos="fade-right") Leer un plan de desarrollo con mirada empresarial no consiste en recorrerlo de principio a fin, sino en buscar en él una información precisa. Conviene rastrear los siguientes elementos:
+    p(data-aos="fade-right") Revisar un plan de desarrollo con criterio empresarial no consiste en recorrerlo de principio a fin, sino en buscar en él una información precisa. Conviene rastrear los siguientes elementos:
 
     .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
       .row.justify-content-center
@@ -417,7 +417,7 @@
                       span 5
                     | Los indicadores de meta que el territorio se ha comprometido a alcanzar.
 
-    p.mt-4(data-aos="fade-right") Los cinco elementos, leídos en conjunto, permiten responder una pregunta concreta. El territorio invierte en la dirección de la idea de negocio o lo hace en otra distinta, y de esa respuesta depende que el proyecto encuentre respaldo o deba abrirse camino por su cuenta.
+    p.mt-4(data-aos="fade-right") Los cinco elementos, analizados en conjunto, permiten responder una pregunta concreta. El territorio invierte en la dirección de la idea de negocio o lo hace en otra distinta, y de esa respuesta depende que el proyecto encuentre respaldo o deba abrirse camino por su cuenta.
 
     .row.justify-content-center.mt-5
       .col-lg-10

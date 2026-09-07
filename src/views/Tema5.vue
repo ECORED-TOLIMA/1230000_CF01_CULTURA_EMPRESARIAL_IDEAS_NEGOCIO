@@ -54,16 +54,16 @@
           ul.lista-ul.mb-0
             li
               i.far.fa-circle-dot
-              | Generación de dos empleos directos para habitantes de la vereda
+              | Generación de dos empleos directos para habitantes de la vereda.
             li
               i.far.fa-circle-dot
-              | Encadenamiento con otros cultivadores de la zona como proveedores de grano
+              | Encadenamiento con otros cultivadores de la zona como proveedores de grano.
             li
               i.far.fa-circle-dot
-              | Retención local del valor agregado que antes captaba el intermediario
+              | Retención local del valor agregado que antes captaba el intermediario.
             li.mb-0
               i.far.fa-circle-dot
-              | Posicionamiento del cacao del territorio en el mercado nacional
+              | Posicionamiento del cacao del territorio en el mercado nacional.
 
     p.mt-4(data-aos="fade-right") El caso muestra cómo la transformación local de una materia prima convierte una actividad de subsistencia en un proyecto con impacto medible, sin necesidad de modificar el cultivo ni de incorporar tecnología compleja.
 
@@ -171,20 +171,20 @@
           ul.lista-ul.mb-0
             li
               i.far.fa-circle-dot
-              | Articulación de quince familias de artesanos y productores gastronómicos como proveedores de la experiencia
+              | Articulación de quince familias de artesanos y productores gastronómicos como proveedores de la experiencia.
             li
               i.far.fa-circle-dot
-              | Generación de ocho empleos directos en operación y guía turística
+              | Generación de ocho empleos directos en operación y guía turística.
             li
               i.far.fa-circle-dot
-              | Posicionamiento del municipio como destino cultural dentro del mapa turístico regional
+              | Posicionamiento del municipio como destino cultural dentro del mapa turístico regional.
             li.mb-0
               i.far.fa-circle-dot
-              | Contribución a la preservación de la tradición musical mediante su valorización económica
+              | Contribución a la preservación de la tradición musical mediante su valorización económica.
         //- La segunda pestaña de 25x8 cierra el tema con un `.cajon`, bajo la lista y aún a la
         //- izquierda de la ilustración, que es más alta que las dos juntas.
         .cajon.color-1.p-4.mt-4(data-aos="fade-up")
-          p.mb-0 Los cuatro resultados provienen de una misma decisión. La empresa estructura la experiencia con lo que el municipio ya posee, en lugar de construir infraestructura nueva. El Banco cuenta con su río, su historia portuaria y un festival consolidado; lo que faltaba era organizar esos elementos en un recorrido con precio, horario y responsables definidos. El caso muestra que el turismo bien diagnosticado puede convertirse en uno de los sectores de mayor impacto para municipios con patrimonio cultural subutilizado.
+          p.mb-0 Los cuatro resultados provienen de una misma decisión. La empresa estructura la experiencia con lo que el municipio ya posee, en lugar de construir infraestructura nueva. El Banco cuenta con su río, su historia portuaria y un festival consolidado; lo que faltaba era organizar esos elementos en un recorrido con precio, horario y responsables definidos. El caso evidencia que el turismo bien diagnosticado puede convertirse en uno de los sectores de mayor impacto para municipios con patrimonio cultural subutilizado.
       .col-lg-3
         figure.mb-0
           img(src="@/assets/curso/temas/t5/ilus-1.png").w-100

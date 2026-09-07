@@ -478,7 +478,7 @@
 
     p.mt-4(data-aos="fade-right") Estas cinco decisiones convierten una lista de indicadores en una rutina de trabajo. Sin ellas, la medición se aplaza hasta el momento en que alguien la exige, y para entonces los datos de los primeros meses ya no pueden reconstruirse.
 
-    p(data-aos="fade-right") Esos indicadores adquieren mayor fuerza cuando se conectan con los Objetivos de Desarrollo Sostenible. Cada objetivo cuenta con metas e indicadores ya formulados, de modo que tomarlos como referencia evita construir mediciones desde cero y facilita comparar el aporte del proyecto con el de otras iniciativas del país. La tabla siguiente relaciona algunos objetivos con indicadores sugeridos y con su forma de medición.
+    p(data-aos="fade-right") Estas mediciones adquieren mayor fuerza cuando se conectan con los Objetivos de Desarrollo Sostenible. Cada objetivo cuenta con metas y métricas ya formuladas, de modo que tomarlos como referencia evita construir mediciones desde cero y facilita comparar el aporte del proyecto con el de otras iniciativas del país. La tabla siguiente relaciona algunos objetivos con los criterios de seguimiento sugeridos y con su forma de medición.
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -585,7 +585,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t4/ic-6.svg" style="width: 84px")
       .col
-        p.mb-0 Para reunir en una sola mirada lo estudiado sobre la idea de negocio y su impacto, se presenta el siguiente recurso de audio. En él se explica de dónde surgen las ideas capaces de resistir una evaluación, qué efectos deja un proyecto en las personas y en las empresas del territorio, y por qué los indicadores y sus fuentes terminan definiendo si una propuesta obtiene respaldo:
+        p.mb-0 Para reunir en una sola síntesis lo estudiado sobre la idea de negocio y su impacto, se presenta el siguiente recurso de audio. En él se explica de dónde surgen las ideas capaces de resistir una evaluación, qué efectos deja un proyecto en las personas y en las empresas del territorio, y por qué los indicadores y sus fuentes terminan definiendo si una propuesta obtiene respaldo:
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -600,7 +600,7 @@
               :audio="require_src('@/assets/curso/temas/t4/podcast.mp3')"
             )
 
-    p.mt-4(data-aos="fade-right") Los conceptos, las técnicas y los indicadores ya están disponibles. Falta observar cómo se combinan al aplicarse a un territorio concreto, con sus limitaciones y sus oportunidades particulares. Los casos que siguen recorren proyectos colombianos de sectores y regiones distintas, y muestran cómo un mismo método de diagnóstico conduce a decisiones diferentes según el lugar donde se pone en práctica.
+    p.mt-4(data-aos="fade-right") Los conceptos, las técnicas y los indicadores ya están disponibles. Falta descubrir cómo se combinan al aplicarse a un territorio concreto, con sus limitaciones y sus oportunidades particulares. Los casos que siguen recorren proyectos colombianos de sectores y regiones distintas, y muestran cómo un mismo método de diagnóstico conduce a decisiones diferentes según el lugar donde se pone en práctica.
 
 </template>
 

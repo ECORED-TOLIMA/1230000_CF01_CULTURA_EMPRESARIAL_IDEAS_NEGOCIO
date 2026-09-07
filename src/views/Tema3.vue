@@ -19,7 +19,7 @@
         //- La pestaña de 25x8 en (185,439) marca este bloque como `.cajon`.
         .cajon.color-1.p-4.mt-4(data-aos="fade-right")
           p.mb-0 Ese conjunto de decisiones y maneras de actuar constituye el comportamiento empresarial. No es un rasgo fijo de las personas ni un misterio del carácter, sino una forma de percibir oportunidades, asumir riesgos y administrar recursos que deja rastro en prácticas concretas y, por esa razón, puede describirse, compararse y aprenderse.
-        p.mt-4.mb-0(data-aos="fade-right") Observar ese comportamiento exige saber en qué fijarse. Cinco rasgos concentran la atención de cualquier diagnóstico, porque en ellos se refleja la manera de decidir de una organización:
+        p.mt-4.mb-0(data-aos="fade-right") Analizar ese comportamiento exige saber en qué fijarse. Cinco rasgos concentran la atención de cualquier diagnóstico, porque en ellos se refleja la manera de decidir de una organización:
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0.h-100
           img(src="@/assets/curso/temas/t3/foto-1.png").w-100.h-100.object-fit-cover.r-10
@@ -185,7 +185,8 @@
       .col-lg-9.mb-4.mb-lg-0
         .cajon.color-1.p-4(data-aos="fade-right")
           p.mb-0 Los cuatro hábitos se refuerzan entre sí. Quien experimenta necesita registrar lo aprendido, y quien participa en una red obtiene la información que hace posible la siguiente prueba. Sostenerlos en el tiempo es lo que transforma una disposición en competencia.
-        p.mt-4.mb-0(data-aos="fade-right") Esos hábitos encuentran apoyo en el ecosistema emprendedor colombiano, que ofrece acompañamiento gratuito o de bajo costo en la mayoría de los departamentos. Saber qué presta cada actor evita empezar de cero y acorta el camino hacia la formalización:
+        p.mt-4.mb-0(data-aos="fade-right") Esas prácticas encuentran apoyo en el ecosistema emprendedor colombiano, que ofrece acompañamiento gratuito o de bajo costo en la mayoría de los departamentos. Saber qué presta cada actor evita empezar de cero y acorta el camino hacia la formalización:
+
       .col-lg-3
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ilus-2.png").w-100
@@ -245,7 +246,7 @@
       .col-md.tarjeta.bg-8.p-4
         figure.mb-0
               img(src="@/assets/curso/temas/t3/2.svg" style="width: 150px").m-auto
-        h4.text-center.mt-2  <em>Global Reporting Initiative</em>
+        h4.text-center.mt-2  Global Reporting Initiative
         p.mb-0 Estándar que establece cómo informar los impactos económicos, ambientales y sociales de una organización. Su valor está en la posibilidad de comparación, ya que permite contrastar el desempeño de una empresa con el de otras del sector y con sus propios resultados anteriores (Global Reporting Initiative, 2021).
       .col-md.tarjeta.bg-6.p-4
         figure.mb-0
@@ -260,7 +261,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ic-4.svg" style="width: 84px")
       .col
-        p.mb-0 Esos marcos aportan el lenguaje, pero la ética se juega en decisiones pequeñas y repetidas. En un negocio que apenas comienza, cinco prácticas concentran la mayor parte de esas decisiones y determinan la confianza que el entorno le otorga:
+        p.mb-0 Estos referentes aportan el lenguaje, pero la ética se juega en decisiones pequeñas y repetidas. En un negocio que apenas comienza, cinco prácticas concentran la mayor parte de esas decisiones y determinan la confianza que el entorno le otorga:
 
     //- Cinco prácticas de tres en tres: el XD dibuja las tres primeras y deja las dos últimas,
     //- con sus círculos de 128, en el pasteboard. Detrás va la banda decorativa de 1328x254.
@@ -294,7 +295,7 @@
 
     p.mt-4(data-aos="fade-right") Estas prácticas no dependen del tamaño de la empresa ni de su antigüedad. Una tienda de barrio y una compañía exportadora las enfrentan por igual, y en ambas el incumplimiento se paga con pérdida de clientes, de proveedores o de acceso a financiación.
 
-    p(data-aos="fade-right") En la práctica, los valores rara vez se ponen a prueba en situaciones extremas. Aparecen en dilemas cotidianos, donde la opción rápida y la correcta no coinciden. Anticiparlos facilita la decisión cuando el caso se presenta:
+    p(data-aos="fade-right") En el día a día, los valores rara vez se ponen a prueba en situaciones extremas. Aparecen en dilemas cotidianos, donde la opción rápida y la correcta no coinciden. Anticiparlos facilita la decisión cuando el caso se presenta:
 
     //- Cinco bandas de 708x110 que alternan #CDE6F6 y #F9FBD8, con la foto de 292x550 al lado.
     //- El radio de 10 solo lo llevan la primera por arriba y la última por abajo.
@@ -380,7 +381,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-9.svg" style="width: 84px")
           .col
-            p.mb-0 Ese patrón de operación tiene consecuencias directas para el diagnóstico. Un tejido empresarial formado sobre todo por emprendimientos de subsistencia que presenta alta rotación y poca capacidad de sostener acuerdos de mediano plazo, condiciones que cualquier iniciativa nueva debe tener en cuenta al elegir sus proveedores y sus aliados. Antes de extraer conclusiones, conviene observar ese perfil con criterios definidos. Cinco rasgos permiten caracterizarlo en el campo:
+            p.mb-0 Ese patrón de operación tiene consecuencias directas para el diagnóstico. Un tejido empresarial formado sobre todo por emprendimientos de subsistencia que presenta alta rotación y poca capacidad de sostener acuerdos de mediano plazo, condiciones que cualquier iniciativa nueva debe tener en cuenta al elegir sus proveedores y sus aliados. Antes de extraer conclusiones, conviene analizar ese perfil con criterios definidos. Cinco rasgos permiten caracterizarlo en el campo: 
       .col-lg-3
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ilus-4.png").w-100

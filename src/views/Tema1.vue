@@ -77,7 +77,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t1/ic-2.svg" style="width: 84px")
       .col
-        p.mb-0 Estos cuatro contenidos permiten comprender que el entorno empresarial no solo se describe, sino que se analiza. La definición delimita qué se observa, la distinción entre lo interno y lo externo señala hasta dónde llega el control de la organización, y las dos herramientas traducen esa mirada en hallazgos concretos que sirven para decidir.
+        p.mb-0 Estos cuatro contenidos permiten comprender que el entorno empresarial no solo se describe, sino que se analiza. La definición delimita qué se analiza, la distinción entre lo interno y lo externo señala hasta dónde llega el control de la organización, y las dos herramientas traducen esa perspectiva en hallazgos concretos que sirven para decidir.
 
     p.mt-4(data-aos="fade-right") A partir de este panorama, conviene profundizar en el concepto de entorno empresarial, pues solo a través de su comprensión es posible precisar el territorio y el sector sobre los cuales se aplica cualquier diagnóstico.
 
@@ -238,14 +238,14 @@
                 td Clientes, proveedores, competidores, sustitutos y nuevos entrantes.
                 td Cinco fuerzas competitivas.
 
-    p.mt-4(data-aos="fade-right") La lectura de la tabla deja ver una relación práctica: el diagnóstico interno responde a la pregunta por lo que la empresa puede hacer, mientras que el diagnóstico externo responde a la pregunta por lo que el entorno ofrece o exige. Solo el cruce de ambas respuestas produce una decisión estratégica sustentada, y ese cruce es justamente lo que organiza la matriz de debilidades, oportunidades, fortalezas y amenazas (DOFA).
+    p.mt-4(data-aos="fade-right") La revisión de la tabla evidencia una relación práctica: el diagnóstico interno responde a la pregunta por lo que la empresa puede hacer, mientras que el diagnóstico externo responde a la pregunta por lo que el entorno ofrece o exige. Solo el cruce de ambas respuestas produce una decisión estratégica sustentada, y ese cruce es justamente lo que organiza la matriz de debilidades, oportunidades, fortalezas y amenazas (DOFA).
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t1/ic-5.svg" style="width: 84px")
       .col
-        p.mb-0 Las dos dimensiones se comprenden mejor cuando se observan una junto a la otra. La siguiente tabla las compara según cuatro criterios: el grado de control que la organización ejerce sobre cada una, el tipo de diagnóstico que produce, la herramienta principal con que se analiza y una pregunta guía que orienta su examen. La comparación deja ver en qué se diferencian y por qué ninguna sustituye a la otra:
+        p.mb-0 Las dos dimensiones se comprenden mejor cuando se analizan una junto a la otra. La siguiente tabla las compara según cuatro criterios: el grado de control que la organización ejerce sobre cada una, el tipo de diagnóstico que produce, la herramienta principal con que se analiza y una pregunta guía que orienta su examen. La comparación evidencia en qué se diferencian y por qué ninguna sustituye a la otra:
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -277,7 +277,7 @@
                 td ¿Cuenta el equipo con el conocimiento técnico para ejecutar el proyecto?
                 td ¿Existe una política pública que respalde el sector donde operará el proyecto?
 
-    p.mt-4(data-aos="fade-right") La comparación muestra que ambas miradas son complementarias y no intercambiables: una fortaleza sin oportunidad que la aproveche no genera valor, y una oportunidad sin capacidad interna que la sostenga se convierte en riesgo. Por eso el diagnóstico empresarial recorre siempre las dos dimensiones antes de emitir cualquier conclusión sobre la viabilidad del proyecto.
+    p.mt-4(data-aos="fade-right") La comparación demuestra que ambas perspectivas son complementarias y no intercambiables: una fortaleza sin oportunidad que la aproveche no genera valor, y una oportunidad sin capacidad interna que la sostenga se convierte en riesgo. Por eso el diagnóstico empresarial recorre siempre las dos dimensiones antes de emitir cualquier conclusión sobre la viabilidad del proyecto.
 
     .row.justify-content-center.mt-5
       .col-lg-10
