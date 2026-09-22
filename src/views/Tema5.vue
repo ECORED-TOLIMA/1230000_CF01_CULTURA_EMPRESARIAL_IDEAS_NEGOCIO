@@ -165,7 +165,7 @@
 
     p(data-aos="fade-right") El análisis del impacto potencial arroja cuatro resultados de alta relevancia territorial:
 
-    .row.mt-4
+    .row.mt-4.align-items-center(data-aos="fade-right")
       .col-lg-9.mb-4.mb-lg-0
         .bg-3.r-10.p-4(data-aos="fade-right")
           ul.lista-ul.mb-0
@@ -189,6 +189,10 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t5/ilus-1.png").w-100
 
+
+
+            
+      
 </template>
 
 <script>
