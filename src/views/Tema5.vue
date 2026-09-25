@@ -40,7 +40,7 @@
             figure.mb-0
               img(src="@/assets/curso/temas/t5/ic-1.svg" style="width: 84px")
           .col
-            p.mb-0 Antes de formular su plan de negocio, aplica el análisis del macroentorno. En el factor político encuentra que el plan de desarrollo departamental prioriza el cacao como apuesta agroindustrial y que existen convenios de asistencia técnica para los cultivadores. En el factor económico verifica el crecimiento sostenido de la demanda de chocolate de origen en el país. En el factor social identifica un interés creciente de los consumidores urbanos por productos locales con trazabilidad. En el factor tecnológico confirma que las redes sociales permiten a una empresa rural llegar directamente al consumidor urbano.
+            p.mb-0 Antes de formular su plan de negocio, aplica el análisis del macroentorno. En el factor político encuentra que el plan de desarrollo departamental prioriza el cacao como apuesta agroindustrial y que existen convenios de asistencia técnica para los cultivadores. En el factor económico, verifica el crecimiento sostenido de la demanda de chocolate de origen en el país. En el factor social, identifica un interés creciente de los consumidores urbanos por productos locales con trazabilidad. En el factor tecnológico, confirma que las redes sociales permiten a una empresa rural llegar directamente al consumidor urbano.
         //- Caja #F9FBD8 de 916x160 en (185,1347): sin pestaña, así que no es un `.cajon`.
         .bg-1.p-4.mt-4(data-aos="fade-right")
           p.mb-0 El análisis del microentorno revela que en el municipio operan tres empresas que comercializan cacao procesado, pero ninguna se ha posicionado en el segmento artesanal de origen. El poder de negociación de los proveedores es bajo, porque la propia finca abastece la materia prima. El poder de los clientes resulta moderado, ya que el consumidor de chocolate artesanal valora la diferenciación por encima del precio. Del diagnóstico se desprenden los siguientes efectos previsibles:
@@ -86,7 +86,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t5/ic-3.svg" style="width: 84px")
       .col
-        p.mb-0 El impacto productivo del proyecto se manifiesta en la modernización del tejido empresarial local. Al digitalizar a sus clientes, la empresa no solo genera valor para ellos: amplía su visibilidad ante consumidores de otras ciudades, expande su mercado potencial y reduce su dependencia de la clientela del barrio. Ese efecto de desbordamiento constituye un indicador de impacto territorial que resulta especialmente atractivo para instrumentos de fomento y para alianzas con la cámara de comercio local.
+        p.mb-0 El impacto productivo del proyecto se manifiesta en la modernización del tejido empresarial local. Al digitalizar a sus clientes, la empresa no solo genera valor para ellos: amplía su visibilidad ante consumidores de otras ciudades, expande su mercado potencial y reduce su dependencia de la clientela del barrio. Ese efecto de desbordamiento constituye un indicador de impacto territorial que resulta especialmente atractivo para instrumentos de fomento y para alianzas con la Cámara de Comercio local.
 
     separador
     #t_5_3.titulo-segundo.color-acento-contenido
@@ -161,7 +161,7 @@
             img(src="@/assets/curso/temas/t5/ic-5.svg" style="width: 84px")
           p.mb-0 El municipio de El Banco, en el Magdalena, se levanta en el punto donde el río Cesar desemboca en el Magdalena y conserva la memoria del comercio fluvial que durante décadas movió la economía del país. Es reconocido como cuna de la cumbia, celebra cada año un festival nacional dedicado a ese ritmo y mantiene viva una tradición musical que identifica a toda la región. Su oferta turística formal, sin embargo, es limitada: pocos alojamientos de calidad, gastronomía local poco desarrollada y ausencia de experiencias estructuradas de turismo cultural y de naturaleza.
 
-    p.mt-4(data-aos="fade-right") Juan Carlos Morales, aprendiz de un centro de formación del departamento, decide diagnosticar el potencial de una empresa de turismo vivencial. En el macroentorno identifica como favorable la política nacional que prioriza el turismo de naturaleza y cultura, el crecimiento del turismo interno, la preferencia creciente de los viajeros urbanos por experiencias auténticas y los proyectos de recuperación de la navegabilidad del río. Entre los riesgos registra la estacionalidad de la demanda, concentrada en las fechas del festival, y el estado de las vías de acceso al municipio.
+    p.mt-4(data-aos="fade-right") Juan Carlos Morales, aprendiz de un centro de formación del departamento, decide diagnosticar el potencial de una empresa de turismo vivencial. En el macroentorno, identifica como favorable la política nacional que prioriza el turismo de naturaleza y cultura, el crecimiento del turismo interno, la preferencia creciente de los viajeros urbanos por experiencias auténticas y los proyectos de recuperación de la navegabilidad del río. Entre los riesgos registra la estacionalidad de la demanda, concentrada en las fechas del festival, y el estado de las vías de acceso al municipio.
 
     p(data-aos="fade-right") El análisis del impacto potencial arroja cuatro resultados de alta relevancia territorial:
 

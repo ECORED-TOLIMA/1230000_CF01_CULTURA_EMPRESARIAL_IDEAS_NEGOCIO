@@ -494,7 +494,7 @@
             .col
               p.mb-0 El uso combinado de estas fuentes da solidez al diagnóstico. Un dato de demanda observado en el trabajo de campo puede contrastarse con la tendencia de búsquedas en línea y con el número de competidores registrados en el municipio, de modo que ninguna conclusión dependa de una sola consulta.
 
-    p(data-aos="fade-right") No todas las fuentes ofrecen la misma garantía. Antes de incorporar un dato al diagnóstico conviene revisar de dónde proviene, cuándo se produjo y a qué territorio corresponde, porque una cifra nacional del año anterior puede conducir a una conclusión equivocada sobre un municipio concreto. Cinco criterios ayudan a valorar cualquier fuente antes de usarla:
+    p(data-aos="fade-right") No todas las fuentes ofrecen la misma garantía. Antes de incorporar un dato al diagnóstico, conviene revisar de dónde proviene, cuándo se produjo y a qué territorio corresponde, porque una cifra nacional del año anterior puede conducir a una conclusión equivocada sobre un municipio concreto. Cinco criterios ayudan a valorar cualquier fuente antes de usarla:
 
     .row.justify-content-center.mt-4
       .col-lg-10

@@ -92,7 +92,7 @@
           img(src="@/assets/curso/temas/t1/ilus-1.png").w-100.h-100.object-fit-cover
       .col-lg-9
         .bg-3.p-4.h-100.d-flex.align-items-center(data-aos="fade-left")
-          p.mb-0 El concepto de entorno empresarial ocupa un lugar central en la toma de decisiones de cualquier organización, porque ninguna empresa define su rumbo sin conocer el terreno donde opera. Definirlo, sin embargo, exige precisión: no basta con hablar del entorno en abstracto, ya que su contenido cambia según el lugar donde se ubique la empresa y la actividad a la que se dedique. Por esa razón el concepto se organiza en dos dimensiones que conviene cruzar antes de iniciar cualquier diagnóstico. La primera responde a la pregunta por el territorio y la segunda, por el sector económico:
+          p.mb-0 El concepto de entorno empresarial ocupa un lugar central en la toma de decisiones de cualquier organización, porque ninguna empresa define su rumbo sin conocer el terreno donde opera. Definirlo, sin embargo, exige precisión: no basta con hablar del entorno en abstracto, ya que su contenido cambia según el lugar donde se ubique la empresa y la actividad a la que se dedique. Por esa razón, el concepto se organiza en dos dimensiones que conviene cruzar antes de iniciar cualquier diagnóstico. La primera responde a la pregunta por el territorio y la segunda, por el sector económico:
 
     //- Dos tarjetas pegadas de 510x492 con el círculo de 160 dentro, sobre la banda de 1328x443.
     .banda-1.mt-4
@@ -110,7 +110,7 @@
               h4.text-center Dimensión sectorial
               p.mb-0 El entorno de una empresa agroindustrial presenta condiciones distintas al de una firma de servicios digitales, aunque ambas operen en el mismo municipio. Cruzar esta dimensión con la geográfica evita el error más frecuente del diagnóstico inicial, que consiste en aplicar conclusiones generales del país a una realidad local que funciona con otra lógica.
 
-    p.mt-4(data-aos="fade-right") Las dos dimensiones se leen juntas y no por separado. El territorio indica quién compra y con qué recursos cuenta la zona, mientras que el sector señala con quién se compite y bajo qué reglas. Al cruzarlas se obtiene la base sobre la cual se construye una definición operativa del entorno, útil para el diagnóstico.
+    p.mt-4(data-aos="fade-right") Las dos dimensiones se leen juntas y no por separado. El territorio indica quién compra y con qué recursos cuenta la zona, mientras que el sector señala con quién se compite y bajo qué reglas. Al cruzarlas, se obtiene la base sobre la cual se construye una definición operativa del entorno, útil para el diagnóstico.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0

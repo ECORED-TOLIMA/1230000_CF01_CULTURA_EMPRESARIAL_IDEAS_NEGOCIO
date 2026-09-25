@@ -83,7 +83,7 @@
     #t_4_1.titulo-segundo.color-acento-contenido
       h2 4.1 Impacto social
 
-    p.mt-4(data-aos="fade-right") En Colombia, buena parte de los territorios convive con necesidades que ningún actor atiende por completo. Un negocio que se instala allí ocupa un lugar en esa trama y, según cómo opere, contribuye a resolver una carencia o la deja intacta. Por esa razón el impacto social no es un añadido del proyecto, sino una consecuencia de su presencia en el lugar.
+    p.mt-4(data-aos="fade-right") En Colombia, buena parte de los territorios convive con necesidades que ningún actor atiende por completo. Un negocio que se instala allí ocupa un lugar en esa trama y, según cómo opere, contribuye a resolver una carencia o la deja intacta. Por esa razón, el impacto social no es un añadido del proyecto, sino una consecuencia de su presencia en el lugar.
 
     //- Dentro de la caja #FED9FF el icono va ENCIMA del texto, no en una columna a su lado.
     .row.mt-4
@@ -294,7 +294,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t4/foto-5.png").w-100
       .col-lg-8
-        p Trabajar con normas significa, en la práctica, hacer las cosas de manera que otra persona pueda repetirlas y llegar al mismo resultado. En la estimación de impacto eso exige declarar cómo se llegó a cada cifra. Un número sin explicación obliga al lector a creer, mientras que un número acompañado de su método abre la puerta a discutirlo, corregirlo y actualizarlo cuando el proyecto avance.
+        p Trabajar con normas significa, en la práctica, hacer las cosas de manera que otra persona pueda repetirlas y llegar al mismo resultado. En la estimación de impacto, eso exige declarar cómo se llegó a cada cifra. Un número sin explicación obliga al lector a creer, mientras que un número acompañado de su método abre la puerta a discutirlo, corregirlo y actualizarlo cuando el proyecto avance.
         .bg-2.r-10.p-4(data-aos="fade-left")
           p.mb-0 Conviene además distinguir entre estimar y prometer. Una estimación reconoce que el resultado depende de condiciones que pueden variar y, por esa razón, deja escritos los supuestos sobre los que se apoya. Una promesa presenta el mismo resultado como un hecho seguro y deja al proyecto sin margen para explicar lo que ocurra después. Quien evalúa proyectos con frecuencia distingue una de otra en la primera lectura.
 
@@ -570,7 +570,7 @@
               figure.slyder-marco.mb-0
                 img(src="@/assets/curso/temas/t4/sl-5.png").w-100.r-10
 
-    p.mt-5(data-aos="fade-right") Un indicador que incumple alguna de estas condiciones no permite tomar decisiones: si no es medible no puede compararse, y si no está acotado en el tiempo no revela si el proyecto avanza o se ha estancado. Este es el estándar que aplican el Fondo Emprender y la mayoría de los fondos de inversión social para evaluar la calidad del seguimiento de un proyecto.
+    p.mt-5(data-aos="fade-right") Un indicador que incumple alguna de estas condiciones no permite tomar decisiones: si no es medible, no puede compararse, y si no está acotado en el tiempo, no revela si el proyecto avanza o se ha estancado. Este es el estándar que aplican el Fondo Emprender y la mayoría de los fondos de inversión social para evaluar la calidad del seguimiento de un proyecto.
 
     .row.justify-content-center.mt-5
       .col-lg-10

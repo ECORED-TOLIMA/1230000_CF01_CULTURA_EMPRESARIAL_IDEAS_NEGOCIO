@@ -116,7 +116,7 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ic-3.svg" style="width: 84px")
       .col
-        p.mb-0 Esa competencia tampoco se reserva a quien abre un negocio. Dentro de una empresa ya constituida se traduce en proponer mejoras, detectar desperdicios y asumir la responsabilidad de un resultado. Un técnico que rediseña el flujo de trabajo de un taller y una persona que monta su propia unidad productiva ejercen la misma competencia en escenarios distintos.
+        p.mb-0 Esa competencia tampoco se reserva a quien abre un negocio. Dentro de una empresa ya constituida, se traduce en proponer mejoras, detectar desperdicios y asumir la responsabilidad de un resultado. Un técnico que rediseña el flujo de trabajo de un taller y una persona que monta su propia unidad productiva ejercen la misma competencia en escenarios distintos.
 
     p.mt-4(data-aos="fade-right") Esa precisión tiene una consecuencia práctica para el diagnóstico. Si la disposición emprendedora se aprende, también puede observarse, describirse y fortalecerse en un territorio. Se manifiesta en tres dimensiones:
 
@@ -154,7 +154,7 @@
                   p.text-center.mb-0 Disposición a actuar, a probar ideas en pequeña escala y a ajustar el rumbo con la retroalimentación de clientes reales.
     
 
-    p.mt-4(data-aos="fade-right") Las tres dimensiones se sostienen mutuamente: sin lectura del entorno la acción se vuelve improvisación, sin tolerancia a la incertidumbre la lectura no llega a convertirse en decisión y sin disposición a actuar el análisis se queda en diagnóstico. El equilibrio entre ellas es lo que distingue una cultura emprendedora consolidada.
+    p.mt-4(data-aos="fade-right") Las tres dimensiones se sostienen mutuamente: sin lectura del entorno, la acción se vuelve improvisación, sin tolerancia a la incertidumbre; la lectura no llega a convertirse en decisión; y sin disposición a actuar, el análisis se queda en diagnóstico. El equilibrio entre ellas es lo que distingue una cultura emprendedora consolidada.
 
     p(data-aos="fade-right") El concepto de mentalidad de crecimiento, desarrollado por la psicóloga Carol Dweck, ofrece un marco útil para comprender esta diferencia. Las personas con mentalidad de crecimiento consideran que sus capacidades se desarrollan mediante el esfuerzo, la estrategia y la retroalimentación; quienes sostienen una mentalidad fija creen que sus talentos están dados de antemano (Dweck, 2006). La formación en emprendimiento se orienta, precisamente, a cultivar la primera.
 
@@ -252,7 +252,7 @@
         figure.mb-0
               img(src="@/assets/curso/temas/t3/3.svg" style="width: 150px").m-auto
         h4.text-center.mt-2 Objetivos de Desarrollo Sostenible
-        p.mb-0 Agenda adoptada por las Naciones Unidas en 2015, con diecisiete objetivos y metas concretas al año 2030. Alinear la propuesta de valor del proyecto con uno o varios de ellos facilita el acceso a financiadores de impacto (Naciones Unidas, 2015).
+        p.mb-0 Agenda adoptada por las Naciones Unidas en 2015, con diecisiete objetivos y metas concretas para el año 2030. Alinear la propuesta de valor del proyecto con uno o varios de ellos facilita el acceso a financiadores de impacto (Naciones Unidas, 2015).
 
     p.mt-4(data-aos="fade-right") Los tres marcos operan en niveles distintos y complementarios. El primero orienta la conducta, el segundo estandariza la manera de informarla y el tercero conecta el proyecto con una agenda compartida. Incorporarlos desde el diseño inicial resulta menos costoso que ajustarlos después, cuando la empresa ya opera.
 
