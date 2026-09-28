@@ -154,7 +154,7 @@
                   p.text-center.mb-0 Disposición a actuar, a probar ideas en pequeña escala y a ajustar el rumbo con la retroalimentación de clientes reales.
     
 
-    p.mt-4(data-aos="fade-right") Las tres dimensiones se sostienen mutuamente: sin lectura del entorno, la acción se vuelve improvisación, sin tolerancia a la incertidumbre; la lectura no llega a convertirse en decisión; y sin disposición a actuar, el análisis se queda en diagnóstico. El equilibrio entre ellas es lo que distingue una cultura emprendedora consolidada.
+    p.mt-4(data-aos="fade-right") Las tres dimensiones se sostienen mutuamente: sin lectura del entorno, la acción se vuelve improvisación; sin tolerancia a la incertidumbre, la lectura no llega a convertirse en decisión; y sin disposición a actuar, el análisis se queda en diagnóstico. El equilibrio entre ellas es lo que distingue una cultura emprendedora consolidada.
 
     p(data-aos="fade-right") El concepto de mentalidad de crecimiento, desarrollado por la psicóloga Carol Dweck, ofrece un marco útil para comprender esta diferencia. Las personas con mentalidad de crecimiento consideran que sus capacidades se desarrollan mediante el esfuerzo, la estrategia y la retroalimentación; quienes sostienen una mentalidad fija creen que sus talentos están dados de antemano (Dweck, 2006). La formación en emprendimiento se orienta, precisamente, a cultivar la primera.
 
